@@ -1,0 +1,46 @@
+.header-nav {
+    position:fixed;
+    height:55px;
+    width:100%;
+    top:0;
+    left:0;
+    right:0;
+    padding:10px 10px 0;
+}
+
+.brand {
+    margin:20px;
+}
+
+#logo {
+    height:40px;
+}
+
+.toggle {
+    position:absolute;
+    right:0;
+    top:0;
+    cursor:pointer;
+}
+
+.toggle span {
+    position:absolute;
+    right:36px;
+    top:27px;
+    letter-spacing: 3.2px;
+    font-weight:700;
+}
+
+.toggle .menu-text {
+    font-size:14px;
+}
+
+
+
+#header-canvas {
+    position:absolute;
+    right:10px;
+    top:0;
+    height:60px;
+    width:100px;
+}
