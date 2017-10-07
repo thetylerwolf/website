@@ -6,7 +6,7 @@ import {
 
 import Home from './components/Home'
 import About from './components/About'
-import Portfolio from './components/Portfolio'
+import ViewPortfolioPiece from './components/ViewPortfolioPiece'
 
 export default class App extends Component {
 
@@ -16,9 +16,9 @@ export default class App extends Component {
 
       <Router>
         <main>
-          <Route exact path="/" component={Home}/>
-          <Route path="/about" component={About}/>
-          <Route path="/portfolio" component={Portfolio}/>
+          <Route exact path="/" component={ Home }/>
+          <Route path="/about" component={ About }/>
+          <Route path="/portfolio" component={ ViewPortfolioPiece }/>
         </main>
       </Router>
 

@@ -1,0 +1,109 @@
+{
+  "entries": [
+    {
+      "title": "Top UX Words of 2016",
+      "types": [
+        "design",
+        "software",
+        "dataviz"
+      ],
+      "thumbnail": "uxwords_thumbnail.png",
+      "id": "uxwords"
+    },
+    {
+      "title": "Correlation-Dispersion Data Visualization",
+      "types": [
+        "design",
+        "software",
+        "dataviz"
+      ],
+      "thumbnail": "corrdisp_viz.png",
+      "id": "corrdisp"
+    },
+    {
+      "title": "E*Trade Financial",
+      "types": [
+        "design",
+        "ux"
+      ],
+      "thumbnail": "etrade_thumbnail.png",
+      "id": "etrade"
+    },
+    {
+      "title": "The Garden for Cardboard",
+      "types": [
+        "design",
+        "software"
+      ],
+      "thumbnail": "thegarden_thumbnail.png",
+      "id": "thegarden"
+    },
+    {
+      "title": "tylernwolf.com",
+      "types": [
+        "ux",
+        "design",
+        "software"
+      ],
+      "thumbnail": "tylernwolf_thumbnail.png",
+      "id": "tylernwolf"
+    },
+    {
+      "title": "2048",
+      "types": [
+        "design",
+        "software"
+      ],
+      "thumbnail": "2048_thumbnail.png",
+      "id": "2048"
+    },
+    {
+      "title": "Sketch Data Studio",
+      "types": [
+        "software"
+      ],
+      "thumbnail": "datastudio_thumbnail.png",
+      "id": "datastudio"
+    },
+    {
+      "title": "Risk Simulation Equalizer",
+      "types": [
+        "ux",
+        "software",
+        "dataviz"
+      ],
+      "thumbnail": "equalizer_thumbnail.png",
+      "id": "equalizer"
+    },
+    {
+      "title": "Financial Heatmap",
+      "types": [
+        "ux",
+        "software",
+        "dataviz",
+        "design"
+      ],
+      "thumbnail": "heatmap_thumbnail.png",
+      "id": "heatmap"
+    },
+    {
+      "title": "Novus",
+      "types": [
+        "ux",
+        "software",
+        "dataviz"
+      ],
+      "thumbnail": "novus_thumbnail.png",
+      "id": "novus"
+    },
+    {
+      "title": "NVD3",
+      "types": [
+        "software",
+        "dataviz"
+      ],
+      "thumbnail": "nvd3_thumbnail.png",
+      "id": "nvd3"
+    }
+  ]
+}

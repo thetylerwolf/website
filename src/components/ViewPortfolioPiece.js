@@ -4,9 +4,7 @@ import {
 } from 'react-router-dom'
 import React, { Component } from 'react'
 
-import PortfolioPiece from './PortfolioPiece.js'
-
-export default class Portfolio extends Component {
+export default class ViewPortfolioPiece extends Component {
   constructor() {
     super()
   }
@@ -16,7 +14,7 @@ export default class Portfolio extends Component {
     return (
 
       <div>
-        <h2>Portfolio</h2>
+        <h2>View Portfolio Piece</h2>
       </div>
 
     )
