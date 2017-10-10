@@ -141,7 +141,7 @@ export default class SparkleBall {
         document.getElementById('home-canvas-wrap').appendChild( renderer.domElement );
         //
         window.addEventListener( 'resize', onWindowResize, false );
-        window.addEventListener( 'mousemove', onMouseMove, false)
+        document.getElementById('home-canvas-wrap').addEventListener( 'mousemove', onMouseMove, false)
 
         animate()
     }
@@ -170,7 +170,7 @@ function onMouseMove(e) {
 
 //
 function animate() {
-    requestAnimationFrame( animate );
+    // requestAnimationFrame( animate );
     render();
 }
 

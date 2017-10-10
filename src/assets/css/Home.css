@@ -19,6 +19,7 @@
   left:0;
   right:0;
   width:100%;
+  pointer-events:none;
 }
 
 .home .intro-copy-wrap .name-wrap img {
@@ -48,10 +49,29 @@
   padding:20px;
 }
 
+.home .home-portfolio-wrap .portfolio-piece {
+  position: relative;
+  width: 350;
+  height: 400;
+}
+
 .home .home-portfolio-wrap .portfolio-piece .piece-title {
   position:absolute;
   left:-40px;
   font-size:36px;
+}
+
+.home .home-portfolio-wrap .portfolio-piece .piece-image {
+  overflow: hidden;
+  position: relative;
+  max-width: 600px;
+  height:300px;
+  opacity:0.8;
+}
+
+.home .home-portfolio-wrap .portfolio-piece .piece-image img {
+  left: 0;
+  position: absolute;
 }
 
 /*********************

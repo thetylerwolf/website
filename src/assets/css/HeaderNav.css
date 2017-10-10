@@ -7,10 +7,12 @@
     right:0;
     padding:10px 10px 0;
     z-index:1000;
+    pointer-events:none;
 }
 
 .brand {
     margin-top:20px;
+    pointer-events:auto;
 }
 
 #logo {
@@ -22,6 +24,7 @@
     right:0;
     top:0;
     cursor:pointer;
+    pointer-events:auto;
 }
 
 .toggle span {

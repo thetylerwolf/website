@@ -1,24 +1,46 @@
 {
   "entries": [
     {
-      "title": "Top UX Words of 2016",
+      "title": "Vida",
+      "date": "10/2017",
       "types": [
         "design",
-        "software",
-        "dataviz"
+        "ux",
+        "frontend"
       ],
-      "thumbnail": "uxwords_thumbnail.png",
-      "id": "uxwords"
+      "cover": {
+        "img": "vida_cover.jpg",
+        "style": {
+        }
+      },
+      "id": "vida"
     },
     {
-      "title": "Correlation-Dispersion Data Visualization",
+      "title": "Voxel Dreams",
       "types": [
         "design",
-        "software",
-        "dataviz"
+        "graphics"
       ],
-      "thumbnail": "corrdisp_viz.png",
-      "id": "corrdisp"
+      "cover": {
+        "img": "voxel_cover.jpg",
+        "style": {
+        }
+      },
+      "id": "voxeldreams"
+    },
+    {
+      "title": "TVRN",
+      "types": [
+        "design",
+        "code",
+        "vr"
+      ],
+      "cover": {
+        "img": "tvrn_cover.jpg",
+        "style": {
+        }
+      },
+      "id": "tvrn"
     },
     {
       "title": "E*Trade Financial",
@@ -26,74 +48,41 @@
         "design",
         "ux"
       ],
-      "thumbnail": "etrade_thumbnail.png",
+      "cover": {
+        "img": "etrade_cover.jpg",
+        "style": {
+          "position":"relative"
+        }
+      },
       "id": "etrade"
     },
     {
-      "title": "The Garden for Cardboard",
+      "title": "Swarm 2048",
       "types": [
         "design",
-        "software"
+        "code"
       ],
-      "thumbnail": "thegarden_thumbnail.png",
-      "id": "thegarden"
-    },
-    {
-      "title": "tylernwolf.com",
-      "types": [
-        "ux",
-        "design",
-        "software"
-      ],
-      "thumbnail": "tylernwolf_thumbnail.png",
-      "id": "tylernwolf"
-    },
-    {
-      "title": "2048",
-      "types": [
-        "design",
-        "software"
-      ],
-      "thumbnail": "2048_thumbnail.png",
-      "id": "2048"
-    },
-    {
-      "title": "Sketch Data Studio",
-      "types": [
-        "software"
-      ],
-      "thumbnail": "datastudio_thumbnail.png",
-      "id": "datastudio"
-    },
-    {
-      "title": "Risk Simulation Equalizer",
-      "types": [
-        "ux",
-        "software",
-        "dataviz"
-      ],
-      "thumbnail": "equalizer_thumbnail.png",
-      "id": "equalizer"
-    },
-    {
-      "title": "Financial Heatmap",
-      "types": [
-        "ux",
-        "software",
-        "dataviz",
-        "design"
-      ],
-      "thumbnail": "heatmap_thumbnail.png",
-      "id": "heatmap"
+      "cover": {
+        "img": "swarm2048_cover.jpg",
+        "style": {
+          "position":"relative"
+        }
+      },
+      "id": "swarm2048"
     },
     {
       "title": "Novus",
       "types": [
         "ux",
-        "software",
+        "frontend",
         "dataviz"
       ],
-      "thumbnail": "novus_thumbnail.png",
+      "cover": {
+        "img": "novus_cover.jpg",
+        "style": {
+          "position":"relative"
+        }
+      },
       "id": "novus"
     },
     {
@@ -102,7 +91,12 @@
         "software",
         "dataviz"
       ],
-      "thumbnail": "nvd3_thumbnail.png",
+      "cover": {
+        "img": "nvd3_cover.jpg",
+        "style": {
+          "position":"relative"
+        }
+      },
       "id": "nvd3"
     }
   ]

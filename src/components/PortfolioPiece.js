@@ -17,16 +17,19 @@ export default class PortfolioPiece extends Component {
     return (
 
         <div className="portfolio-piece" style={{
-          position: 'relative',
-          marginLeft: (50 * Math.random()) + '%',
-          width: 350,
-          height: 400,
-          backgroundColor:'#888'
+          marginLeft: 100,
         }}>
 
           <Link to={ '/portfolio/' + this.props.entry.id }>
-            {/* <div className="piece-image"><img src="" alt={ entry.title } /></div> */}
-            <div className="image-placeholder"></div>
+            <div className="piece-image">
+              <img
+                src={ `portfolio/${this.props.entry.id}/${this.props.entry.cover.img}` }
+                alt={ this.props.entry.title }
+                height={ 300 }
+                style={ this.props.entry.cover.style }
+              />
+            </div>
+            {/* <div className="image-placeholder"></div> */}
 
             <div className="piece-title">{ this.props.entry.title }</div>
 
