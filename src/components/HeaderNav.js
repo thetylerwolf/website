@@ -16,7 +16,7 @@ export default class HeaderNav extends Component {
   }
 
   componentDidUpdate( newProps, newState ) {
-    console.log('did update')
+
   }
 
   render() {
@@ -26,8 +26,9 @@ export default class HeaderNav extends Component {
       <header className="header-nav">
 
         {
-          this.state.showBrand ? <span className="brand"><Link to="/"><img id="logo" src="logo.svg" alt="Tyler Wolf" /></Link></span> : undefined
+          this.state.showBrand ? <span className="brand"><Link to="/"><img id="logo" src="/logo.svg" alt="Tyler Wolf" /></Link></span> : undefined
         }
+
         <div className="toggle">
             <canvas id="header-canvas"></canvas>
             <span className="menu-text">MENU</span>

@@ -9,10 +9,14 @@
         "frontend"
       ],
       "cover": {
-        "img": "vida_cover.jpg",
-        "style": {
-        }
+        "img": "vida_cover.jpg"
       },
+      "description": [
+        "Personal Encryption App",
+        "UX Design / Product Management / Front End Development"
+      ],
+      "lightText": true,
+      "fit": true,
       "id": "vida"
     },
     {
@@ -22,10 +26,14 @@
         "graphics"
       ],
       "cover": {
-        "img": "voxel_cover.jpg",
-        "style": {
-        }
+        "img": "voxel_cover.jpg"
       },
+      "description": [
+        "Mobile Game",
+        "Design / Graphics Programming"
+      ],
+      "lightText": true,
+      "fit": true,
       "id": "voxeldreams"
     },
     {
@@ -36,10 +44,12 @@
         "vr"
       ],
       "cover": {
-        "img": "tvrn_cover.jpg",
-        "style": {
-        }
+        "img": "tvrn_cover.jpg"
       },
+      "description": [
+        "Virtual Reality Art Exploration App",
+        "UX Design / Virtual Reality Development / Branding"
+      ],
       "id": "tvrn"
     },
     {
@@ -49,12 +59,14 @@
         "ux"
       ],
       "cover": {
-        "img": "etrade_cover.jpg",
-        "style": {
-          "position":"relative"
-        }
+        "img": "etrade_cover.jpg"
       },
-      "id": "etrade"
+      "description": [
+        "Online Brokerage Firm",
+        "UX Design / Product Management"
+      ],
+      "id": "etrade",
+      "fit": true
     },
     {
       "title": "Swarm 2048",
@@ -63,27 +75,14 @@
         "code"
       ],
       "cover": {
-        "img": "swarm2048_cover.jpg",
-        "style": {
-          "position":"relative"
-        }
+        "img": "swarm2048_cover.jpg"
       },
-      "id": "swarm2048"
-    },
-    {
-      "title": "Novus",
-      "types": [
-        "ux",
-        "frontend",
-        "dataviz"
+      "description": [
+        "Retro-Futuristic Browser Game",
+        "Design / Front End Development"
       ],
-      "cover": {
-        "img": "novus_cover.jpg",
-        "style": {
-          "position":"relative"
-        }
-      },
-      "id": "novus"
+      "lightText": true,
+      "id": "swarm2048"
     },
     {
       "title": "NVD3",
@@ -91,13 +90,32 @@
         "software",
         "dataviz"
       ],
+      "lightText": true,
       "cover": {
-        "img": "nvd3_cover.jpg",
-        "style": {
-          "position":"relative"
-        }
+        "img": "nvd3_cover.jpg"
       },
+      "description": [
+        "Reusable charting library built on d3.js",
+        "Data Visualization Design / Front End Development"
+      ],
       "id": "nvd3"
+    },
+    {
+      "title": "Novus Partners",
+      "types": [
+        "ux",
+        "frontend",
+        "dataviz"
+      ],
+      "cover": {
+        "img": "novus_cover.jpg"
+      },
+      "description": [
+        "Financial Analytics Platform",
+        "Data Visualization Design / UX Design / Front End Development"
+      ],
+      "lightText": true,
+      "id": "novus"
     }
   ]
 }
