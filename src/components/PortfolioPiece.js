@@ -41,8 +41,8 @@ export default class PortfolioPiece extends Component {
                 color: this.props.entry.lightText ? '#fff' : '#1a1a1a'
               }}
             >
-              { this.props.entry.description.map((d) =>
-                  <div>{ d }</div>
+              { this.props.entry.description.map((d,i) =>
+                  <div key={ i }>{ d }</div>
                 ) }
             </div>
 
