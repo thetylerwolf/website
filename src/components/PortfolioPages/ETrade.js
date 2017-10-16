@@ -55,10 +55,10 @@ export default class ETrade extends Component {
               <br/>
             </div>
           </div>
-
+          {/*
           <div className="description-wrap">
             <Grid>
-            {/*
+
               <Row>
                 <Col xs={ 12 }>
                   <h1>Overview</h1>
@@ -73,10 +73,10 @@ export default class ETrade extends Component {
                   homepage.</p>
                 </Col>
               </Row>
-            */}
+
             </Grid>
           </div>
-
+          */}
         </div>
         {/* <img className="piece-header" src='/portfolio/vida/vida_cover.jpg)'/> */}
 

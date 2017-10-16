@@ -36,9 +36,13 @@ export default class Swarm2048 extends Component {
           <div className="summary-wrap">
             <div className="summary-bar" />
             <div className="summary-text">
-              Summary Content
+              Personal Project
               <br/>
-              More content
+              Angular, CSS, Cinema4D
+              <br/>
+              Design / Front End Development
+              <br/>
+              2014
             </div>
           </div>
 
@@ -46,19 +50,18 @@ export default class Swarm2048 extends Component {
             <Grid>
 
               <Row>
-                <Col xs={ 12 }>
-                  <h1>Overview</h1>
-                </Col>
-              </Row>
 
-              <Row>
-                <Col xs={ 12 }>
-                  <p>Vida needed a new product. I made it happen.
-                  Vida needed a new product. I made it happen. Vida
-                  needed a new product. I made it happen. Vida needed
-                   a new product. I made it happen. Vida needed a new
-                    product. I made it happen.</p>
+                <br/>
+                <h3>Real-time Multiplayer</h3>
+
+                <Col className="image-container" xs={ 12 }>
+                  <img src="/portfolio/swarm2048/in-game.jpg" />
                 </Col>
+
+                <Col className="image-container" xs={ 12 }>
+                  <img src="/portfolio/swarm2048/start.jpg" />
+                </Col>
+
               </Row>
 
             </Grid>

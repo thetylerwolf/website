@@ -36,32 +36,16 @@ export default class Nvd3 extends Component {
           <div className="summary-wrap">
             <div className="summary-bar" />
             <div className="summary-text">
-              Summary Content
+              Open Source Major Contributor
               <br/>
-              More content
+              d3.js
+              <br/>
+              UX Design / Front End Development
+              <br/>
+              2012 - 2014
+              <br/>
+              <Link to="http://www.nvd3.org">Visit Website</Link>
             </div>
-          </div>
-
-          <div className="description-wrap">
-            <Grid>
-
-              <Row>
-                <Col xs={ 12 }>
-                  <h1>Overview</h1>
-                </Col>
-              </Row>
-
-              <Row>
-                <Col xs={ 12 }>
-                  <p>Vida needed a new product. I made it happen.
-                  Vida needed a new product. I made it happen. Vida
-                  needed a new product. I made it happen. Vida needed
-                   a new product. I made it happen. Vida needed a new
-                    product. I made it happen.</p>
-                </Col>
-              </Row>
-
-            </Grid>
           </div>
 
         </div>

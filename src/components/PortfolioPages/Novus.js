@@ -38,9 +38,14 @@ export default class Novus extends Component {
           <div className="summary-wrap">
             <div className="summary-bar" />
             <div className="summary-text">
-              Summary Content
+              Novus Partners
               <br/>
-              More content
+              Sketch, D3, Angular
+              <br/>
+              Data Visualization Design / UX Design / Front End Development
+              <br/>
+              June 2012 - May 2014
+              <br/>
             </div>
           </div>
 
@@ -49,18 +54,28 @@ export default class Novus extends Component {
 
               <Row>
                 <Col xs={ 12 }>
-                  <h1>Overview</h1>
+                  <h1>Data Visualisations</h1>
                 </Col>
               </Row>
 
               <Row>
-                <Col xs={ 12 }>
-                  <p>Vida needed a new product. I made it happen.
-                  Vida needed a new product. I made it happen. Vida
-                  needed a new product. I made it happen. Vida needed
-                   a new product. I made it happen. Vida needed a new
-                    product. I made it happen.</p>
+
+                <Col className="image-container" xs={ 12 }>
+                  <img src="/portfolio/novus/heatmap.jpg" />
                 </Col>
+
+                <Col className="image-container" xs={ 12 }>
+                  <img src="/portfolio/novus/overlap.png" />
+                </Col>
+
+                <Col className="image-container" xs={ 12 }>
+                  <img src="/portfolio/novus/platform.jpg" />
+                </Col>
+
+                <Col className="image-container" xs={ 12 }>
+                  <img src="/portfolio/novus/equalizer.jpg" />
+                </Col>
+
               </Row>
 
             </Grid>
