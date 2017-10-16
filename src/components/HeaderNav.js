@@ -3,6 +3,7 @@ import {
   Link
 } from 'react-router-dom'
 
+import SparkleBall from '../assets/js/SparkleBall'
 import '../assets/css/HeaderNav.css'
 
 export default class HeaderNav extends Component {
@@ -14,10 +15,27 @@ export default class HeaderNav extends Component {
       showBrand: !!props.showBrand,
       showMenu: false
     }
+
+    this.sparkleball = new SparkleBall('a')
   }
 
-  componentDidUpdate( newProps, newState ) {
+  componentDidUpdate( oldProps, oldState ) {
+    if(this.state.showMenu) {
+      if(this.props.onShow) this.props.onShow()
+      this.sparkleball.startAnimation()
+    } else {
+      if(this.props.onHide) this.props.onHide()
+      this.sparkleball.stopAnimation()
+    }
+  }
 
+  componentDidMount( newProps, newState ) {
+    this.sparkleball.init( 'header-canvas-wrap', 'full-menu' )
+    this.sparkleball.stopAnimation()
+  }
+
+  componentWillUnmount() {
+    this.sparkleball.remove()
   }
 
   toggleMenu() {
@@ -30,6 +48,7 @@ export default class HeaderNav extends Component {
       <div className="header-wrap">
 
         <div className={ `full-menu ${ this.state.showMenu ? 'active' : '' }` } >
+          <div id="header-canvas-wrap"></div>
           <Link className="menu-link home" to="/"><span>Home</span></Link>
           <Link className="menu-link about" to="/about"><span>About</span></Link>
           <Link className="menu-link contact" to="/contact"><span>Contact</span></Link>
@@ -41,9 +60,6 @@ export default class HeaderNav extends Component {
             this.state.showBrand ? <span className="brand"><Link to="/"><img id="logo" src="/logo.svg" alt="Tyler Wolf" /></Link></span> : undefined
           }
           <div className="toggle">
-              {/*
-              <canvas id="header-canvas"></canvas>
-              */}
               <span className="menu-text" onClick={ () => this.toggleMenu() }>{ this.state.showMenu ? 'CLOSE' : 'MENU' }</span>
           </div>
 

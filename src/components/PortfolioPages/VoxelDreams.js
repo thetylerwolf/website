@@ -36,15 +36,19 @@ export default class VoxelDreams extends Component {
           <div className="summary-wrap">
             <div className="summary-bar" />
             <div className="summary-text">
-              Summary Content
+              Personal Project - Global Game Jam 2017
               <br/>
-              More content
+              Unity
+              <br/>
+              UX Design / Full-stack Development
+              <br/>
+              January 2017
             </div>
           </div>
 
           <div className="description-wrap">
             <Grid>
-
+            {/*
               <Row>
                 <Col xs={ 12 }>
                   <h1>Overview</h1>
@@ -53,12 +57,25 @@ export default class VoxelDreams extends Component {
 
               <Row>
                 <Col xs={ 12 }>
-                  <p>Vida needed a new product. I made it happen.
-                  Vida needed a new product. I made it happen. Vida
-                  needed a new product. I made it happen. Vida needed
-                   a new product. I made it happen. Vida needed a new
-                    product. I made it happen.</p>
+                  <p>Voxel Dreams is a mobile game put together for Global Game Jam
+                  2017. I worked with two developers and a designer to make this game.
+                  The design uses a mix of hand-painted watercolor graphics and 3D models.
+                  </p>
                 </Col>
+              </Row>
+            */}
+              <Row>
+                <br/>
+                <Col className="image-container" xs={ 12 }>
+                  <img width="400px" src="/portfolio/voxeldreams/start.png" />
+                </Col>
+                <Col className="image-container" xs={ 12 }>
+                  <img width="400px" src="/portfolio/voxeldreams/sheep.png" />
+                </Col>
+                <Col className="image-container" xs={ 12 }>
+                  <img width="400px" src="/portfolio/voxeldreams/game_over.png" />
+                </Col>
+
               </Row>
 
             </Grid>

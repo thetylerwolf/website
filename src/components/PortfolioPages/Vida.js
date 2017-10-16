@@ -24,7 +24,7 @@ export default class Vida extends Component {
 
           <div className="piece-title-wrap">
 
-            <div className="piece-title">Vida</div>
+            <div className="piece-title">SolidX / Vida</div>
             <div className="title-bar" />
 
           </div>
@@ -36,15 +36,20 @@ export default class Vida extends Component {
           <div className="summary-wrap">
             <div className="summary-bar" />
             <div className="summary-text">
-              Summary Content
+              SolidX - Vida Cybersecurity App
               <br/>
-              More content
+              Sketch, React, Bootstrap, Material UI, Python
+              <br/>
+              UX Design / UX Research / Front End Development
+              <br/>
+              Ongoing project
             </div>
           </div>
 
           <div className="description-wrap">
             <Grid>
 
+            {/*}
               <Row>
                 <Col xs={ 12 }>
                   <h1>Overview</h1>
@@ -53,12 +58,53 @@ export default class Vida extends Component {
 
               <Row>
                 <Col xs={ 12 }>
-                  <p>Vida needed a new product. I made it happen.
-                  Vida needed a new product. I made it happen. Vida
-                  needed a new product. I made it happen. Vida needed
-                   a new product. I made it happen. Vida needed a new
-                    product. I made it happen.</p>
+                  <p>
+                    SolidX is a bitcoin startup that makes cybersecurity products.
+                    Vida is the brand of their flagship personal security product.
+                    Vida is a suite of apps that enable the highest level of personal
+                    cybersecurity with an emphasis on usability.
+                  </p>
                 </Col>
+              </Row>
+            */}
+
+              <Row>
+                <br/>
+                <h3>Responsive Website</h3>
+                <Col className="image-container" xs={ 12 }>
+                  <img src="/portfolio/vida/Desktop.jpg" />
+                </Col>
+
+              </Row>
+
+              <Row>
+
+                <Col className="image-container" xs={ 12 }>
+                  <img src="/portfolio/vida/Mobile.jpg" />
+                </Col>
+
+              </Row>
+
+              <Row>
+
+                <h3>Mobile Application</h3>
+                <Col className="image-container" xs={ 12 }>
+                  <img style={{ border: '1px solid #1a1a1a' }} src="/portfolio/vida/mobile_home.png" />
+                </Col>
+
+                <Col className="image-container" xs={ 12 }>
+                  <img style={{ border: '1px solid #1a1a1a' }} src="/portfolio/vida/mobile_profile.png" />
+                </Col>
+
+              </Row>
+
+              <Row>
+
+                <h3>Web Application drag and drop UI</h3>
+                <Col className="image-container" xs={ 12 }>
+                  <img src="/portfolio/vida/web_auth_groups.jpg" />
+                </Col>
+
               </Row>
 
             </Grid>

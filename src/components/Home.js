@@ -1,13 +1,14 @@
 import React, { Component } from 'react'
-import HeaderNav from './HeaderNav'
+import ScrollWatcher from '../assets/js/ScrollWatcher'
 
+import HeaderNav from './HeaderNav'
 import PortfolioPiece from './PortfolioPiece'
 
 import SparkleBall from '../assets/js/SparkleBall'
 import '../assets/css/Home.css'
 import portfolio from '../assets/data/portfolio.json'
 
-let sb = new SparkleBall()
+let scrollWatcher = new ScrollWatcher()
 
 let portfolioPieces = portfolio.entries.map(( entry, i ) => {
   return (
@@ -25,11 +26,38 @@ export default class Home extends Component {
       showBrand: false
     }
 
+    this.sb = new SparkleBall()
   }
 
 
   componentDidMount() {
-    sb.init()
+    this.sb.init( 'home-canvas-wrap' )
+
+    scrollWatcher.init()
+      .onScrollStart((e) => this.onScrollStart(e))
+      .onScrollEnd((e) => this.onScrollEnd(e))
+
+  }
+
+  onScrollStart(e) {
+  }
+
+  onScrollEnd(e) {
+    if(window.scrollY > window.innerHeight) {
+
+      this.sb.stopAnimation()
+
+    } else {
+
+      this.sb.startAnimation()
+
+    }
+
+  }
+
+  componentWillUnmount() {
+    scrollWatcher.remove()
+    this.sb.remove()
   }
 
   componentDidUpdate() {
@@ -42,7 +70,14 @@ export default class Home extends Component {
 
       <div className="home">
 
-        <HeaderNav showBrand={ this.state.showBrand } />
+        <HeaderNav
+          onShow={ () => this.sb.stopAnimation() }
+          onHide={ () => {
+            if(window.scrollY < window.innerHeight)
+              this.sb.startAnimation()
+          }}
+          showBrand={ this.state.showBrand }
+        />
 
         <div className="intro-section">
 

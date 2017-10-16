@@ -45,15 +45,20 @@ export default class ETrade extends Component {
           <div className="summary-wrap">
             <div className="summary-bar" />
             <div className="summary-text">
-              Summary Content
+              E*Trade Financial
               <br/>
-              More content
+              Sketch, Axure RP
+              <br/>
+              UX Design
+              <br/>
+              May 2014 - November 2014
+              <br/>
             </div>
           </div>
 
           <div className="description-wrap">
             <Grid>
-
+            {/*
               <Row>
                 <Col xs={ 12 }>
                   <h1>Overview</h1>
@@ -62,14 +67,13 @@ export default class ETrade extends Component {
 
               <Row>
                 <Col xs={ 12 }>
-                  <p>Vida needed a new product. I made it happen.
-                  Vida needed a new product. I made it happen. Vida
-                  needed a new product. I made it happen. Vida needed
-                   a new product. I made it happen. Vida needed a new
-                    product. I made it happen.</p>
+                  <p>UX Design on various pieces of the E*Trade platform,
+                  including: options trading, margin trading and Pro platform.
+                  Also designed the mobile version of the menu on the E*Trade
+                  homepage.</p>
                 </Col>
               </Row>
-
+            */}
             </Grid>
           </div>
 

@@ -18,7 +18,9 @@ export default class ViewPortfolioPiece extends Component {
 
       <div className="view-portfolio-piece-wrapper">
 
-        <HeaderNav showBrand={ true } />
+        <HeaderNav
+          showBrand={ true }
+        />
 
         { PortfolioPages[this.state.currentPage] }
 

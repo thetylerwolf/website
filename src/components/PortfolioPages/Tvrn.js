@@ -46,9 +46,15 @@ export default class Tvrn extends Component {
           <div className="summary-wrap">
             <div className="summary-bar" />
             <div className="summary-text">
-              Summary Content
+              TVRN
               <br/>
-              More content
+              WebGL, WebVR, A-Frame, React, GLSL, WebRTC
+              <br/>
+              UX Design / Full-stack Development / Branding
+              <br/>
+              2015 - Ongoing
+              <br/>
+              <Link to="http://www.tvrn.me">Visit Website</Link>
             </div>
           </div>
 
@@ -63,12 +69,44 @@ export default class Tvrn extends Component {
 
               <Row>
                 <Col xs={ 12 }>
-                  <p>Vida needed a new product. I made it happen.
-                  Vida needed a new product. I made it happen. Vida
-                  needed a new product. I made it happen. Vida needed
-                   a new product. I made it happen. Vida needed a new
-                    product. I made it happen.</p>
+
+                  <p>
+                    TVRN is a virtual reality project I started in 2015 with
+                    the purpose of making art exhibitions accessible to a wider
+                    audience.
+                  </p>
+                  <p>
+                    Two friends of mine joined the team in 2016 and we have worked
+                    with one gallery to bring their art to the rest of the world.
+                    We also experimented with making a virtual meeting space with
+                    voice chat. This worked quite well and we use it today for our own
+                    meetings.
+                  </p>
+                  <p>
+                    We are continuing to explore how virtual reality can enhance
+                    the experience of art exploration as the technology sees
+                    greater adoption.
+                  </p>
                 </Col>
+
+              </Row>
+
+              <Row>
+                <br/>
+                <h3>56 Henry Exhibition</h3>
+                <Col className="image-container" xs={ 12 }>
+                  <img src="/portfolio/tvrn/56_henry.jpg" />
+                </Col>
+
+              </Row>
+
+              <Row>
+                <br/>
+                <h3>Virtual Meeting Spaces</h3>
+                <Col className="image-container" xs={ 12 }>
+                  <img src="/portfolio/tvrn/virtual_meeting.jpg" />
+                </Col>
+
               </Row>
 
             </Grid>

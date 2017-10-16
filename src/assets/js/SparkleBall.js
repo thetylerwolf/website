@@ -1,25 +1,46 @@
 import * as THREE from 'three'
 import TWEEN from 'tween.js'
 
-var camera, scene, renderer;
-var mesh;
-
 export default class SparkleBall {
-    init() {
+    constructor(id) {
+        if(id) this.id = id
+
+        this.onWindowResize = function() {
+
+            this.camera.aspect = window.innerWidth / window.innerHeight;
+            this.camera.updateProjectionMatrix();
+            this.renderer.setSize( window.innerWidth, window.innerHeight );
+
+        }.bind(this)
+
+        this.onMouseMove = function(e) {
+
+            let center = { x: window.innerWidth/2, y: window.innerHeight/2 }
+            let xPos = e.clientX
+            let yPos = e.clientY
+
+            this.mesh.rotation.y = ((xPos - center.x)/center.x) * 0.07
+            this.mesh.rotation.x = ((yPos - center.y)/center.y) * 0.07
+
+        }.bind(this)
+
+    }
+
+    init( canvasId, wrapperClassName ) {
         //
-        camera = new THREE.PerspectiveCamera( 27, window.innerWidth / window.innerHeight, 1, 3500 );
-        camera.position.z = 2000;
-        scene = new THREE.Scene();
-        scene.background = new THREE.Color( 0xffffff );
-        scene.fog = new THREE.Fog( 0x44ff44, 2000, 3500 );
+        this.camera = new THREE.PerspectiveCamera( 27, window.innerWidth / window.innerHeight, 1, 3500 );
+        this.camera.position.z = 2000;
+        this.scene = new THREE.Scene();
+        this.scene.background = new THREE.Color( 0xffffff );
+        this.scene.fog = new THREE.Fog( 0x44ff44, 2000, 3500 );
 
         var light1 = new THREE.DirectionalLight( 0xffffff, 0.5 );
         light1.position.set( 1, 1, 1 );
-        scene.add( light1 );
+        this.scene.add( light1 );
 
         var light2 = new THREE.DirectionalLight( 0xffffff, 1.5 );
         light2.position.set( 0, -1, 0 );
-        scene.add( light2 );
+        this.scene.add( light2 );
         //
         var triangles = 160000;
 
@@ -128,56 +149,58 @@ export default class SparkleBall {
             side: THREE.DoubleSide, vertexColors: THREE.VertexColors
         } );
 
-        mesh = new THREE.Mesh( geometry, material );
+        this.mesh = new THREE.Mesh( geometry, material );
 
-        scene.add( mesh );
+        this.scene.add( this.mesh );
         //
-        renderer = new THREE.WebGLRenderer( { antialias: false } );
-        renderer.setPixelRatio( window.devicePixelRatio );
-        renderer.setSize( window.innerWidth, window.innerHeight );
-        renderer.gammaInput = true;
-        renderer.gammaOutput = true;
+        this.renderer = new THREE.WebGLRenderer( { antialias: false } );
+        this.renderer.setPixelRatio( window.devicePixelRatio );
+        this.renderer.setSize( window.innerWidth, window.innerHeight );
+        this.renderer.gammaInput = true;
+        this.renderer.gammaOutput = true;
         //
-        document.getElementById('home-canvas-wrap').appendChild( renderer.domElement );
+        this.canvas = document.getElementById( canvasId )
+        this.canvas.appendChild( this.renderer.domElement );
         //
-        window.addEventListener( 'resize', onWindowResize, false );
-        document.getElementById('home-canvas-wrap').addEventListener( 'mousemove', onMouseMove, false)
+        window.addEventListener( 'resize', this.onWindowResize, false );
+        if(wrapperClassName) {
+            this.wrapper = document.getElementsByClassName( wrapperClassName )[0]
+            this.wrapper.addEventListener( 'mousemove', this.onMouseMove, false)
+        } else {
+            this.canvas.addEventListener( 'mousemove', this.onMouseMove, false)
+        }
 
-        animate()
+        this.startAnimation()
+        this.animate()
     }
 
+    startAnimation() {
+        this.animating = true
+    }
 
-}
+    stopAnimation() {
+        this.animating = false
+    }
 
-function onWindowResize() {
+    animate() {
+        requestAnimationFrame( () => this.animate() )
+        if( !this.animating ) return
+        if(this.id) console.log(this.id)
+        this.render()
+    }
 
-    camera.aspect = window.innerWidth / window.innerHeight;
-    camera.updateProjectionMatrix();
-    renderer.setSize( window.innerWidth, window.innerHeight );
+    render() {
+        this.renderer.render( this.scene, this.camera );
+    }
 
-}
+    remove() {
+        this.animating = false
+        if(this.wrapper) {
+            this.wrapper.removeEventListener( 'mousemove', this.onMouseMove, false)
+        } else {
+            this.canvas.removeEventListener( 'mousemove', this.onMouseMove, false)
+        }
+        window.removeEventListener( 'resize', this.onWindowResize, false );
+    }
 
-function onMouseMove(e) {
-
-    let center = { x: window.innerWidth/2, y: window.innerHeight/2 }
-    let xPos = e.clientX
-    let yPos = e.clientY
-
-    mesh.rotation.y = ((xPos - center.x)/center.x) * 0.07
-    mesh.rotation.x = ((yPos - center.y)/center.y) * 0.07
-
-}
-
-//
-function animate() {
-    // requestAnimationFrame( animate );
-    render();
-}
-
-function render() {
-
-    // var time = Date.now() * 0.001;
-    // mesh.rotation.x = time * 0.025;
-    // mesh.rotation.y = time * 0.05;
-    renderer.render( scene, camera );
 }

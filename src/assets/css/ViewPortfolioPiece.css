@@ -81,3 +81,13 @@
   font-size:48px;
 }
 
+.description-wrap .image-container {
+  margin-bottom: 50px;
+  text-align:center;
+}
+
+.description-wrap .image-container img {
+  max-width:100%;
+}
+
+
