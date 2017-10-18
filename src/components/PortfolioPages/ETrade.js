@@ -1,13 +1,4 @@
-import {
-  Route,
-  Link,
-} from 'react-router-dom'
 import React, { Component } from 'react'
-import {
-  Grid,
-  Row,
-  Col
-} from 'react-bootstrap'
 
 const customStyles = {
   title: {
@@ -19,9 +10,6 @@ const customStyles = {
 }
 
 export default class ETrade extends Component {
-  constructor() {
-    super()
-  }
 
   render() {
 
@@ -29,7 +17,7 @@ export default class ETrade extends Component {
 
       <div className="view-portfolio-piece">
 
-        <div className="piece-header" style={{ backgroundImage: 'url(/portfolio/etrade/etrade_cover.jpg)' }}>
+        <div className="piece-header etrade" style={{ backgroundImage: 'url(/portfolio/etrade/etrade_cover.jpg)' }}>
 
           <div className="piece-title-wrap">
 
@@ -45,14 +33,15 @@ export default class ETrade extends Component {
           <div className="summary-wrap">
             <div className="summary-bar" />
             <div className="summary-text">
+              <div className="summary-title">Summary</div>
+              <br/>
               E*Trade Financial
-              <br/>
+              <br/><br/>
               Sketch, Axure RP
-              <br/>
+              <br/><br/>
               UX Design
-              <br/>
+              <br/><br/>
               May 2014 - November 2014
-              <br/>
             </div>
           </div>
           {/*

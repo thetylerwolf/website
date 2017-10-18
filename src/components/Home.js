@@ -6,7 +6,7 @@ import PortfolioPiece from './PortfolioPiece'
 
 import SparkleBall from '../assets/js/SparkleBall'
 import '../assets/css/Home.css'
-import portfolio from '../assets/data/portfolio.json'
+import portfolio from '../assets/js/portfolio.js'
 
 let scrollWatcher = new ScrollWatcher()
 
@@ -77,6 +77,7 @@ export default class Home extends Component {
               this.sb.startAnimation()
           }}
           showBrand={ this.state.showBrand }
+          location={ this.props.location }
         />
 
         <div className="intro-section">
@@ -86,7 +87,7 @@ export default class Home extends Component {
           <div className="intro-copy-wrap">
 
             <div className="name-wrap">
-              <img src="logo.svg" alt="Tyler Wolf" />
+              <img src="logo.png" alt="Tyler Wolf" />
             </div>
             <div className="services-copy">
               Data Viz / UX Design / Creative Developer

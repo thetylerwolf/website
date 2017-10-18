@@ -2,7 +2,8 @@
 .portfolio-piece {
   position: relative;
   margin:auto;
-  width: 750px;
+  width:100%;
+  max-width: 750px;
   height: 425px;
 }
 
@@ -23,7 +24,6 @@
   font-size:24px;
   font-weight:300;
   opacity:0;
-
 
   transition: opacity 0.75s;
 }
@@ -49,13 +49,52 @@
   position: absolute;
   opacity:1.0;
   transform: scale(1.0);
+  min-width:750px;
 
-  /*transition: transform 0.75s, opacity 0.75s;*/
-  transition: transform 8s, opacity 0.75s;
+  transition: transform 3s, opacity 0.75s;
+}
+
+.portfolio-piece .piece-image img.fit {
+  width:100%;
 }
 
 .portfolio-piece:hover .piece-image img {
   transform: scale(1.1);
   opacity:0.8;
+
+  transition: transform 8s, opacity 0.75s;
 }
 
+@media only screen and (max-width : 480px) {
+
+  .portfolio-piece .piece-title {
+    margin: 30px 0 0 30px;
+    font-size: 48px;
+  }
+
+  .portfolio-piece .piece-image img.fit {
+    width:auto;
+  }
+
+  .portfolio-piece .piece-image img {
+    height:100%;
+    min-width:0;
+  }
+
+  .portfolio-piece .piece-image img.voxeldreams {
+    left:-135px;
+  }
+
+  .portfolio-piece .piece-image img.tvrn {
+    left:-255px;
+  }
+
+  .portfolio-piece .piece-image img.etrade {
+    left:-210px;
+  }
+
+  .portfolio-piece .piece-image img.novus {
+    left:-400px;
+  }
+
+}

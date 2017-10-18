@@ -1,7 +1,3 @@
-import {
-  Route,
-  Link,
-} from 'react-router-dom'
 import React, { Component } from 'react'
 import {
   Grid,
@@ -9,12 +5,7 @@ import {
   Col
 } from 'react-bootstrap'
 
-// import cover from '../../../public/portfolio/vida/vida_cover.jpg'
-
 export default class Novus extends Component {
-  constructor() {
-    super()
-  }
 
   render() {
 
@@ -22,7 +13,7 @@ export default class Novus extends Component {
 
       <div className="view-portfolio-piece">
 
-        <div className="piece-header" style={{ backgroundImage: 'url(/portfolio/novus/novus_cover.jpg)' }}>
+        <div className="piece-header novus" style={{ backgroundImage: 'url(/portfolio/novus/novus_cover.jpg)' }}>
 
           <div className="piece-title-wrap">
 
@@ -38,14 +29,15 @@ export default class Novus extends Component {
           <div className="summary-wrap">
             <div className="summary-bar" />
             <div className="summary-text">
+              <div className="summary-title">Summary</div>
+              <br/>
               Novus Partners
-              <br/>
+              <br/><br/>
               Sketch, D3, Angular
-              <br/>
+              <br/><br/>
               Data Visualization Design / UX Design / Front End Development
-              <br/>
+              <br/><br/>
               June 2012 - May 2014
-              <br/>
             </div>
           </div>
 
@@ -61,19 +53,19 @@ export default class Novus extends Component {
               <Row>
 
                 <Col className="image-container" xs={ 12 }>
-                  <img src="/portfolio/novus/heatmap.jpg" />
+                  <img alt="Interactive Heatmap" src="/portfolio/novus/heatmap.jpg" />
                 </Col>
 
                 <Col className="image-container" xs={ 12 }>
-                  <img src="/portfolio/novus/overlap.png" />
+                  <img alt="Overlap Grid" src="/portfolio/novus/overlap.png" />
                 </Col>
 
                 <Col className="image-container" xs={ 12 }>
-                  <img src="/portfolio/novus/platform.jpg" />
+                  <img alt="Platform Page" src="/portfolio/novus/platform.jpg" />
                 </Col>
 
                 <Col className="image-container" xs={ 12 }>
-                  <img src="/portfolio/novus/equalizer.jpg" />
+                  <img alt="Equalizer UI" src="/portfolio/novus/equalizer.jpg" />
                 </Col>
 
               </Row>
@@ -82,7 +74,6 @@ export default class Novus extends Component {
           </div>
 
         </div>
-        {/* <img className="piece-header" src='/portfolio/vida/vida_cover.jpg)'/> */}
 
       </div>
 

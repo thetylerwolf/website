@@ -1,7 +1,3 @@
-import {
-  Route,
-  Link,
-} from 'react-router-dom'
 import React, { Component } from 'react'
 import {
   Grid,
@@ -10,9 +6,6 @@ import {
 } from 'react-bootstrap'
 
 export default class VoxelDreams extends Component {
-  constructor() {
-    super()
-  }
 
   render() {
 
@@ -20,7 +13,12 @@ export default class VoxelDreams extends Component {
 
       <div className="view-portfolio-piece">
 
-        <div className="piece-header" style={{ backgroundImage: 'url(/portfolio/voxeldreams/voxel_cover.jpg)' }}>
+        <div
+          className="piece-header voxeldreams"
+          style={{
+            backgroundImage: 'url(/portfolio/voxeldreams/voxel_cover.jpg)',
+          }}
+        >
 
           <div className="piece-title-wrap">
 
@@ -36,12 +34,14 @@ export default class VoxelDreams extends Component {
           <div className="summary-wrap">
             <div className="summary-bar" />
             <div className="summary-text">
+              <div className="summary-title">Summary</div>
+              <br/>
               Personal Project - Global Game Jam 2017
-              <br/>
+              <br/><br/>
               Unity
-              <br/>
+              <br/><br/>
               UX Design / Full-stack Development
-              <br/>
+              <br/><br/>
               January 2017
             </div>
           </div>
@@ -67,13 +67,13 @@ export default class VoxelDreams extends Component {
               <Row>
                 <br/>
                 <Col className="image-container" xs={ 12 }>
-                  <img width="400px" src="/portfolio/voxeldreams/start.png" />
+                  <img alt="start screen" width="400px" src="/portfolio/voxeldreams/start.png" />
                 </Col>
                 <Col className="image-container" xs={ 12 }>
-                  <img width="400px" src="/portfolio/voxeldreams/sheep.png" />
+                  <img alt="electric sheep" width="400px" src="/portfolio/voxeldreams/sheep.png" />
                 </Col>
                 <Col className="image-container" xs={ 12 }>
-                  <img width="400px" src="/portfolio/voxeldreams/game_over.png" />
+                  <img alt="game over" width="400px" src="/portfolio/voxeldreams/game_over.png" />
                 </Col>
 
               </Row>

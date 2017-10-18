@@ -1,7 +1,3 @@
-import {
-  Route,
-  Link,
-} from 'react-router-dom'
 import React, { Component } from 'react'
 import {
   Grid,
@@ -10,9 +6,6 @@ import {
 } from 'react-bootstrap'
 
 export default class Vida extends Component {
-  constructor() {
-    super()
-  }
 
   render() {
 
@@ -20,7 +13,7 @@ export default class Vida extends Component {
 
       <div className="view-portfolio-piece">
 
-        <div className="piece-header" style={{ backgroundImage: 'url(/portfolio/vida/vida_cover.jpg)' }}>
+        <div className="piece-header vida" style={{ backgroundImage: 'url(/portfolio/vida/vida_cover.jpg)' }}>
 
           <div className="piece-title-wrap">
 
@@ -36,12 +29,14 @@ export default class Vida extends Component {
           <div className="summary-wrap">
             <div className="summary-bar" />
             <div className="summary-text">
+              <div className="summary-title">Summary</div>
+              <br/>
               SolidX - Vida Cybersecurity App
-              <br/>
+              <br/><br/>
               Sketch, React, Bootstrap, Material UI, Python
-              <br/>
+              <br/><br/>
               UX Design / UX Research / Front End Development
-              <br/>
+              <br/><br/>
               Ongoing project
             </div>
           </div>
@@ -72,7 +67,7 @@ export default class Vida extends Component {
                 <br/>
                 <h3>Responsive Website</h3>
                 <Col className="image-container" xs={ 12 }>
-                  <img src="/portfolio/vida/Desktop.jpg" />
+                  <img alt="Desktop Website" src="/portfolio/vida/Desktop.jpg" />
                 </Col>
 
               </Row>
@@ -80,7 +75,7 @@ export default class Vida extends Component {
               <Row>
 
                 <Col className="image-container" xs={ 12 }>
-                  <img src="/portfolio/vida/Mobile.jpg" />
+                  <img alt="Mobile Responsive" src="/portfolio/vida/Mobile.jpg" />
                 </Col>
 
               </Row>
@@ -89,11 +84,11 @@ export default class Vida extends Component {
 
                 <h3>Mobile Application</h3>
                 <Col className="image-container" xs={ 12 }>
-                  <img style={{ border: '1px solid #1a1a1a' }} src="/portfolio/vida/mobile_home.png" />
+                  <img alt="Mobile App" style={{ border: '1px solid #1a1a1a' }} src="/portfolio/vida/mobile_home.png" />
                 </Col>
 
                 <Col className="image-container" xs={ 12 }>
-                  <img style={{ border: '1px solid #1a1a1a' }} src="/portfolio/vida/mobile_profile.png" />
+                  <img alt="Mobile Profile" style={{ border: '1px solid #1a1a1a' }} src="/portfolio/vida/mobile_profile.png" />
                 </Col>
 
               </Row>
@@ -102,7 +97,7 @@ export default class Vida extends Component {
 
                 <h3>Web Application drag and drop UI</h3>
                 <Col className="image-container" xs={ 12 }>
-                  <img src="/portfolio/vida/web_auth_groups.jpg" />
+                  <img  alt="Web App Auth UI" src="/portfolio/vida/web_auth_groups.jpg" />
                 </Col>
 
               </Row>
@@ -111,7 +106,6 @@ export default class Vida extends Component {
           </div>
 
         </div>
-        {/* <img className="piece-header" src='/portfolio/vida/vida_cover.jpg)'/> */}
 
       </div>
 

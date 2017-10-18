@@ -1,5 +1,4 @@
 import {
-  Route,
   Link,
 } from 'react-router-dom'
 import React, { Component } from 'react'
@@ -20,9 +19,6 @@ const customStyles = {
 }
 
 export default class Tvrn extends Component {
-  constructor() {
-    super()
-  }
 
   render() {
 
@@ -30,7 +26,11 @@ export default class Tvrn extends Component {
 
       <div className="view-portfolio-piece">
 
-        <div className="piece-header" style={{ backgroundImage: 'url(/portfolio/tvrn/tvrn_cover.jpg)' }}>
+        <div
+          className="piece-header tvrn"
+          style={{
+            backgroundImage: 'url(/portfolio/tvrn/tvrn_cover.jpg)'
+          }}>
 
           <div className="piece-title-wrap">
 
@@ -46,14 +46,16 @@ export default class Tvrn extends Component {
           <div className="summary-wrap">
             <div className="summary-bar" />
             <div className="summary-text">
+              <div className="summary-title">Summary</div>
+              <br/>
               TVRN
-              <br/>
+              <br/><br/>
               WebGL, WebVR, A-Frame, React, GLSL, WebRTC
-              <br/>
+              <br/><br/>
               UX Design / Full-stack Development / Branding
-              <br/>
+              <br/><br/>
               2015 - Ongoing
-              <br/>
+              <br/><br/>
               <Link to="http://www.tvrn.me">Visit Website</Link>
             </div>
           </div>
@@ -95,7 +97,7 @@ export default class Tvrn extends Component {
                 <br/>
                 <h3>56 Henry Exhibition</h3>
                 <Col className="image-container" xs={ 12 }>
-                  <img src="/portfolio/tvrn/56_henry.jpg" />
+                  <img alt="56 Henry" src="/portfolio/tvrn/56_henry.jpg" />
                 </Col>
 
               </Row>
@@ -104,7 +106,7 @@ export default class Tvrn extends Component {
                 <br/>
                 <h3>Virtual Meeting Spaces</h3>
                 <Col className="image-container" xs={ 12 }>
-                  <img src="/portfolio/tvrn/virtual_meeting.jpg" />
+                  <img alt="VR Island Meeting" src="/portfolio/tvrn/virtual_meeting.jpg" />
                 </Col>
 
               </Row>
@@ -113,7 +115,6 @@ export default class Tvrn extends Component {
           </div>
 
         </div>
-        {/* <img className="piece-header" src='/portfolio/vida/vida_cover.jpg)'/> */}
 
       </div>
 

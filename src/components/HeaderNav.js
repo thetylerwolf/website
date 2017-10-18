@@ -42,6 +42,12 @@ export default class HeaderNav extends Component {
     this.setState({ showMenu: !this.state.showMenu })
   }
 
+  checkSameRoute(e) {
+    if(e.target.parentNode.href === window.location.href) {
+      this.toggleMenu()
+    }
+  }
+
   render() {
 
     return (
@@ -49,9 +55,9 @@ export default class HeaderNav extends Component {
 
         <div className={ `full-menu ${ this.state.showMenu ? 'active' : '' }` } >
           <div id="header-canvas-wrap"></div>
-          <Link className="menu-link home" to="/"><span>Home</span></Link>
-          <Link className="menu-link about" to="/about"><span>About</span></Link>
-          <Link className="menu-link contact" to="/contact"><span>Contact</span></Link>
+          <Link className="menu-link home" to="/" onClick={ (e) => this.checkSameRoute(e) }><span>Home</span></Link>
+          <Link className="menu-link about" to="/about" onClick={ (e) => this.checkSameRoute(e) }><span>About</span></Link>
+          <Link className="menu-link contact" to="/contact" onClick={ (e) => this.checkSameRoute(e) }><span>Contact</span></Link>
         </div>
 
         <header className="header-nav">

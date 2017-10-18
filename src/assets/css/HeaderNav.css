@@ -68,13 +68,13 @@
     background-color:#fff;
     z-index:999;
 
-    transition: top 0.75s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    transition: top 0.5s cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
 
 .full-menu.active {
     top:0%;
 
-    transition: top 0.75s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: top 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 
 .menu-link {

@@ -119,9 +119,9 @@ export default class SparkleBall {
             normals[ i + 8 ] = nz;
 
             // colors
-            var vx = ( x / n ) + 0.5;
-            var vy = ( y / n ) + 0.5;
-            var vz = ( z / n ) + 0.5;
+            // var vx = ( x / n ) + 0.5;
+            // var vy = ( y / n ) + 0.5;
+            // var vz = ( z / n ) + 0.5;
 
             // color.setRGB( vx, vy, vz );
             color.setRGB( 0.3, 1, 3 );
@@ -185,7 +185,7 @@ export default class SparkleBall {
     animate() {
         requestAnimationFrame( () => this.animate() )
         if( !this.animating ) return
-        if(this.id) console.log(this.id)
+        // if(this.id) console.log(this.id)
         this.render()
     }
 
