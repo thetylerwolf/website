@@ -52,23 +52,23 @@ var portfolio = {
       'link': 'http://tylernwolf.com/donorschoose/',
       'id': 'visualizations'
     },
-    {
-      'title': 'Voxel Dreams',
-      'types': [
-        'design',
-        'graphics'
-      ],
-      'cover': {
-        'img': 'voxel_cover.jpg'
-      },
-      'description': [
-        'Mobile Game',
-        'Design / Graphics Programming'
-      ],
-      'lightText': true,
-      'fit': true,
-      'id': 'voxeldreams'
-    },
+    // {
+    //   'title': 'Voxel Dreams',
+    //   'types': [
+    //     'design',
+    //     'graphics'
+    //   ],
+    //   'cover': {
+    //     'img': 'voxel_cover.jpg'
+    //   },
+    //   'description': [
+    //     'Mobile Game',
+    //     'Design / Graphics Programming'
+    //   ],
+    //   'lightText': true,
+    //   'fit': true,
+    //   'id': 'voxeldreams'
+    // },
     {
       'title': 'Top UX Words of 2016',
       'types': [
@@ -102,22 +102,22 @@ var portfolio = {
       'id': 'etrade',
       'fit': true
     },
-    {
-      'title': 'Swarm 2048',
-      'types': [
-        'design',
-        'code'
-      ],
-      'cover': {
-        'img': 'swarm2048_cover.jpg'
-      },
-      'description': [
-        'Retro-Futuristic Browser Game',
-        'Design / Front End Development'
-      ],
-      'lightText': true,
-      'id': 'swarm2048'
-    },
+    // {
+    //   'title': 'Swarm 2048',
+    //   'types': [
+    //     'design',
+    //     'code'
+    //   ],
+    //   'cover': {
+    //     'img': 'swarm2048_cover.jpg'
+    //   },
+    //   'description': [
+    //     'Retro-Futuristic Browser Game',
+    //     'Design / Front End Development'
+    //   ],
+    //   'lightText': true,
+    //   'id': 'swarm2048'
+    // },
     {
       'title': 'Interactive Dashboard',
       'types': [

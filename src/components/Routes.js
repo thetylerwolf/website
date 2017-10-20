@@ -12,12 +12,19 @@ import {
 import Home from './Home'
 import About from './About'
 import ViewPortfolioPiece from './ViewPortfolioPiece'
+import Legacy from './Legacy'
 
 export class Routes extends Component {
 
   scrollToTop() {
     if (this.props.history.action !== 'POP') {
       window.scrollTo(0, 0)
+    }
+  }
+
+  componentDidMount() {
+    if(this.props.location.hash) {
+      this.props.history.push(`/legacy/${ this.props.location.hash }`)
     }
   }
 
@@ -35,9 +42,10 @@ export class Routes extends Component {
                 onExited={ () => this.scrollToTop() }
               >
                 <Switch location={ this.props.location }>
-                  <Route exact path="/" component={ Home }/>
+                  <Route path="/" exact component={ Home }/>
                   <Route path="/about" component={ About }/>
                   <Route path="/portfolio/:id" component={ ViewPortfolioPiece }/>
+                  <Route path="/legacy" component={ Legacy } />
                 </Switch>
               </CSSTransition>
             </TransitionGroup>

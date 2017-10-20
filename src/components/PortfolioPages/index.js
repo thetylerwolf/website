@@ -12,39 +12,39 @@ var portfolioPages = {
     page: <Vida/>,
     name: 'Vida / SolidX',
     previous: 'novus',
-    next: 'voxeldreams',
-    lightText: true
-  },
-  voxeldreams: {
-    page: <VoxelDreams/>,
-    name: 'Voxel Dreams',
-    previous: 'vida',
     next: 'tvrn',
     lightText: true
   },
+  // voxeldreams: {
+  //   page: <VoxelDreams/>,
+  //   name: 'Voxel Dreams',
+  //   previous: 'vida',
+  //   next: 'tvrn',
+  //   lightText: true
+  // },
   tvrn: {
     page: <Tvrn/>,
     name: 'TVRN',
-    previous: 'voxeldreams',
+    previous: 'vida',
     next: 'etrade'
   },
   etrade: {
     page: <ETrade/>,
     name: 'E*Trade',
     previous: 'tvrn',
-    next: 'swarm2048'
+    next: 'nvd3'
   },
-  swarm2048: {
-    page: <Swarm2048/>,
-    name: 'Swarm 2048',
-    previous: 'etrade',
-    next: 'nvd3',
-    lightText: true
-  },
+  // swarm2048: {
+  //   page: <Swarm2048/>,
+  //   name: 'Swarm 2048',
+  //   previous: 'etrade',
+  //   next: 'nvd3',
+  //   lightText: true
+  // },
   nvd3: {
     page: <Nvd3/>,
     name: 'nvd3',
-    previous: 'swarm2048',
+    previous: 'etrade',
     next: 'novus',
     lightText: true
   },
