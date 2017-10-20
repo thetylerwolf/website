@@ -31,13 +31,14 @@ export default class About extends Component {
             UX design projects.
 
             If you would like to work with me, contact me directly at
-            <Link to="mailto:tyler@tylernwolf.com"> tyler@tylernwolf.com</Link>.
+            <br/>
+            <a href="mailto:tyler@tylernwolf.com">tyler@tylernwolf.com</a>.
           </p>
 
           <div className="icon-container">
-            <Link to="https://twitter.com/tylernwolf"><FontAwesome name="twitter" /></Link>
-            <Link to="https://github.com/thetylerwolf"><FontAwesome name="github" /></Link>
-            <Link to="https://www.linkedin.com/in/tylernwolf"><FontAwesome name="linkedin" /></Link>
+            <a href="https://twitter.com/tylernwolf" target="_blank"><FontAwesome name="twitter" /></a>
+            <a href="https://github.com/thetylerwolf" target="_blank"><FontAwesome name="github" /></a>
+            <a href="https://www.linkedin.com/in/tylernwolf" target="_blank"><FontAwesome name="linkedin" /></a>
           </div>
 
         </div>

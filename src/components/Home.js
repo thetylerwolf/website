@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import ScrollWatcher from '../assets/js/ScrollWatcher'
 
+import ScrollWatcher from '../assets/js/ScrollWatcher'
 import HeaderNav from './HeaderNav'
 import PortfolioPiece from './PortfolioPiece'
 
@@ -29,7 +29,6 @@ export default class Home extends Component {
 
     // this.sb = new SparkleBall()
   }
-
 
   componentDidMount() {
     // this.sb.init( 'home-canvas-wrap' )
@@ -75,38 +74,36 @@ export default class Home extends Component {
   render() {
 
     return (
+        <div className='home'>
 
-      <div className="home">
+          <HeaderNav
+            showBrand={ this.state.showBrand }
+            location={ this.props.location }
+          />
 
-        <HeaderNav
-          showBrand={ this.state.showBrand }
-          location={ this.props.location }
-        />
+          <div className="intro-section">
 
-        <div className="intro-section">
+            <div className="intro-copy-wrap">
 
-          <div className="intro-copy-wrap">
+              <div className="name-wrap">
+                <img src="logo.png" alt="Tyler Wolf" />
+              </div>
+              <br/>
+              <div className="services-copy">
+                Data Visualization / UX Design
+              </div>
 
-            <div className="name-wrap">
-              <img src="logo.png" alt="Tyler Wolf" />
-            </div>
-            <br/>
-            <div className="services-copy">
-              Data Visualization / UX Design
             </div>
 
           </div>
 
+          <div className="home-portfolio-wrap">
+
+            { portfolioPieces }
+
+          </div>
+
         </div>
-
-        <div className="home-portfolio-wrap">
-
-          { portfolioPieces }
-
-        </div>
-
-      </div>
-
     )
 
   }
