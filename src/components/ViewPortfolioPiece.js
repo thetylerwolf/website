@@ -4,7 +4,9 @@ import FontAwesome from 'react-fontawesome'
 
 import HeaderNav from './HeaderNav'
 import portfolioPages from './PortfolioPages'
-import '../assets/css/ViewPortfolioPiece.css'
+import ScrollWatcher from '../assets/js/ScrollWatcher'
+
+let scrollWatcher = new ScrollWatcher()
 
 export default class ViewPortfolioPiece extends Component {
   constructor(props) {
@@ -13,8 +15,28 @@ export default class ViewPortfolioPiece extends Component {
     this.state = portfolioPages[ props.match.params.id ]
   }
 
+  componentDidMount() {
+    scrollWatcher.init()
+      .onScrollEnd((e) => this.setHeaderTextColor(e))
+  }
+
   componentWillReceiveProps(nextProps) {
-    this.setState( portfolioPages[ nextProps.match.params.id ]  )
+    this.setState( portfolioPages[ nextProps.match.params.id ] )
+  }
+
+  setHeaderTextColor(e) {
+
+    let enterHeader = window.scrollY > window.innerHeight - 30 ? false : true
+
+    if(enterHeader) {
+      this.setState({ lightText: portfolioPages[ this.props.match.params.id ].lightText })
+    } else {
+      this.setState({ lightText: false })
+    }
+  }
+
+  componentWillUnmount() {
+    scrollWatcher.remove()
   }
 
   render() {
@@ -24,6 +46,7 @@ export default class ViewPortfolioPiece extends Component {
 
         <HeaderNav
           showBrand={ true }
+          light={ this.state.lightText }
         />
 
         <div className="side-link previous-link-wrap">

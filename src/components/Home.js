@@ -4,8 +4,8 @@ import ScrollWatcher from '../assets/js/ScrollWatcher'
 import HeaderNav from './HeaderNav'
 import PortfolioPiece from './PortfolioPiece'
 
-import SparkleBall from '../assets/js/SparkleBall'
-import '../assets/css/Home.css'
+// import SparkleBall from '../assets/js/SparkleBall'
+
 import portfolio from '../assets/js/portfolio.js'
 
 let scrollWatcher = new ScrollWatcher()
@@ -23,19 +23,22 @@ export default class Home extends Component {
     super()
 
     this.state = {
-      showBrand: false
+      showBrand: false,
+      show: false,
     }
 
-    this.sb = new SparkleBall()
+    // this.sb = new SparkleBall()
   }
 
 
   componentDidMount() {
-    this.sb.init( 'home-canvas-wrap' )
+    // this.sb.init( 'home-canvas-wrap' )
 
     scrollWatcher.init()
       .onScrollStart((e) => this.onScrollStart(e))
       .onScrollEnd((e) => this.onScrollEnd(e))
+
+    this.setState({ show: true })
 
   }
 
@@ -43,21 +46,26 @@ export default class Home extends Component {
   }
 
   onScrollEnd(e) {
-    if(window.scrollY > window.innerHeight) {
+    // if(window.scrollY > window.innerHeight) {
 
-      this.sb.stopAnimation()
+    //   this.sb.stopAnimation()
 
-    } else {
+    // } else {
 
-      this.sb.startAnimation()
+    //   this.sb.startAnimation()
 
-    }
+    // }
 
+    let enterHeader = window.scrollY > window.innerHeight ? false : true
+
+    this.setState({ showBrand: !enterHeader })
   }
+
 
   componentWillUnmount() {
     scrollWatcher.remove()
-    this.sb.remove()
+    this.setState({ show: false })
+    // this.sb.remove()
   }
 
   componentDidUpdate() {
@@ -71,30 +79,23 @@ export default class Home extends Component {
       <div className="home">
 
         <HeaderNav
-          onShow={ () => this.sb.stopAnimation() }
-          onHide={ () => {
-            if(window.scrollY < window.innerHeight)
-              this.sb.startAnimation()
-          }}
           showBrand={ this.state.showBrand }
           location={ this.props.location }
         />
 
         <div className="intro-section">
 
-          <div id="home-canvas-wrap" />
-
           <div className="intro-copy-wrap">
 
             <div className="name-wrap">
               <img src="logo.png" alt="Tyler Wolf" />
             </div>
+            <br/>
             <div className="services-copy">
-              Data Viz / UX Design / Creative Developer
+              Data Visualization / UX Design
             </div>
 
           </div>
-          {/* <canvas id="home-canvas"></canvas> */}
 
         </div>
 

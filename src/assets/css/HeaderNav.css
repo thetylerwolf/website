@@ -17,6 +17,13 @@
 .brand {
     margin-top:20px;
     pointer-events:auto;
+    opacity:1;
+
+    transition: opacity 0.3s;
+}
+
+.brand.hidden {
+    opacity:0;
 }
 
 #logo {
@@ -43,6 +50,10 @@
     font-size:14px;
 }
 
+.light .toggle .menu-text {
+    color:#fff;
+}
+
 /*********************
 *** Canvas section
 **********************/
@@ -59,37 +70,54 @@
 *** Full Menu section
 **********************/
 
-.full-menu {
+.header-wrap .full-menu {
     position:fixed;
     top:-120%;
     left:0;
     height:100vh;
     width:100%;
-    background-color:#fff;
+    background-color:rgba(0,0,0,0.9);
     z-index:999;
+
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content:center;
 
     transition: top 0.5s cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
 
-.full-menu.active {
+.header-wrap.active .full-menu {
     top:0%;
 
     transition: top 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 
+.header-wrap.active .toggle .menu-text {
+    color:#fff;
+}
+
 .menu-link {
-    position:absolute;
+    /*position:absolute;*/
+    display:block;
     font-size:48px;
     font-weight:900;
-    color:#1a1a1a;
+    color:#fff;
     text-decoration:none;
+    margin-bottom:1em;
 }
 
-.menu-link {
-
+.menu-link.selected {
+    color:#888;
+    pointer-events:none;
+    cursor:pointer;
 }
 
-.menu-link.home {
+.menu-link:hover {
+    color:#888;
+}
+
+/*.menu-link.home {
     top:25%;
     left:25%;
 }
@@ -103,3 +131,4 @@
     bottom:33%;
     left:35%;
 }
+*/

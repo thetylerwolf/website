@@ -4,8 +4,6 @@ import FontAwesome from 'react-fontawesome'
 
 import HeaderNav from './HeaderNav'
 
-import '../assets/css/About.css'
-
 export default class About extends Component {
 
   render() {

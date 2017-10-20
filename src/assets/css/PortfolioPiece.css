@@ -65,6 +65,18 @@
   transition: transform 8s, opacity 0.75s;
 }
 
+.portfolio-piece .ext-link {
+  position:absolute;
+  right:0;
+  bottom:0;
+  margin: 30px 30px;
+  font-size: 30px;
+}
+
+.portfolio-piece .ext-link {
+  color:#1a1a1a;
+}
+
 @media only screen and (max-width : 480px) {
 
   .portfolio-piece .piece-title {

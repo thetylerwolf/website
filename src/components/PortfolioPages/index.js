@@ -12,13 +12,15 @@ var portfolioPages = {
     page: <Vida/>,
     name: 'Vida / SolidX',
     previous: 'novus',
-    next: 'voxeldreams'
+    next: 'voxeldreams',
+    lightText: true
   },
   voxeldreams: {
     page: <VoxelDreams/>,
     name: 'Voxel Dreams',
     previous: 'vida',
-    next: 'tvrn'
+    next: 'tvrn',
+    lightText: true
   },
   tvrn: {
     page: <Tvrn/>,
@@ -36,19 +38,22 @@ var portfolioPages = {
     page: <Swarm2048/>,
     name: 'Swarm 2048',
     previous: 'etrade',
-    next: 'nvd3'
+    next: 'nvd3',
+    lightText: true
   },
   nvd3: {
     page: <Nvd3/>,
     name: 'nvd3',
     previous: 'swarm2048',
-    next: 'novus'
+    next: 'novus',
+    lightText: true
   },
   novus: {
     page: <Novus/>,
     name: 'Novus',
     previous: 'nvd3',
-    next: 'vida'
+    next: 'vida',
+    lightText: true
   }
 }
 

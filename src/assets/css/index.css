@@ -9,3 +9,13 @@ body {
   padding: 0;
   font-family: 'Lato', sans-serif;
 }
+
+.noscroll {
+  overflow: hidden;
+}
+
+@import "About.css";
+@import "HeaderNav.css";
+@import "Home.css";
+@import "PortfolioPiece.css";
+@import "ViewPortfolioPiece.css";

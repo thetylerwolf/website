@@ -2,8 +2,7 @@ import React, { Component } from 'react'
 import {
   Link
 } from 'react-router-dom'
-
-import '../assets/css/PortfolioPiece.css'
+import FontAwesome from 'react-fontawesome'
 
 export default class PortfolioPiece extends Component {
 
@@ -12,6 +11,12 @@ export default class PortfolioPiece extends Component {
   // }
 
   render() {
+
+    let extLink = this.props.entry.external ? (
+      <div className="ext-link">
+        <FontAwesome name="external-link" />
+      </div>
+    ) : undefined
 
     let contents = (
         <span>
@@ -43,6 +48,9 @@ export default class PortfolioPiece extends Component {
                 <div key={ i }>{ d }</div>
               ) }
           </div>
+
+          { extLink }
+
         </span>
       )
 

@@ -69,9 +69,11 @@ export default class VoxelDreams extends Component {
                 <Col className="image-container" xs={ 12 }>
                   <img alt="start screen" width="400px" src="/portfolio/voxeldreams/start.png" />
                 </Col>
+
                 <Col className="image-container" xs={ 12 }>
                   <img alt="electric sheep" width="400px" src="/portfolio/voxeldreams/sheep.png" />
                 </Col>
+
                 <Col className="image-container" xs={ 12 }>
                   <img alt="game over" width="400px" src="/portfolio/voxeldreams/game_over.png" />
                 </Col>

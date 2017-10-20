@@ -39,6 +39,8 @@ export default class ScrollWatcher {
   }
 
   remove() {
+    this.scrollEnd = function() {}
+    this.scrollStart = function() {}
     document.removeEventListener( 'scroll', this.scrollEvent, false )
   }
 
