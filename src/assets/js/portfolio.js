@@ -49,7 +49,7 @@ var portfolio = {
         'Design / Code'
       ],
       'external': true,
-      'link': 'http://tylernwolf.com/donorschoose/',
+      'link': 'http://tylernwolf.com/donorschoose/index.html',
       'id': 'visualizations'
     },
     // {

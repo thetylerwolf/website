@@ -13,7 +13,7 @@ export default class Legacy extends Component {
   constructor(props) {
     super(props)
 
-    this.frameUrl = `http://tylernwolf.com/archive/v3/${ this.props.location.hash }`
+    this.frameUrl = `http://tylernwolf.com/archive/v3/index.html${ this.props.location.hash }`
   }
 
   render() {

@@ -33,6 +33,11 @@
   opacity:0;
 }
 
+.view-portfolio-piece-wrapper.page-level-enter .title-bar {
+  transform: translate3d(0, -20em, 0);
+}
+
+
 /*********************
 *** Header section
 **********************/
@@ -70,6 +75,9 @@
   width: 5px;
   height: 10em;
   background-color:#fff;
+
+  transform: translate3d(0, 0em, 0);
+  transition: transform 0.5s;
 }
 
 /*********************
