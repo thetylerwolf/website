@@ -16,7 +16,7 @@ export default class PortfolioPiece extends Component {
           return
         }
 
-        let maxDisplacement = 70
+        let maxDisplacement = 35
         let displacement = maxDisplacement * (rect.top / window.innerHeight)
         displacement = displacement.toFixed(0)
 

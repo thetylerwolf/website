@@ -132,3 +132,13 @@
     left:35%;
 }
 */
+
+@media print {
+    .header-wrap .full-menu {
+        display:none;
+    }
+
+    .header-wrap .toggle {
+        display:none;
+    }
+}

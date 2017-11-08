@@ -12,6 +12,7 @@ export default class ViewPortfolioPiece extends Component {
   constructor(props) {
     super(props)
 
+    console.log(portfolioPages, props.match.params.id)
     this.state = portfolioPages[ props.match.params.id ]
   }
 
@@ -40,6 +41,7 @@ export default class ViewPortfolioPiece extends Component {
   }
 
   render() {
+
     return (
 
       <div className="view-portfolio-piece-wrapper">

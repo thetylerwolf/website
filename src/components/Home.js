@@ -8,6 +8,10 @@ import PortfolioPiece from './PortfolioPiece'
 
 import portfolio from '../assets/js/portfolio.js'
 
+import logoPath from '../assets/image/logo.js'
+import * as parse from 'parse-svg-path'
+import * as draw from 'draw-svg-path'
+
 let scrollWatcher = new ScrollWatcher()
 
 let portfolioPieces = portfolio.entries.map(( entry, i ) => {
@@ -38,6 +42,19 @@ export default class Home extends Component {
       .onScrollEnd((e) => this.onScrollEnd(e))
 
     this.setState({ show: true })
+
+    // let nameCanvas = this.refs.nameCanvas
+    // let ctx = nameCanvas.getContext('2d')
+    // nameCanvas.width = nameCanvas.width
+    // nameCanvas.height = nameCanvas.height
+
+    // ctx.lineWidth = 1
+    // ctx.strokeStyle = '#000000'
+    // let path = parse(logoPath)
+
+    // console.log(path)
+    // draw(ctx, path)
+    // ctx.stroke()
 
   }
 
@@ -86,6 +103,7 @@ export default class Home extends Component {
             <div className="intro-copy-wrap">
 
               <div className="name-wrap">
+                {/* <canvas ref="nameCanvas"></canvas> */}
                 <img src="logo.png" alt="Tyler Wolf" />
               </div>
               <br/>

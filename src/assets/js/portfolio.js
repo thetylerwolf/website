@@ -1,6 +1,24 @@
 var portfolio = {
   'entries': [
     {
+      'title': 'Natural Mediation',
+      'date': '11/2017',
+      'types': [
+        'design',
+        'ux',
+        'frontend'
+      ],
+      'cover': {
+        'img': 'meditation_cover.jpg'
+      },
+      'description': [
+        'Meditation Timer',
+        'Market Research / Branding / Product Design / Data Visualization / Full Stack Development'
+      ],
+      'fit': true,
+      'id': 'meditation'
+    },
+    {
       'title': 'SolidX / Vida',
       'date': '10/2017',
       'types': [

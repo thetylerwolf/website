@@ -27,8 +27,9 @@ export default class About extends Component {
             I am an experienced digital product professional.
             Over the years, I have worked across User Experience Design,
             Data Visualization Design and Front End development. I now
-            work freelance on data visualization (design + code) and
-            UX design projects.
+            work freelance. I offer expertise in Data Visualization
+            (design + code), Product Strategy and User Experience. I help
+            businesses large and small find product/market fit.
 
             If you would like to work with me, contact me directly at
             <br/>

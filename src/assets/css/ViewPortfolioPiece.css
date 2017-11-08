@@ -156,7 +156,7 @@ a.previous-link:hover span.fa {
 }
 
 .side-link a .link-text {
-  margin-top:3em;
+  margin-top:3.5em;
   transform:rotate(90deg);
   white-space: nowrap;
 }
@@ -221,6 +221,26 @@ a.previous-link:hover span.fa {
 
   .description-wrap h1 {
     font-size:32px;
+  }
+
+}
+
+@media print {
+
+  .view-portfolio-piece .piece-header {
+    height:50%;
+  }
+
+  .view-portfolio-piece .piece-body {
+    top:50%;
+  }
+
+  .view-portfolio-piece-wrapper .side-link {
+    opacity:0;
+  }
+
+  .view-portfolio-piece .piece-header .piece-title-wrap {
+    font-size: 100px;
   }
 
 }
