@@ -43,7 +43,7 @@ export default class About extends Component {
           <p>
             If you would like to work with me, contact me directly at
             <br/>
-            <a href="mailto:tyler@tylernwolf.com">tyler@tylernwolf.com</a>.
+            <a href="mailto:tyler@beetroot.digital">tyler@beetroot.digital</a>.
           </p>
 
           <div className="icon-container">
