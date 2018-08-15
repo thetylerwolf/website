@@ -1,7 +1,7 @@
 var portfolio = {
   'entries': [
     {
-      'title': 'Natural Mediation',
+      'title': 'Natural Meditation',
       'date': '11/2017',
       'types': [
         'design',

@@ -24,9 +24,10 @@ export default class About extends Component {
           </div>
 
           <p>
-            I am an experienced digital product professional.
+            I am an experienced digital product professional based in Stockholm, Sweden.
             Over the years, I have worked across User Experience Design,
-            Data Visualization Design and Front End development.
+            Data Visualization Design and Front End development. I love
+            computer graphics and 3D projects.
           </p>
 
           <p>
@@ -35,8 +36,8 @@ export default class About extends Component {
           </p>
 
           <p>
-            I offer expertise in Data Visualization
-            (design + code), Product Strategy and User Experience. I help
+            I offer expertise in Data Visualization for products and publications,
+            Product Strategy and User Experience. I help
             businesses large and small find product/market fit.
           </p>
 

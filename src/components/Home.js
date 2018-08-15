@@ -108,7 +108,7 @@ export default class Home extends Component {
               </div>
               <br/>
               <div className="services-copy">
-                Data Visualization / UX Design
+                Data Viz / UX Design
               </div>
 
             </div>
