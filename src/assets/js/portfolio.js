@@ -1,6 +1,24 @@
 var portfolio = {
   'entries': [
     {
+      'title': 'Odin Chart',
+      'date': '08/2018',
+      'types': [
+        'data visualization'
+      ],
+      'cover': {
+        'img': 'odin_banner copy.png'
+      },
+      'description': [
+        'Data Visualization tool',
+        'Product Design / Data Visualization'
+      ],
+      'fit': true,
+      'external': true,
+      'link': 'https://odinchart.com',
+      'id': 'odin',
+    },
+    {
       'title': 'Natural Meditation',
       'date': '11/2017',
       'types': [

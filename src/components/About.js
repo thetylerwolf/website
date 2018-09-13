@@ -31,7 +31,7 @@ export default class About extends Component {
           </p>
 
           <p>
-            I now take on contract work full-time through my
+            I take on contract work full-time through my
             studio: <a href="https://beetroot.digital" className="beetroot-link">Beetroot Digital</a>.
           </p>
 
@@ -39,6 +39,11 @@ export default class About extends Component {
             I offer expertise in Data Visualization for products and publications,
             Product Strategy and User Experience. I help
             businesses large and small find product/market fit.
+          </p>
+
+          <p>
+            I am currently working on <a href="https://odinchart.com" target="_blank">Odin Chart</a>, a
+            follow-up to Sketch Data Studio, a popular Sketch plugin that I created several years ago.
           </p>
 
           <p>
