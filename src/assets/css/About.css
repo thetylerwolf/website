@@ -1,7 +1,6 @@
 .about-wrap .about-section {
   position:relative;
-  padding: 15% 0 0 40%;
-  width:25%;
+  padding-top:100px;
 }
 
 .about-wrap .about-section a {
@@ -14,46 +13,24 @@
 }
 
 .about-section .about-logo img {
-  width:100%;
-  margin-left:-100%;
-}
-
-.about-section .about-logo {
   /*margin-bottom: 70px;*/
+  width:100%;
 }
 
 .about-section p {
   /*text-align:justify;*/
 }
 
-.about-wrap .about-section a.beetroot-link {
+.about-section .faded {
+  opacity:0.6;
   font-weight:bold;
-  color: rgba(122, 31, 61);
 }
 
-@media only screen and (max-width : 480px) {
-  .about-wrap .about-section {
-    position:relative;
-    padding: 0 0 0 15%;
-    margin: 100px 0;
-    width:70%
-  }
+.bold {
+  font-weight:bold;
+}
 
-  .about-section .about-logo img {
-    width:70%;
-    margin-left:0;
-  }
-
-  .about-section .about-logo {
-    margin-bottom: 50px;
-  }
-
-  .about-section .icon-container {
-    margin-top:50px;
-  }
-
-  .about-section .icon-container a {
-    font-size:36px;
-    margin-right:0.4em;
-  }
+.about-wrap .about-section a {
+  font-weight:bold;
+  color: rgba(122, 31, 61);
 }
