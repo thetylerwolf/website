@@ -74,8 +74,15 @@ export default class Meditation extends Component {
               </Row>
             */}
               <Row>
-                <br/>
-                <h3>Mobile App</h3>
+
+                <Col xs={ 12 }>
+                  <h3>Mobile App</h3>
+                </Col>
+
+              </Row>
+
+              <Row>
+
                 <Col className="image-container" xs={ 12 }>
                   <img alt="Landing" src="/portfolio/meditation/landing.jpg" />
                 </Col>

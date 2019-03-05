@@ -1,7 +1,7 @@
 var portfolio = {
   'entries': [
       {
-      'title': 'Financial panic and credit disruptions in the 2007-09 crisis',
+      'title': 'Brookings - Financial panic and credit disruptions...',
       'date': '09/2018',
       'types': [
         'data visualization'

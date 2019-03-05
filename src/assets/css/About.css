@@ -1,7 +1,6 @@
 .about-wrap .about-section {
   position:relative;
-  padding: 15% 0 0 40%;
-  width:25%;
+  padding-top:100px;
 }
 
 .about-wrap .about-section a {
@@ -14,46 +13,44 @@
 }
 
 .about-section .about-logo img {
-  width:100%;
-  margin-left:-100%;
-}
-
-.about-section .about-logo {
   /*margin-bottom: 70px;*/
+  width:100%;
 }
 
 .about-section p {
   /*text-align:justify;*/
 }
 
-.about-wrap .about-section a.beetroot-link {
+.about-section .faded {
+  opacity:0.6;
+  font-weight:bold;
+}
+
+.bold {
+  font-weight:bold;
+}
+
+.about-wrap .about-section a {
   font-weight:bold;
   color: rgba(122, 31, 61);
 }
 
-@media only screen and (max-width : 480px) {
-  .about-wrap .about-section {
-    position:relative;
-    padding: 0 0 0 15%;
-    margin: 100px 0;
-    width:70%
-  }
+.public-publications img {
+  margin:50px;
 
-  .about-section .about-logo img {
-    width:70%;
-    margin-left:0;
-  }
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+  filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+}
 
-  .about-section .about-logo {
-    margin-bottom: 50px;
-  }
+img.forbes-logo {
+  width:150px;
+}
 
-  .about-section .icon-container {
-    margin-top:50px;
-  }
+img.brookings-logo {
+  width:200px;
+}
 
-  .about-section .icon-container a {
-    font-size:36px;
-    margin-right:0.4em;
-  }
+img.dataface-logo {
+  width:80px;
 }

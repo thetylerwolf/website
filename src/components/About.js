@@ -1,6 +1,11 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import FontAwesome from 'react-fontawesome'
+import {
+  Grid,
+  Row,
+  Col
+} from 'react-bootstrap'
 
 import HeaderNav from './HeaderNav'
 
@@ -17,50 +22,97 @@ export default class About extends Component {
           location={ this.props.location }
         />
 
-        <div className="about-section">
+        <Grid className="about-section">
 
-          <div className="about-logo">
-            <Link to="/"><img alt="Tyler Wolf" src="logo.png" /></Link>
-          </div>
+          <Row>
+            {/* <Col lg={ 4 } md={ 4 } sm={ 12 } /> */}
 
-          <p>
-            I am an experienced digital product professional based in Stockholm, Sweden.
-            Over the years, I have worked across User Experience Design,
-            Data Visualization Design and Front End development. I love
-            computer graphics and 3D projects.
-          </p>
+            <Col lg={ 4 } md={ 4 } sm={ 12 }>
+              <div className="about-logo">
+                <Link to="/"><img alt="Tyler Wolf" src="logo.png" /></Link>
+              </div>
+            </Col>
 
-          <p>
-            I take on contract work full-time through my
-            studio: <a href="https://beetroot.digital" className="beetroot-link">Beetroot Digital</a>.
-          </p>
+          </Row>
 
-          <p>
-            I offer expertise in Data Visualization for products and publications,
-            Product Strategy and User Experience.
-          </p>
+          <Row>
 
-          <p>
-            I am currently developing <a href="https://odinchart.com" target="_blank">Odin Chart</a>, a
-            follow-up to Sketch Data Studio, a popular Sketch plugin that I created several years ago.
-          </p>
+            <Col lg={ 4 } md={ 4 } sm={ 12 } />
 
-          <p>
-            If you would like to work with me, contact me directly at
-            <br/>
-            <a href="mailto:tyler@beetroot.digital">tyler@beetroot.digital</a>.
-          </p>
+            <Col lg={ 8 } md={ 8 } sm={ 12 }>
+              <p>
+                I am an award-winning digital product professional based in Stockholm, Sweden.
+                Over the past 7 years, I have worked in UX Design and Front End Development, focused
+                on Data Visualization. I love computer graphics and 3D projects.
+              </p>
 
-          <div className="icon-container">
-            <a href="https://twitter.com/tylernwolf" target="_blank"><FontAwesome name="twitter" /></a>
-            <a href="https://github.com/thetylerwolf" target="_blank"><FontAwesome name="github" /></a>
-            <a href="https://www.linkedin.com/in/tylernwolf" target="_blank"><FontAwesome name="linkedin" /></a>
-          </div>
+              <p>
+                I take on contract work full-time.
+              </p>
 
-        </div>
+              <p>
+                I offer expertise in Data Visualization for products and publications,
+                Product Strategy and User Experience. I help
+                businesses large and small find product/market fit.
+              </p>
 
+              <p>
+                I am currently working on <a href="https://odinchart.com" target="_blank">Odin Chart</a>, a
+                follow-up to Sketch Data Studio, a popular data visualization design tool that I created several years ago.
+              </p>
 
-      </div>
+              <p>
+                If you would like to work with me, contact me directly at
+                <br/>
+                <a href="mailto:tyler@beetroot.digital">tyler@beetroot.digital</a>.
+              </p>
+
+              <div className="icon-container">
+                <a href="https://twitter.com/tylernwolf" target="_blank"><FontAwesome name="twitter" /></a>
+                <a href="https://github.com/thetylerwolf" target="_blank"><FontAwesome name="github" /></a>
+                <a href="https://www.linkedin.com/in/tylernwolf" target="_blank"><FontAwesome name="linkedin" /></a>
+              </div>
+
+              <br/>
+              <br/>
+
+              <p className="bold">Awards/Honors</p>
+
+              <ul>
+                <li>
+                  <a target="_blank" href="https://challengesgov.se/use-data-visualisation-to-aid-planning-for-sustainable-mobility-services-in-sweden/">Winner - A Challenge from Sweden - Sustainable Mobility Data Visualization</a>
+                </li>
+              </ul>
+
+              <p className="bold">Speaking</p>
+
+              <p className="faded">2019</p>
+              <ul>
+                <li>"A More Efficient Dataviz Design Process" - Data Visualization Design Stockholm</li>
+              </ul>
+
+              <p className="faded">2018</p>
+              <ul>
+                <li>"Designing Intuitive Tools" - Øredev Conference 2018</li>
+              </ul>
+
+              <p className="bold">Publications</p>
+
+              <p>My work has appeared in the following publications</p>
+
+              <div className="public-publications">
+                <img className="publication-image forbes-logo" src="forbes.svg" alt="Forbes" />
+                <img className="publication-image brookings-logo" src="brookings.svg" alt="The Brookings Institution" />
+                <img className="publication-image dataface-logo" src="dataface.jpg" alt="The Data Face" />
+                {/* <img src="spectrum.png" /> */}
+              </div>
+            </Col>
+
+        </Row>
+
+      </Grid>
+
+    </div>
 
     )
 
