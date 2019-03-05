@@ -37,12 +37,11 @@ export default class About extends Component {
 
           <p>
             I offer expertise in Data Visualization for products and publications,
-            Product Strategy and User Experience. I help
-            businesses large and small find product/market fit.
+            Product Strategy and User Experience.
           </p>
 
           <p>
-            I am currently working on <a href="https://odinchart.com" target="_blank">Odin Chart</a>, a
+            I am currently developing <a href="https://odinchart.com" target="_blank">Odin Chart</a>, a
             follow-up to Sketch Data Studio, a popular Sketch plugin that I created several years ago.
           </p>
 

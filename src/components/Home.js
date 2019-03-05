@@ -10,7 +10,7 @@ import portfolio from '../assets/js/portfolio.js'
 
 import logoPath from '../assets/image/logo.js'
 import * as parse from 'parse-svg-path'
-import * as draw from 'draw-svg-path'
+// import * as draw from 'draw-svg-path'
 
 let scrollWatcher = new ScrollWatcher()
 

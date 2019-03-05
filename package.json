@@ -4,7 +4,6 @@
   "private": true,
   "dependencies": {
     "@tweenjs/tween.js": "^17.1.1",
-    "draw-svg-path": "github:michaelrhodes/draw-svg-path",
     "parse-svg-path": "^0.1.2",
     "react": "^16.0.0",
     "react-bootstrap": "^0.31.3",

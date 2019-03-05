@@ -1,5 +1,23 @@
 var portfolio = {
   'entries': [
+      {
+      'title': 'Financial panic and credit disruptions in the 2007-09 crisis',
+      'date': '09/2018',
+      'types': [
+        'data visualization'
+      ],
+      'cover': {
+        'img': 'financial-crisis.png'
+      },
+      'description': [
+        'The Brookings Institution',
+        'Data Visualization'
+      ],
+      'fit': true,
+      'external': true,
+      'link': 'https://www.brookings.edu/blog/ben-bernanke/2018/09/13/financial-panic-and-credit-disruptions-in-the-2007-09-crisis/',
+      'id': 'financial-crisis',
+    },
     {
       'title': 'Odin Chart',
       'date': '08/2018',
