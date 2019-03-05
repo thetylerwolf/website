@@ -55,7 +55,8 @@ export default class PortfolioPiece extends Component {
           className="piece-title"
           ref="title"
           style={{
-            color: this.props.entry.lightText ? '#fff' : '#1a1a1a'
+            color: this.props.entry.lightText ? '#fff' : '#1a1a1a',
+            ...(this.props.entry.style || {})
           }}
         >
           { this.props.entry.title }
