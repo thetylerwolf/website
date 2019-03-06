@@ -80,7 +80,7 @@ export default class About extends Component {
 
               <ul>
                 <li>
-                  <a target="_blank" href="https://challengesgov.se/use-data-visualisation-to-aid-planning-for-sustainable-mobility-services-in-sweden/">Winner - A Challenge from Sweden - Sustainable Mobility Data Visualization</a>
+                  <a target="_blank" href="https://challengesgov.se/winner-mobility-observer/">Winner - A Challenge from Sweden - Sustainable Mobility Data Visualization</a>
                 </li>
                 <li>
                   Grant funding recipient - SSES Validator
