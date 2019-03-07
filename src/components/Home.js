@@ -118,7 +118,7 @@ export default class Home extends Component {
           </div>
 
           <div className="home-portfolio-wrap">
-
+            <div className="portfolio-title">Portfolio</div>
             { portfolioPieces }
 
           </div>

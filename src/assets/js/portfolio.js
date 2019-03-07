@@ -1,8 +1,86 @@
 var portfolio = {
   'entries': [
-      {
-      'title': 'Financial panic and credit disruptions in the 2007-09 crisis',
-      'date': '09/2018',
+    {
+      'title': 'A Challenge from Sweden - Mobility Observer',
+      'date': '03/2019',
+      'types': [
+        'data visualization'
+      ],
+      'cover': {
+        'img': 'mobility-observer.png'
+      },
+      'description': [
+        'Award',
+        'Data Visualization'
+      ],
+      'fit': true,
+      'external': true,
+      lightText: true,
+      'link': 'https://challengesgov.se/winner-mobility-observer/',
+      'id': 'mobility-observer',
+      style: {
+        fontSize: 64
+      }
+    },
+    {
+      'title': 'DBRS Viewpoint',
+      'date': '12/2018',
+      'types': [
+        'enterprise',
+        'product design',
+        'data visualization'
+      ],
+      'cover': {
+        'img': 'dbrs.png'
+      },
+      'description': [
+        'Enterprise Commercial Real Estate Software',
+        'Product Design / Data Visualization'
+      ],
+      'fit': true,
+      'external': true,
+      'link': 'https://www.dbrs.com/',
+      'id': 'dbrs',
+    },
+    {
+      'title': 'Spectrum - Co-occurring Diagnoses',
+      'date': '03/2019',
+      'types': [
+        'data visualization'
+      ],
+      'cover': {
+        'img': 'spectrum-diagnoses.png'
+      },
+      'description': [
+        'Spectrum News',
+        'Data Visualization'
+      ],
+      'fit': true,
+      'external': true,
+      'link': 'https://www.spectrumnews.org/news/autism-diagnosis-often-followed-identification-conditions/',
+      'id': 'spectrum-diagnoses'
+    },
+    {
+      'title': 'Brookings - Voter Turnout',
+      'date': '10/2018',
+      'types': [
+        'data visualization'
+      ],
+      'cover': {
+        'img': 'voter-turnout.png'
+      },
+      'description': [
+        'The Brookings Institution',
+        'Data Visualization'
+      ],
+      'fit': true,
+      'external': true,
+      'link': 'https://www.brookings.edu/blog/up-front/2018/10/25/a-story-from-this-american-indian-reservation-has-important-lessons-for-americas-voter-turnout-problem/',
+      'id': 'voter-turnout'
+    },
+    {
+      'title': 'Brookings - Financial Crisis',
+      'date': '10/2018',
       'types': [
         'data visualization'
       ],
@@ -17,9 +95,6 @@ var portfolio = {
       'external': true,
       'link': 'https://www.brookings.edu/blog/ben-bernanke/2018/09/13/financial-panic-and-credit-disruptions-in-the-2007-09-crisis/',
       'id': 'financial-crisis',
-      'style': {
-        fontSize: 64,
-      }
     },
     {
       'title': 'Odin Chart',
@@ -38,6 +113,26 @@ var portfolio = {
       'external': true,
       'link': 'https://odinchart.com',
       'id': 'odin',
+    },
+    {
+      'title': 'Basis from Sentinel Labe',
+      'date': '06/2018',
+      'types': [
+        'enterprise',
+        'product design',
+        'data visualization'
+      ],
+      'cover': {
+        'img': 'sentinel-labs.png'
+      },
+      'description': [
+        'Enterprise Commercial Real Estate Software',
+        'Product Design / Data Visualization'
+      ],
+      'fit': true,
+      'external': true,
+      'link': 'https://www.sentinellabs.io/',
+      'id': 'sentinel-labs',
     },
     {
       'title': 'Natural Meditation',

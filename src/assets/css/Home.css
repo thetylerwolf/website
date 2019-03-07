@@ -32,9 +32,9 @@
 .name-wrap canvas {
   margin: 0;
   width: 90%;
-  max-width:600px;
+  max-width:500px;
   height: 100%;
-  max-height:80vh;
+  max-height:70vh;
   background-color: transparent;
 }
 
@@ -118,6 +118,7 @@
   width: 90%;
   max-width:600px;
   max-height:80vh;
+  margin: 25px 0 0 0;
 }
 
 .home .intro-copy-wrap .services-copy {
@@ -135,6 +136,11 @@
 .home .home-portfolio-wrap {
   position:relative;
   padding-top:100px;
+}
+
+.home-portfolio-wrap .portfolio-title {
+  font-size:36px;
+  text-align: center;
 }
 
 .home .home-portfolio-wrap .piece-row {
