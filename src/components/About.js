@@ -110,7 +110,7 @@ export default class About extends Component {
                 <img className="publication-image forbes-logo" src="forbes.svg" alt="Forbes" />
                 <img className="publication-image brookings-logo" src="brookings.svg" alt="The Brookings Institution" />
                 <img className="publication-image dataface-logo" src="dataface.jpg" alt="The Data Face" />
-                {/* <img src="spectrum.png" /> */}
+                <img className="publication-image spectrum-logo" src="spectrum.png" alt="Spectrum News" />
               </div>
             </Col>
 
