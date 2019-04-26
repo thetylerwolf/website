@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 
 import ScrollWatcher from '../assets/js/ScrollWatcher'
 import HeaderNav from './HeaderNav'
@@ -104,14 +105,19 @@ export default class Home extends Component {
 
               <div className="name-wrap">
                 {/* <canvas ref="nameCanvas"></canvas> */}
-                <img src="logo.png" alt="Tyler Wolf" />
+                {/* <img src="logo.png" alt="Tyler Wolf" /> */}
+                <div>I'm <span className="name-text">Tyler Wolf</span></div>
+                <div>I make data visualizations and design products.</div>
+                <div>My portfolio is below. You can learn more about me <Link to="/about">here</Link>.</div>
               </div>
               <br/>
+              {/*
               <div className="services-copy">
                 Award-Winning, Contract
                 <br/>
                 Data Viz / UX Designer
               </div>
+            */}
 
             </div>
 

@@ -27,9 +27,10 @@ export default class About extends Component {
           <Row>
             {/* <Col lg={ 4 } md={ 4 } sm={ 12 } /> */}
 
-            <Col lg={ 4 } md={ 4 } sm={ 12 }>
+            <Col lg={ 2 } md={ 2 } sm={ 12 }>
               <div className="about-logo">
-                <Link to="/"><img alt="Tyler Wolf" src="logo.png" /></Link>
+                {/* <Link to="/"><img alt="Tyler Wolf" src="logo.png" /></Link> */}
+                <div className="about-text">About</div>
               </div>
             </Col>
 
@@ -37,7 +38,7 @@ export default class About extends Component {
 
           <Row>
 
-            <Col lg={ 4 } md={ 4 } sm={ 12 } />
+            <Col lg={ 2 } md={ 2 } sm={ 12 } />
 
             <Col lg={ 8 } md={ 8 } sm={ 12 }>
               <p>

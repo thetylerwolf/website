@@ -17,6 +17,12 @@
   width:100%;
 }
 
+.about-section .about-logo .about-text {
+  font-size:36px;
+  text-align:right;
+  /*font-weight:700;*/
+}
+
 .about-section p {
   /*text-align:justify;*/
 }
