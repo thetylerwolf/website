@@ -98,8 +98,8 @@
 
 .home .intro-section {
   position:relative;
-  /*min-height: 100vh;*/
-  padding:15%;
+  min-height: 100vh;
+  padding: 0 15%;
 
   display: flex;
   flex-direction:column;
