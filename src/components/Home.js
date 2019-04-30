@@ -5,21 +5,24 @@ import ScrollWatcher from '../assets/js/ScrollWatcher'
 import HeaderNav from './HeaderNav'
 import PortfolioPiece from './PortfolioPiece'
 
-// import SparkleBall from '../assets/js/SparkleBall'
-
 import portfolio from '../assets/js/portfolio.js'
 
-import logoPath from '../assets/image/logo.js'
-import * as parse from 'parse-svg-path'
-// import * as draw from 'draw-svg-path'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
+
+import {
+  Grid,
+  Row,
+  Col
+} from 'react-bootstrap'
 
 let scrollWatcher = new ScrollWatcher()
 
 let portfolioPieces = portfolio.entries.map(( entry, i ) => {
   return (
-    <div className="piece-row" key={ i }>
+    <Col lg={4} md={6} sm={12} className="piece-wrap" key={ i }>
       <PortfolioPiece entry={ entry } />
-    </div>
+    </Col>
   )
 })
 
@@ -108,7 +111,7 @@ export default class Home extends Component {
                 {/* <img src="logo.png" alt="Tyler Wolf" /> */}
                 <div>I'm <span className="name-text">Tyler Wolf</span></div>
                 <div>I make data visualizations and design products.</div>
-                <div>My portfolio is below. You can learn more about me <Link to="/about">here</Link>.</div>
+                <div>My portfolio is below <FontAwesomeIcon icon={ faChevronDown } size="xs"/>. You can learn more about me <Link to="/about">here</Link>.</div>
               </div>
               <br/>
               {/*
@@ -125,8 +128,11 @@ export default class Home extends Component {
 
           <div className="home-portfolio-wrap">
             <div className="portfolio-title">Portfolio</div>
-            { portfolioPieces }
-
+            <Grid>
+              <Row>
+                { portfolioPieces }
+              </Row>
+            </Grid>
           </div>
 
         </div>

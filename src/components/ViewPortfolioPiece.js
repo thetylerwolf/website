@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-import FontAwesome from 'react-fontawesome'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLongArrowAltLeft, faLongArrowAltRight } from '@fortawesome/free-solid-svg-icons'
 
 import HeaderNav from './HeaderNav'
 import portfolioPages from './PortfolioPages'
@@ -53,7 +54,7 @@ export default class ViewPortfolioPiece extends Component {
 
         <div className="side-link previous-link-wrap">
           <Link to={ '/portfolio/' + this.state.previous } className="previous-link">
-            <FontAwesome name="long-arrow-left" />
+            <FontAwesomeIcon icon={ faLongArrowAltLeft } />
             <div className="link-text">{ portfolioPages[ this.state.previous ].name }</div>
           </Link>
         </div>
@@ -62,7 +63,7 @@ export default class ViewPortfolioPiece extends Component {
 
         <div className="side-link next-link-wrap">
           <Link to={ '/portfolio/' + this.state.next } className="next-link">
-            <FontAwesome name="long-arrow-right" />
+            <FontAwesomeIcon icon={ faLongArrowAltRight } />
             <div className="link-text">{ portfolioPages[ this.state.next ].name }</div>
           </Link>
         </div>

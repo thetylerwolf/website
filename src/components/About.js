@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-import FontAwesome from 'react-fontawesome'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faTwitter, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import {
   Grid,
   Row,
@@ -69,9 +70,9 @@ export default class About extends Component {
               </p>
 
               <div className="icon-container">
-                <a href="https://twitter.com/tylernwolf" target="_blank"><FontAwesome name="twitter" /></a>
-                <a href="https://github.com/thetylerwolf" target="_blank"><FontAwesome name="github" /></a>
-                <a href="https://www.linkedin.com/in/tylernwolf" target="_blank"><FontAwesome name="linkedin" /></a>
+                <a href="https://twitter.com/tylernwolf" target="_blank"><FontAwesomeIcon icon={ faTwitter } /></a>
+                <a href="https://github.com/thetylerwolf" target="_blank"><FontAwesomeIcon icon={ faGithub } /></a>
+                <a href="https://www.linkedin.com/in/tylernwolf" target="_blank"><FontAwesomeIcon icon={ faLinkedin } /></a>
               </div>
 
               <br/>
