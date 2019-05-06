@@ -49,7 +49,7 @@ var portfolio = {
         'data visualization'
       ],
       'cover': {
-        'img': 'spectrum-diagnoses.png'
+        'img': 'spectrum-diagnoses.jpg'
       },
       'description': [
         'Autism Research Visualization',
@@ -67,7 +67,7 @@ var portfolio = {
         'data visualization'
       ],
       'cover': {
-        'img': 'voter-turnout.png'
+        'img': 'voter-turnout.jpg'
       },
       'description': [
         'Voter Turnout Visualization',
@@ -85,7 +85,7 @@ var portfolio = {
         'data visualization'
       ],
       'cover': {
-        'img': 'financial-crisis.png'
+        'img': 'financial-crisis.jpg'
       },
       'description': [
         'Dr. Ben Bernanke Financial Crisis Visualizations',
@@ -103,7 +103,7 @@ var portfolio = {
         'data visualization'
       ],
       'cover': {
-        'img': 'odin_banner copy.png'
+        'img': 'odin_banner.jpg'
       },
       'description': [
         'Data Visualization Tool',
@@ -146,7 +146,7 @@ var portfolio = {
         'img': 'meditation_cover.jpg'
       },
       'description': [
-        'Self-Made Meditation Timer',
+        'Meditation Timer',
         'Market Research / Branding / Product Design / Data Visualization / Full Stack Development'
       ],
       'fit': true,
