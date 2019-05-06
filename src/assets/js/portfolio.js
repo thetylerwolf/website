@@ -35,7 +35,7 @@ var portfolio = {
       },
       'description': [
         'Enterprise Commercial Real Estate Software',
-        'Product Design / Data Visualization'
+        'Data Visualization / Product Design'
       ],
       'fit': true,
       'external': true,
@@ -43,7 +43,7 @@ var portfolio = {
       'id': 'dbrs',
     },
     {
-      'title': 'Spectrum - Co-occurring Diagnoses',
+      'title': 'Spectrum News',
       'date': '03/2019',
       'types': [
         'data visualization'
@@ -52,8 +52,8 @@ var portfolio = {
         'img': 'spectrum-diagnoses.png'
       },
       'description': [
-        'Spectrum News',
-        'Data Visualization'
+        'Autism Research Visualization',
+        'Data Visualization / Animation'
       ],
       'fit': true,
       'external': true,
@@ -61,7 +61,7 @@ var portfolio = {
       'id': 'spectrum-diagnoses'
     },
     {
-      'title': 'Brookings - Voter Turnout',
+      'title': 'The Brookings Institution',
       'date': '10/2018',
       'types': [
         'data visualization'
@@ -70,8 +70,8 @@ var portfolio = {
         'img': 'voter-turnout.png'
       },
       'description': [
-        'The Brookings Institution',
-        'Data Visualization'
+        'Voter Turnout Visualization',
+        'Data Visualization / Animation'
       ],
       'fit': true,
       'external': true,
@@ -79,7 +79,7 @@ var portfolio = {
       'id': 'voter-turnout'
     },
     {
-      'title': 'Brookings - Financial Crisis',
+      'title': 'The Brookings Institution',
       'date': '10/2018',
       'types': [
         'data visualization'
@@ -88,8 +88,8 @@ var portfolio = {
         'img': 'financial-crisis.png'
       },
       'description': [
-        'The Brookings Institution',
-        'Data Visualization'
+        'Dr. Ben Bernanke Financial Crisis Visualizations',
+        'Data Visualization / Animation'
       ],
       'fit': true,
       'external': true,
@@ -106,8 +106,8 @@ var portfolio = {
         'img': 'odin_banner copy.png'
       },
       'description': [
-        'Data Visualization tool',
-        'Product Design / Data Visualization'
+        'Data Visualization Tool',
+        'Creator / Product Design / Data Visualization'
       ],
       'fit': true,
       'external': true,
@@ -127,7 +127,7 @@ var portfolio = {
       },
       'description': [
         'Enterprise Commercial Real Estate Software',
-        'Product Design / Data Visualization'
+        'Data Visualization / Product Design'
       ],
       'fit': true,
       'external': true,
@@ -146,7 +146,7 @@ var portfolio = {
         'img': 'meditation_cover.jpg'
       },
       'description': [
-        'Meditation Timer',
+        'Self-Made Meditation Timer',
         'Market Research / Branding / Product Design / Data Visualization / Full Stack Development'
       ],
       'fit': true,
@@ -165,7 +165,7 @@ var portfolio = {
       },
       'description': [
         'Personal Encryption App',
-        'UX Design / Product Management / Front End Development'
+        'UX Design / Product Management'
       ],
       'lightText': true,
       'fit': true,
@@ -197,8 +197,8 @@ var portfolio = {
         'img': 'donorschoose.jpg'
       },
       'description': [
-        'Interactive Chart',
-        'Design / Code'
+        'Interactive Data Visualization',
+        'Data Visualization'
       ],
       'external': true,
       'link': 'http://tylernwolf.com/donorschoose/index.html',
@@ -231,8 +231,8 @@ var portfolio = {
         'img': 'uxwords.jpg'
       },
       'description': [
-        'Interactive Chart',
-        'Design / Code'
+        'Interactive Data Visualization',
+        'Data Visualization / Animation'
       ],
       'external': true,
       'link': 'http://tylernwolf.com/#/portfolio/uxwords',
@@ -280,8 +280,8 @@ var portfolio = {
         'img': 'CDDashboard.jpg'
       },
       'description': [
-        'Interactive Chart',
-        'Design / Code'
+        'Interactive Data Visualization',
+        'Data Visualization / Animation'
       ],
       'external': true,
       'link': 'http://tylernwolf.com/#/portfolio/corrdisp',
