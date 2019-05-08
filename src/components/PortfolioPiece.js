@@ -51,7 +51,7 @@ export default class PortfolioPiece extends Component {
       <span>
         <div className="piece-image" ref="container">
           <img
-            className={ `${ this.props.entry.id} ${(this.props.entry.fit ? 'fit' : null) }` }
+            className={ `${ this.props.entry.id}` }
             src={ `/portfolio/${this.props.entry.id}/${this.props.entry.cover.img}` }
             alt={ this.props.entry.title }
           />

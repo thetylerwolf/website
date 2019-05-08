@@ -13,7 +13,6 @@ var portfolio = {
         'Award',
         'Data Visualization'
       ],
-      'fit': true,
       'external': true,
       lightText: true,
       'link': 'https://challengesgov.se/winner-mobility-observer/',
@@ -31,13 +30,12 @@ var portfolio = {
         'data visualization'
       ],
       'cover': {
-        'img': 'dbrs.png'
+        'img': 'dbrs.jpg'
       },
       'description': [
         'Enterprise Commercial Real Estate Software',
         'Data Visualization / Product Design'
       ],
-      'fit': true,
       'external': true,
       'link': 'https://www.dbrs.com/',
       'id': 'dbrs',
@@ -55,7 +53,6 @@ var portfolio = {
         'Autism Research Visualization',
         'Data Visualization / Animation'
       ],
-      'fit': true,
       'external': true,
       'link': 'https://www.spectrumnews.org/news/autism-diagnosis-often-followed-identification-conditions/',
       'id': 'spectrum-diagnoses'
@@ -73,7 +70,6 @@ var portfolio = {
         'Voter Turnout Visualization',
         'Data Visualization / Animation'
       ],
-      'fit': true,
       'external': true,
       'link': 'https://www.brookings.edu/blog/up-front/2018/10/25/a-story-from-this-american-indian-reservation-has-important-lessons-for-americas-voter-turnout-problem/',
       'id': 'voter-turnout'
@@ -91,7 +87,6 @@ var portfolio = {
         'Dr. Ben Bernanke Financial Crisis Visualizations',
         'Data Visualization / Animation'
       ],
-      'fit': true,
       'external': true,
       'link': 'https://www.brookings.edu/blog/ben-bernanke/2018/09/13/financial-panic-and-credit-disruptions-in-the-2007-09-crisis/',
       'id': 'financial-crisis',
@@ -109,13 +104,12 @@ var portfolio = {
         'Data Visualization Tool',
         'Creator / Product Design / Data Visualization'
       ],
-      'fit': true,
       'external': true,
       'link': 'https://odinchart.com',
       'id': 'odin',
     },
     {
-      'title': 'Basis from Sentinel Labe',
+      'title': 'Basis from Sentinel Labs',
       'date': '06/2018',
       'types': [
         'enterprise',
@@ -123,13 +117,12 @@ var portfolio = {
         'data visualization'
       ],
       'cover': {
-        'img': 'sentinel-labs.png'
+        'img': 'sentinel-labs.jpg'
       },
       'description': [
         'Enterprise Commercial Real Estate Software',
         'Data Visualization / Product Design'
       ],
-      'fit': true,
       'external': true,
       'link': 'https://www.sentinellabs.io/',
       'id': 'sentinel-labs',
@@ -149,7 +142,6 @@ var portfolio = {
         'Meditation Timer',
         'Market Research / Branding / Product Design / Data Visualization / Full Stack Development'
       ],
-      'fit': true,
       'id': 'meditation'
     },
     {
@@ -168,7 +160,6 @@ var portfolio = {
         'UX Design / Product Management'
       ],
       'lightText': true,
-      'fit': true,
       'id': 'vida'
     },
     {
@@ -218,7 +209,6 @@ var portfolio = {
     //     'Design / Graphics Programming'
     //   ],
     //   'lightText': true,
-    //   'fit': true,
     //   'id': 'voxeldreams'
     // },
     {

@@ -75,7 +75,7 @@
   transition: transform 3s, opacity 0.75s;
 }
 
-.portfolio-piece .piece-image img.fit {
+.portfolio-piece .piece-image img {
   width:100%;
 }
 
