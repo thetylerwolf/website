@@ -1,0 +1,68 @@
+.about-wrap .about-section {
+  position:relative;
+  padding-top:100px;
+}
+
+.about-wrap .about-section a {
+  color:#1a1a1a;
+}
+
+.about-section .icon-container a {
+  font-size:18px;
+  margin-right:0.4em;
+}
+
+.about-section .about-logo img {
+  /*margin-bottom: 70px;*/
+  width:100%;
+}
+
+.about-section .about-logo .about-text {
+  font-size:36px;
+  text-align:right;
+  /*font-weight:700;*/
+}
+
+.about-section p {
+  /*text-align:justify;*/
+}
+
+.about-section .faded {
+  opacity:0.6;
+  font-weight:bold;
+}
+
+.bold {
+  font-weight:bold;
+}
+
+.about-wrap .about-section a {
+/*  font-weight:bold;
+  color: rgba(122, 31, 61);*/
+  text-decoration: underline;
+  color:#222;
+}
+
+.public-publications img {
+  margin:50px;
+
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+  filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+}
+
+img.forbes-logo {
+  width:150px;
+}
+
+img.brookings-logo {
+  width:200px;
+}
+
+img.dataface-logo {
+  width:80px;
+}
+
+img.spectrum-logo {
+  width:150px;
+}

@@ -37,8 +37,10 @@
 }
 
 .about-wrap .about-section a {
-  font-weight:bold;
-  color: rgba(122, 31, 61);
+/*  font-weight:bold;
+  color: rgba(122, 31, 61);*/
+  text-decoration: underline;
+  color:#222;
 }
 
 .public-publications img {

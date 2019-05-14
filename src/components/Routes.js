@@ -11,6 +11,7 @@ import {
 
 import Home from './Home'
 import About from './About'
+import Contact from './Contact'
 import ViewPortfolioPiece from './ViewPortfolioPiece'
 import Legacy from './Legacy'
 
@@ -45,6 +46,7 @@ export class Routes extends Component {
                   <Route path="/" exact component={ Home }/>
                   <Route path="/home" exact component={ Home }/>
                   <Route path="/about" component={ About }/>
+                  <Route path="/contact" component={ Contact }/>
                   <Route path="/portfolio/:id" component={ ViewPortfolioPiece }/>
                   <Route path="/legacy" component={ Legacy } />
                 </Switch>

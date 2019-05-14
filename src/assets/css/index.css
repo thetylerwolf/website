@@ -14,6 +14,18 @@ body {
   overflow: hidden;
 }
 
+.dark-link {
+  color:#222;
+  text-decoration:underline;
+}
+
+.highlight {
+  background-color:#222;
+  color:#fff;
+  padding: 0.2em 0.3em;
+  white-space: nowrap;
+}
+
 @import "About.css";
 @import "HeaderNav.css";
 @import "Home.css";

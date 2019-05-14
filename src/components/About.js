@@ -13,6 +13,7 @@ import HeaderNav from './HeaderNav'
 export default class About extends Component {
 
   render() {
+    const mailToLink = `mailto:tyler@beetroot.digital?subject=Let's work together&body=Hi Tyler,%0D%0A%0D%0AI'm contacting you to discuss a possible project you may be able to help with. Here are the details:%0D%0A%0D%0A`
 
     return (
 
@@ -43,31 +44,53 @@ export default class About extends Component {
 
             <Col lg={ 8 } md={ 8 } sm={ 12 }>
               <p>
-                I am an award-winning digital product professional based in Stockholm, Sweden.
-                Over the past 7 years, I have worked in UX Design and Front End Development, focused
-                on Data Visualization. I love computer graphics and 3D projects.
+                I'm Tyler Wolf. I am a <span className="highlight">freelance data visualization designer/creative developer</span>
+                based just outside <span className="highlight">Stockholm, Sweden</span>. I have been working in technology of some
+                kind for about a decade.
+              </p>
+              <p>
+                I have a degree in Electrical Engineering (EE) from the University of Southern California.
+                I chose to study EE because I had always dreamed of building <span className="highlight">digital art</span>.
+                My first piece was the orange ghost from "Pac Man" made from electroluminescent wire. When
+                I pressed a button, he would turn blue, then flash blue and white like in the game.
+              </p>
+              <p>
+                It took me a long time to realize that I could make my passion for digital art into my job.
+                It was when I started working as a <span className="highlight">front end developer</span> working with data visualization at a finance
+                startup that it hit me. The creative potential
+                of <span className="highlight">CSS, HTML and Javascript</span> blew my mind. This led to an interest in art history - I even got a
+                membership at the MoMa in NYC.
+              </p>
+              <p>
+                I incorporated my passion for art into my work, but my bosses
+                at the finance startup, unsurprisingly, didn't appreciate it. So I decided I needed to become a
+                better designer
+                and worked my way into <span className="highlight">UX design</span>.
+              </p>
+              <p>
+                I spent years oscillating between <span className="highlight">UX design</span> and <span className="highlight">UX development</span>,
+                but I always wanted to work on something more creative than the work my job offered. I spent a lot
+                of my free time learning about the technicals of <span className="highlight">graphics programming - SVG, webGL, GLSL</span>, etc.
+              </p>
+              <p>
+                Finally, while on a trip to Sweden, I decided that I couldn't work in an office job anymore If
+                I wanted to do what I love. I needed
+                to go out on my own and find the work that I was really excited to do. I took a big risk, quit
+                my job and <span className="highlight">went freelance in May 2017</span>.
+              </p>
+              <p>
+                It took me some time to learn the ins-and-outs of freelancing and how I want the world to see my
+                work, but now I'm here. I work on <span className="highlight">interactive and static/print data visualizations</span>, as well as
+                creative projects with <span className="highlight">2D and 3D graphics</span> for branding/marketing purposes. I also <span className="highlight">speak publically</span>
+                about data visualization and product design and have <span className="highlight">received an award and grant
+                funding</span> for my work (see more below.)
+              </p>
+              <p>
+                If you would like to work together, I would love to hear what you're working on. Reach out
+                and <span className="highlight">contact me directly</span> at <a href={ mailToLink }>tyler@beetroot.digital</a>.
               </p>
 
-              <p>
-                I take on contract work full-time.
-              </p>
 
-              <p>
-                I offer expertise in Data Visualization for products and publications,
-                Product Strategy and User Experience. I help
-                businesses large and small find product/market fit.
-              </p>
-
-              <p>
-                I am currently working on <a href="https://odinchart.com" target="_blank">Odin Chart</a>, a
-                follow-up to Sketch Data Studio, a popular data visualization design tool that I created several years ago.
-              </p>
-
-              <p>
-                If you would like to work with me, contact me directly at
-                <br/>
-                <a href="mailto:tyler@beetroot.digital">tyler@beetroot.digital</a>.
-              </p>
 
               <div className="icon-container">
                 <a href="https://twitter.com/tylernwolf" target="_blank"><FontAwesomeIcon icon={ faTwitter } /></a>
@@ -77,6 +100,14 @@ export default class About extends Component {
 
               <br/>
               <br/>
+
+              <p className="bold">Odin Chart</p>
+
+              <p>
+                In 2018, I received a grant from Adobe for my work on <a href="https://odinchart.com" target="_blank">Odin Chart</a>, a
+                follow-up to Sketch Data Studio, a popular data visualization design tool that I created several years ago. I am guiding
+                development of Odin Chart as we prepare for its major web release.
+              </p>
 
               <p className="bold">Awards/Honors</p>
 

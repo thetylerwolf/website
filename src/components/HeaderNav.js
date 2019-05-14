@@ -56,6 +56,7 @@ export default class HeaderNav extends Component {
 
         <div className="full-menu" >
           <NavLink exact activeClassName="selected" className="menu-link home" to="/" onClick={ (e) => this.toggleMenu(e) }><span>Home</span></NavLink>
+          <NavLink exact activeClassName="selected" className="menu-link hire" to="/contact" onClick={ (e) => this.toggleMenu(e) }><span>Hire</span></NavLink>
           <NavLink exact activeClassName="selected" className="menu-link about" to="/about" onClick={ (e) => this.toggleMenu(e) }><span>About</span></NavLink>
         </div>
 

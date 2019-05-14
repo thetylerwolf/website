@@ -109,9 +109,11 @@ export default class Home extends Component {
               <div className="name-wrap">
                 {/* <canvas ref="nameCanvas"></canvas> */}
                 {/* <img src="logo.png" alt="Tyler Wolf" /> */}
-                <div>I'm <span className="name-text">Tyler Wolf</span></div>
-                <div>I make data visualizations and design products.</div>
-                <div>My portfolio is below <FontAwesomeIcon icon={ faChevronDown } size="xs"/>. You can learn more about me <Link to="/about">here</Link>.</div>
+                <p>I'm <span className="name-text">Tyler Wolf</span></p>
+                <p>I make <span className="highlight">data visualizations</span> and <span className="highlight">design products</span></p>
+                <p>Get in touch to <span className="highlight">hire me</span> <Link className="dark-link" to="/contact">here</Link></p>
+                <p>You can learn more <span className="highlight">about me</span> <Link className="dark-link" to="/about">here</Link></p>
+                <p>My <span className="highlight">portfolio</span> is below <FontAwesomeIcon icon={ faChevronDown } size="xs"/></p>
               </div>
               <br/>
               {/*

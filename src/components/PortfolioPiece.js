@@ -14,7 +14,7 @@ import {
 
 export default class PortfolioPiece extends Component {
 
-  componentDidMount() {
+  // componentDidMount() {
 
     // this.parallaxInterval = setInterval(() => {
     //   window.requestAnimationFrame(() => {
@@ -33,7 +33,7 @@ export default class PortfolioPiece extends Component {
     //   })
     // }, 10)
 
-  }
+  // }
 
   componentWillUnmount() {
     clearInterval(this.parallaxInterval)
