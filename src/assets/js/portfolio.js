@@ -1,7 +1,7 @@
 var portfolio = {
   'entries': [
     {
-      'title': 'A Challenge from Sweden - Mobility Observer',
+      'title': 'Winner - A Challenge from Sweden - Mobility Observer',
       'date': '03/2019',
       'types': [
         'data visualization'
@@ -10,7 +10,6 @@ var portfolio = {
         'img': 'mobility-observer.png'
       },
       'description': [
-        'Award',
         'Data Visualization'
       ],
       'external': true,

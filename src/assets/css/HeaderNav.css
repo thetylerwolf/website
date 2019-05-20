@@ -4,6 +4,7 @@
 
 .header-nav {
     position:fixed;
+    display:flex;
     height:55px;
     width:100%;
     top:0;
@@ -31,27 +32,40 @@
 }
 
 .toggle {
-    position:absolute;
-    right:0;
-    top:0;
+    margin-left: auto;
     cursor:pointer;
     pointer-events:auto;
+    padding-right:20px;
+    padding-top:20px;
 }
 
-.toggle span {
-    position:absolute;
-    right:36px;
-    top:27px;
+.menu-text {
     letter-spacing: 3.2px;
     font-weight:700;
 }
 
-.toggle .menu-text {
+.menu-text {
     font-size:14px;
 }
 
-.light .toggle .menu-text {
-    color:#fff;
+.light .menu-text {
+    color:#212529;
+}
+
+.open-menu {
+    margin-left:auto;
+    padding: 20px 20px 0 0;
+}
+
+.open-menu .menu-text {
+    margin-left: 20px;
+    color:#212529;
+    cursor:pointer;
+    pointer-events:auto;
+}
+
+.open-menu .menu-text:hover {
+    text-decoration:none;
 }
 
 /*********************
@@ -93,7 +107,7 @@
     transition: top 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 
-.header-wrap.active .toggle .menu-text {
+.header-wrap.active .menu-text {
     color:#fff;
 }
 

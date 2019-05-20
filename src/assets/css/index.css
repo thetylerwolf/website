@@ -27,6 +27,7 @@ body {
 }
 
 @import "About.css";
+@import "Contact.css";
 @import "HeaderNav.css";
 @import "Home.css";
 @import "PortfolioPiece.css";

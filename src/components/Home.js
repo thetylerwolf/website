@@ -76,7 +76,7 @@ export default class Home extends Component {
 
     // }
 
-    let enterHeader = window.scrollY > window.innerHeight ? false : true
+    let enterHeader = window.scrollY > window.innerHeight * 0.5 ? false : true
 
     this.setState({ showBrand: !enterHeader })
   }
@@ -95,7 +95,7 @@ export default class Home extends Component {
   render() {
 
     return (
-        <div className='home'>
+        <div className="home">
 
           <HeaderNav
             showBrand={ this.state.showBrand }
@@ -113,7 +113,6 @@ export default class Home extends Component {
                 <p>I make <span className="highlight">data visualizations</span> and <span className="highlight">design products</span></p>
                 <p>Get in touch to <span className="highlight">hire me</span> <Link className="dark-link" to="/contact">here</Link></p>
                 <p>You can learn more <span className="highlight">about me</span> <Link className="dark-link" to="/about">here</Link></p>
-                <p>My <span className="highlight">portfolio</span> is below <FontAwesomeIcon icon={ faChevronDown } size="xs"/></p>
               </div>
               <br/>
               {/*

@@ -13,7 +13,7 @@ import HeaderNav from './HeaderNav'
 export default class About extends Component {
 
   render() {
-    const mailToLink = `mailto:tyler@beetroot.digital?subject=Let's work together&body=Hi Tyler,%0D%0A%0D%0AI'm contacting you to discuss a possible project you may be able to help with. Here are the details:%0D%0A%0D%0A`
+    const mailToLink = `mailto:tyler@beetroot.digital?subject=Let's work together`
 
     return (
 
@@ -52,7 +52,7 @@ export default class About extends Component {
                 I have a degree in Electrical Engineering (EE) from the University of Southern California.
                 I chose to study EE because I had always dreamed of building <span className="highlight">digital art</span>.
                 My first piece was the orange ghost from "Pac Man" made from electroluminescent wire. When
-                I pressed a button, he would turn blue, then flash blue and white like in the game.
+                I pressed a button, he would flash blue and white like in the game.
               </p>
               <p>
                 It took me a long time to realize that I could make my passion for digital art into my job.
@@ -62,10 +62,8 @@ export default class About extends Component {
                 membership at the MoMa in NYC.
               </p>
               <p>
-                I incorporated my passion for art into my work, but my bosses
-                at the finance startup, unsurprisingly, didn't appreciate it. So I decided I needed to become a
-                better designer
-                and worked my way into <span className="highlight">UX design</span>.
+                I incorporated my passion for art into my work with mixed results. So I decided I needed to become a
+                better designer and worked my way into <span className="highlight">UX design</span>.
               </p>
               <p>
                 I spent years oscillating between <span className="highlight">UX design</span> and <span className="highlight">UX development</span>,
@@ -73,20 +71,19 @@ export default class About extends Component {
                 of my free time learning about the technicals of <span className="highlight">graphics programming - SVG, webGL, GLSL</span>, etc.
               </p>
               <p>
-                Finally, while on a trip to Sweden, I decided that I couldn't work in an office job anymore If
-                I wanted to do what I love. I needed
+                Finally, I decided that I couldn't work in an office job anymore if I wanted to do what I love. I needed
                 to go out on my own and find the work that I was really excited to do. I took a big risk, quit
                 my job and <span className="highlight">went freelance in May 2017</span>.
               </p>
               <p>
                 It took me some time to learn the ins-and-outs of freelancing and how I want the world to see my
                 work, but now I'm here. I work on <span className="highlight">interactive and static/print data visualizations</span>, as well as
-                creative projects with <span className="highlight">2D and 3D graphics</span> for branding/marketing purposes. I also <span className="highlight">speak publically</span>
-                about data visualization and product design and have <span className="highlight">received an award and grant
-                funding</span> for my work (see more below.)
+                creative projects with <span className="highlight">2D and 3D graphics</span> for branding/marketing purposes. I
+                also <span className="highlight">speak publically</span> about data visualization and product design and
+                have <span className="highlight">received an award and grant funding</span> for my work (see more below.)
               </p>
               <p>
-                If you would like to work together, I would love to hear what you're working on. Reach out
+                If you would like to <Link to="contact">hire me for a project</Link>, I would love to hear what you're working on. Reach out
                 and <span className="highlight">contact me directly</span> at <a href={ mailToLink }>tyler@beetroot.digital</a>.
               </p>
 
@@ -109,42 +106,6 @@ export default class About extends Component {
                 development of Odin Chart as we prepare for its major web release.
               </p>
 
-              <p className="bold">Awards/Honors</p>
-
-              <ul>
-                <li>
-                  <a target="_blank" href="https://challengesgov.se/winner-mobility-observer/">Winner - A Challenge from Sweden - Sustainable Mobility Data Visualization</a>
-                </li>
-                <li>
-                  Grant funding recipient - SSES Validator
-                </li>
-                <li>
-                  Grant funding recipient - Adobe Fund for Design
-                </li>
-              </ul>
-
-              <p className="bold">Speaking</p>
-
-              <p className="faded">2019</p>
-              <ul>
-                <li>"A More Efficient Dataviz Design Process" - Data Visualization Design Stockholm</li>
-              </ul>
-
-              <p className="faded">2018</p>
-              <ul>
-                <li>"Designing Intuitive Tools" - Øredev Conference 2018</li>
-              </ul>
-
-              <p className="bold">Publications</p>
-
-              <p>My work has appeared in the following publications</p>
-
-              <div className="public-publications">
-                <img className="publication-image forbes-logo" src="forbes.svg" alt="Forbes" />
-                <img className="publication-image brookings-logo" src="brookings.svg" alt="The Brookings Institution" />
-                <img className="publication-image dataface-logo" src="dataface.jpg" alt="The Data Face" />
-                <img className="publication-image spectrum-logo" src="spectrum.png" alt="Spectrum News" />
-              </div>
             </Col>
 
         </Row>

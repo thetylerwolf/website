@@ -64,7 +64,13 @@ export default class HeaderNav extends Component {
 
           <span className={ `brand ${ !this.props.showBrand ? 'hidden' : '' }` }><Link to="/"><img id="logo" src={ `/${ this.props.light ? 'logo_white.svg' : 'logo.svg' }` } alt="Tyler Wolf" /></Link></span>
 
-          <div className="toggle">
+          <div className="open-menu d-none d-md-block d-lg-block">
+              <NavLink className="menu-text first" to="/">HOME</NavLink>
+              <NavLink className="menu-text second" to="/contact">HIRE</NavLink>
+              <NavLink className="menu-text third" to="/about">ABOUT</NavLink>
+          </div>
+
+          <div className="toggle d-md-none d-lg-none d-xl-none">
               <span className="menu-text" onClick={ () => this.toggleMenu() }>{ this.state.showMenu ? 'CLOSE' : 'MENU' }</span>
           </div>
 
