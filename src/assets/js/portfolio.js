@@ -175,7 +175,8 @@ var portfolio = {
         'Virtual Reality Art Exploration App',
         'UX Design / Virtual Reality Development / Branding'
       ],
-      'id': 'tvrn'
+      'id': 'tvrn',
+      'lightText': true
     },
     {
       'title': 'Donors Choose',

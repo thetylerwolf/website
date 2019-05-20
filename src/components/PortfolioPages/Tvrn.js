@@ -10,11 +10,8 @@ import {
 
 
 const customStyles = {
-  title: {
-    color:'#1a1a1a'
-  },
-  titleBar: {
-    backgroundColor:'#1a1a1a'
+  headerColor: {
+    backgroundColor: '#333'
   }
 }
 
@@ -28,9 +25,8 @@ export default class Tvrn extends Component {
 
         <div
           className="piece-header tvrn"
-          style={{
-            backgroundImage: 'url(/portfolio/tvrn/tvrn_cover.jpg)'
-          }}>
+          style={ customStyles.headerColor }
+          >
 
           <div className="piece-title-wrap">
 

@@ -33,7 +33,8 @@ var portfolioPages = {
     page: <Tvrn/>,
     name: 'TVRN',
     previous: 'vida',
-    next: 'etrade'
+    next: 'etrade',
+    lightText: true
   },
   etrade: {
     page: <ETrade/>,

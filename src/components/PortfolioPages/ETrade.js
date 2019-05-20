@@ -17,7 +17,7 @@ export default class ETrade extends Component {
 
       <div className="view-portfolio-piece">
 
-        <div className="piece-header etrade" style={{ backgroundImage: 'url(/portfolio/etrade/etrade_cover.jpg)' }}>
+        <div className="piece-header etrade">
 
           <div className="piece-title-wrap">
 

@@ -11,6 +11,9 @@ const customStyles = {
   },
   titleBar: {
     backgroundColor:'#1a1a1a'
+  },
+  headerColor: {
+    backgroundColor: '#B1C0D3'
   }
 }
 
@@ -22,7 +25,7 @@ export default class Meditation extends Component {
 
       <div className="view-portfolio-piece">
 
-        <div className="piece-header meditation" style={{ backgroundImage: 'url(/portfolio/meditation/meditation_cover.jpg)' }}>
+        <div className="piece-header meditation" style={ customStyles.headerColor }>
 
           <div className="piece-title-wrap">
 

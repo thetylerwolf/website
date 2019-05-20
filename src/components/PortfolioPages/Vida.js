@@ -5,6 +5,12 @@ import {
   Col
 } from 'react-bootstrap'
 
+const customStyles = {
+  headerColor: {
+    backgroundColor: '#039DF4'
+  }
+}
+
 export default class Vida extends Component {
 
   render() {
@@ -13,7 +19,7 @@ export default class Vida extends Component {
 
       <div className="view-portfolio-piece">
 
-        <div className="piece-header vida" style={{ backgroundImage: 'url(/portfolio/vida/vida_cover.jpg)' }}>
+        <div className="piece-header vida" style={ customStyles.headerColor }>
 
           <div className="piece-title-wrap">
 

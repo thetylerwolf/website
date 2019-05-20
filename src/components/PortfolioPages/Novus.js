@@ -5,6 +5,12 @@ import {
   Col
 } from 'react-bootstrap'
 
+const customStyles = {
+  headerColor: {
+    backgroundColor: '#055AA4'
+  }
+}
+
 export default class Novus extends Component {
 
   render() {
@@ -13,7 +19,7 @@ export default class Novus extends Component {
 
       <div className="view-portfolio-piece">
 
-        <div className="piece-header novus" style={{ backgroundImage: 'url(/portfolio/novus/novus_cover.jpg)' }}>
+        <div className="piece-header novus" style={ customStyles.headerColor }>
 
           <div className="piece-title-wrap">
 

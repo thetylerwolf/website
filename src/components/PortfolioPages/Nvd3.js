@@ -3,6 +3,12 @@ import {
 } from 'react-router-dom'
 import React, { Component } from 'react'
 
+const customStyles = {
+  headerColor: {
+    backgroundColor: '#6EBC6E'
+  }
+}
+
 export default class Nvd3 extends Component {
 
   render() {
@@ -11,7 +17,7 @@ export default class Nvd3 extends Component {
 
       <div className="view-portfolio-piece">
 
-        <div className="piece-header nvd3" style={{ backgroundImage: 'url(/portfolio/nvd3/nvd3_cover.jpg)' }}>
+        <div className="piece-header nvd3" style={ customStyles.headerColor }>
 
           <div className="piece-title-wrap">
 
