@@ -178,7 +178,7 @@ var portfolio = {
         'data visualization'
       ],
       'cover': {
-        'img': 'unep.jpg'
+        'img': 'UNEP.jpg'
       },
       'description': [
         'Interactive Data Visualization',
