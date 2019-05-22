@@ -7,19 +7,26 @@ import Tvrn from './Tvrn'
 import VoxelDreams from './VoxelDreams'
 import ETrade from './ETrade'
 import Meditation from './Meditation'
+import Biome from './Biome'
 
 var portfolioPages = {
+  biome: {
+    page: <Biome/>,
+    name: 'Anonymouse Client',
+    previous: 'novus',
+    next: 'meditation'
+  },
   meditation: {
     page: <Meditation/>,
     name: 'Natural Meditation',
-    previous: 'novus',
+    previous: 'biome',
     next: 'vida'
   },
   vida: {
     page: <Vida/>,
     name: 'Vida / SolidX',
     previous: 'meditation',
-    next: 'tvrn',
+    next: 'biome',
     lightText: true
   },
   voxeldreams: {

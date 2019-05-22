@@ -40,23 +40,6 @@ var portfolio = {
       'id': 'dbrs',
     },
     {
-      'title': 'Spectrum News',
-      'date': '03/2019',
-      'types': [
-        'data visualization'
-      ],
-      'cover': {
-        'img': 'spectrum-diagnoses.jpg'
-      },
-      'description': [
-        'Autism Research Visualization',
-        'Data Visualization / Animation'
-      ],
-      'external': true,
-      'link': 'https://www.spectrumnews.org/news/autism-diagnosis-often-followed-identification-conditions/',
-      'id': 'spectrum-diagnoses'
-    },
-    {
       'title': 'The Brookings Institution',
       'date': '10/2018',
       'types': [
@@ -108,6 +91,38 @@ var portfolio = {
       'id': 'odin',
     },
     {
+      'title': '100 Years of VR',
+      'types': [
+        '3D'
+      ],
+      'cover': {
+        'img': '100yvr.jpg'
+      },
+      'description': [
+        'Personal Experiments in 3D and VR'
+      ],
+      'external': true,
+      'link': 'https://100yearsofvr.com/',
+      'id': '100yvr',
+    },
+    {
+      'title': 'Spectrum News',
+      'date': '03/2019',
+      'types': [
+        'data visualization'
+      ],
+      'cover': {
+        'img': 'spectrum-diagnoses.jpg'
+      },
+      'description': [
+        'Autism Research Visualization',
+        'Data Visualization / Animation'
+      ],
+      'external': true,
+      'link': 'https://www.spectrumnews.org/news/autism-diagnosis-often-followed-identification-conditions/',
+      'id': 'spectrum-diagnoses'
+    },
+    {
       'title': 'Basis from Sentinel Labs',
       'date': '06/2018',
       'types': [
@@ -125,6 +140,53 @@ var portfolio = {
       'external': true,
       'link': 'https://www.sentinellabs.io/',
       'id': 'sentinel-labs',
+    },
+    {
+      'title': 'Anonymous Client',
+      'types': [
+        'data visualization'
+      ],
+      'cover': {
+        'img': 'Biome.jpg'
+      },
+      'description': [
+        'Gut Biome Visualization',
+        'Interactive Data Visualization'
+      ],
+      'id': 'biome'
+    },
+    {
+      'title': 'Bitcoin Price Arbitrage',
+      'date': '11/2017',
+      'types': [
+        'data visualization'
+      ],
+      'cover': {
+        'img': 'BTC.jpg'
+      },
+      'description': [
+        'Data Visualization',
+        'Personal Project'
+      ],
+      'external': true,
+      'link': 'https://tylernwolf.com/btc/index.html',
+      'id': 'btc'
+    },
+    {
+      'title': 'UN Environment',
+      'types': [
+        'data visualization'
+      ],
+      'cover': {
+        'img': 'unep.jpg'
+      },
+      'description': [
+        'Interactive Data Visualization',
+        'Data for a Cause'
+      ],
+      'external': true,
+      'link': 'http://tylernwolf.com/UNEP/index.html',
+      'id': 'UNEP'
     },
     {
       'title': 'Natural Meditation',
@@ -189,7 +251,7 @@ var portfolio = {
       },
       'description': [
         'Interactive Data Visualization',
-        'Data Visualization'
+        'Data for a Cause'
       ],
       'external': true,
       'link': 'http://tylernwolf.com/donorschoose/index.html',
