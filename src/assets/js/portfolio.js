@@ -169,7 +169,7 @@ var portfolio = {
         'Personal Project'
       ],
       'external': true,
-      'link': 'https://tylernwolf.com/btc/index.html',
+      'link': '/btc/index.html',
       'id': 'btc'
     },
     {
@@ -185,7 +185,7 @@ var portfolio = {
         'Data for a Cause'
       ],
       'external': true,
-      'link': 'http://tylernwolf.com/UNEP/index.html',
+      'link': '/UNEP/index.html',
       'id': 'UNEP'
     },
     {
@@ -254,7 +254,7 @@ var portfolio = {
         'Data for a Cause'
       ],
       'external': true,
-      'link': 'http://tylernwolf.com/donorschoose/index.html',
+      'link': '/donorschoose/index.html',
       'id': 'visualizations'
     },
     // {
@@ -287,7 +287,7 @@ var portfolio = {
         'Data Visualization / Animation'
       ],
       'external': true,
-      'link': 'http://tylernwolf.com/#/portfolio/uxwords',
+      'link': '/uxwords/index.html',
       'id': 'visualizations'
     },
     {
@@ -336,7 +336,7 @@ var portfolio = {
         'Data Visualization / Animation'
       ],
       'external': true,
-      'link': 'http://tylernwolf.com/#/portfolio/corrdisp',
+      'link': '/corrdisp/index.html',
       'id': 'visualizations'
     },
     {

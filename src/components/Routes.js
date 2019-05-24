@@ -23,14 +23,8 @@ export class Routes extends Component {
     }
   }
 
-  componentDidMount() {
-    if(this.props.location.hash) {
-      this.props.history.push(`/legacy/${ this.props.location.hash }`)
-    }
-  }
-
   render() {
-
+    console.log('RENDER Routes')
     return (
           <main>
             <TransitionGroup>
@@ -48,7 +42,6 @@ export class Routes extends Component {
                   <Route path="/about" component={ About }/>
                   <Route path="/contact" component={ Contact }/>
                   <Route path="/portfolio/:id" component={ ViewPortfolioPiece }/>
-                  <Route path="/legacy" component={ Legacy } />
                 </Switch>
               </CSSTransition>
             </TransitionGroup>
