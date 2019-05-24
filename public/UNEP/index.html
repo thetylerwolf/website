@@ -1,0 +1,257 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <style type="text/css">
+            body {
+                height: 100%;
+                margin:0;
+                font-family: 'Open Sans', sans-serif;
+                font-size:14px;
+                line-height:18px;
+            }
+
+            svg {
+                background-color:#fff;
+            }
+
+            h1 {
+                font-size:36px;
+            }
+
+            g.country {
+                pointer-events: all;
+            }
+
+            rect.country-rect {
+                outline-offset: -1px;
+            }
+
+            #lineChart {
+                height:350px;
+                width:400px;
+            }
+
+            #countryChart {
+                height:1420px;
+                width:800px;
+            }
+
+            .tooltip {
+                position:absolute;
+                left:0;
+                top:0;
+                background-color:#fff;
+                font-size:10px;
+                padding:5px 8px;
+                border:1px solid #aaa;
+                /*line-height:16px;*/
+                opacity:1;
+
+                transition: opacity 0.5s;
+            }
+
+            .tooltip.hidden {
+                opacity:0;
+            }
+
+            .tooltip .country {
+                font-weight:bold;
+                line-height:20px;
+                font-size:12px;
+            }
+
+            .tooltip .land-area-value {
+                color:#72A235;
+                font-weight: bold;
+                /*font-size:18px;*/
+                /*line-height:20px;*/
+            }
+
+            .tooltip .marine-area-value {
+                color:#A3D8DD;
+                font-weight: bold;
+                /*font-size:18px;*/
+                /*line-height:20px;*/
+            }
+
+            .tooltip .parks, .tooltip .parks-added {
+                font-size:18px;
+                /*line-height:20px;*/
+                margin:3px 0;
+                /*color:#F19D83;*/
+                font-weight:bold;
+
+                /*margin-left:3px;*/
+            }
+
+            .tooltip .parks-land {
+                color:#72A235;
+            }
+
+            .tooltip .parks-coastal {
+                color:#F19D83;
+            }
+
+            .tooltip .parks-marine {
+                color:#A3D8DD;
+            }
+
+            .country-container {
+                position:relative;
+            }
+
+            .country-axis {
+                font-style: italic;
+                font-size: 11px;
+                line-height:20px;
+                color:#ccc;
+            }
+
+            .country-axis.axis-left {
+                position:absolute;
+                left:-103px;
+                top:105px;
+                transform:rotate(90deg);
+            }
+
+            .content {
+                padding:10px 10%;
+                width:800px;
+            }
+
+            .float-left {
+                float:left;
+            }
+
+            .float-right {
+                float: right;
+            }
+
+            .intro {
+                width:70%;
+                /*margin-right:10px;*/
+            }
+
+            .logo {
+                width:30%;
+                text-align: right;
+            }
+
+            section {
+                /*padding-top:30px;*/
+                clear:both;
+            }
+
+            .line-chart-container {
+                width:50%;
+            }
+
+            .global-progress {
+                width:45%;
+                margin-left:5%;
+            }
+
+            h2 {
+                margin-top:0;
+            }
+
+            h1 {
+                margin-bottom:0;
+            }
+
+            .title {
+                text-align:center;
+            }
+
+            .citation {
+                font-size:12px;
+                font-style:italic;
+            }
+        </style>
+
+	</head>
+
+    <body>
+        <div class="content">
+            <div class="title">
+                <h1>Global Growth in Protected Areas 2010 - 2017</h1>
+            </div>
+
+            <section style="padding-top:30px;">
+                <div class="line-chart-container float-left">
+                    <svg id="lineChart" />
+                </div>
+                <div class="float-left global-progress">
+                    <section>
+                        <h2>Aichi Biodiversity Targets</h2>
+                        <p>The Aichi Biodiversity targets were established in 2010 to encourage governments to participate in protecting global biodiversity. Aichi targets are meant to be reached by 2020. Target 11 seeks to protect:
+                        <ul>
+                            <li>
+                                at least 17% of terrestrial and inland water and
+                            </li>
+                            <li>
+                                10% of coastal and marine areas
+                            </li>
+                        </ul>
+                        <span class="citation">source: <a href="https://www.cbd.int/sp/targets/">https://www.cbd.int/sp/targets/</a></span>
+                    </section>
+                    <section style="padding-top:30px;">
+                        <h2>Global Progress</h2>
+                        <p>Since January 1, 2010, 26,022 protected areas have been added globally. Terrestrial sites cover a total of 16.5% of the earth’s terrestrial surface, while marine sites cover 7.3% of the earth’s marine surface.*</p>
+                    </section>
+                </div>
+                <div>
+                    <section style="padding-top: 30px;">
+                        <h2>But Who Contributes the most?</h2>
+                        <p>
+                            Below is the breakdown of added sites by country. Countries are ranked by the total area of protected sites belonging to the country (including pre-2010 protected sites). Total area decreases from left to right, then top to bottom.
+                        </p>
+                        <p>
+                            Within each country’s square, each column of squares corresponds to the year (2010 to 2017). The vertical height of the stacked squares corresponds to the number of added protected areas since 2010.
+                        </p>
+<!--
+                        <p>
+                            Several trends become clear on inspecting the squares. The largest contributors by area include, not surprisingly, many of the largest countries in the world including USA, Australia, Brazil, Russia, China, etc.
+                        </p>
+                        <p>
+                            Among the largest geographical area contributors are some that have not added many sites at all during the time period. This stands out noticeabley in the cases of Cook Islands and Venezuela.
+                        </p>
+                        <p>
+                            Many of the smallest contributors did not add any protected areas - many of them are island nations or have very small geographic footprints. Interestingly, one of the largest contributors, Cook Islands, is also a small island nation and contributed almost entirely marine areas.
+                        </p> -->
+                    </section>
+                </div>
+            </section>
+            <section>
+                <p>
+                    *Percentage counts and area measurements are based on values in the cited data set
+                </p>
+            </section>
+            <div class="country-container" style="margin-top:50px">
+                <div class="country-axis axis-top">Decreasing Protected Area (sq km) &rarr;</div>
+                <div class="country-axis axis-left">Decreasing Protected Area (sq km) &rarr;</div>
+                <svg id="countryChart" />
+            </div>
+            <section style="padding-top:20px">
+                <div class="intro float-left">
+                    <p>The United Nations Environment Programme (UN Environment) is the leading global environmental authority that sets the global environmental agenda, promotes the coherent implementation of the environmental dimension of sustainable development within the United Nations system, and serves as an authoritative advocate for the global environment.</p>
+                    <p class="citation">
+                        source: <a href="https://www.unenvironment.org/about-un-environment">https://www.unenvironment.org/about-un-environment</a>
+                    </p>
+                </div>
+                <div class="float-left logo">
+                    <img width="200" src="assets/UNEP_logo.svg" />
+                </div>
+            </section>
+            <section>
+                <p class="citation">
+                    Data source: UNEP-WCMC and IUCN (2017), Protected Planet: The World Database on Protected Areas (WDPA) [On-Line], [November 2017], Cambridge, UK: UNEP-WCMC and IUCN.  Available at: <a href="www.protectedplanet.net">www.protectedplanet.net</a>.
+                </p>
+            </section>
+        </div>
+    </body>
+
+	<script src="bundle.js"></script>
+
+</html>

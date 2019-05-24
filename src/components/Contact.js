@@ -51,7 +51,7 @@ export default class Contact extends Component {
                 and contact me directly.
               </p>
 
-              <Button className="btn-dark" href={ mailToLink }>
+              <Button className="btn" href={ mailToLink }>
                 Contact me
               </Button>
 

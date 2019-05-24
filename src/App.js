@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import {
-  Router,
+  Router
 } from 'react-router-dom'
 
 import createHistory from 'history/createBrowserHistory'
@@ -13,7 +13,6 @@ history.listen((location, action) => {
     'page_title' : location.pathname,
     'page_path': location.pathname
   });
-  console.log(location.pathname)
 })
 
 export default class App extends Component {

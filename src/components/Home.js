@@ -110,9 +110,9 @@ export default class Home extends Component {
                 {/* <canvas ref="nameCanvas"></canvas> */}
                 {/* <img src="logo.png" alt="Tyler Wolf" /> */}
                 <p>I'm <span className="name-text">Tyler Wolf</span></p>
-                <p>I make <span className="highlight">data visualizations</span> and <span className="highlight">design products</span></p>
-                <p>Get in touch to <span className="highlight">hire me</span> <Link className="dark-link" to="/contact">here</Link></p>
-                <p>You can learn more <span className="highlight">about me</span> <Link className="dark-link" to="/about">here</Link></p>
+                <p>I make <span className="highlight-1">data visualizations</span> and <span className="highlight-1">design products</span></p>
+                <p>Get in touch to <span className="highlight-2">hire me</span> <Link className="dark-link" to="/contact">here</Link></p>
+                <p>You can learn more <span className="highlight-2">about me</span> <Link className="dark-link" to="/about">here</Link></p>
               </div>
               <br/>
               {/*

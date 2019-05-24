@@ -19,9 +19,27 @@ body {
   text-decoration:underline;
 }
 
-.highlight {
+.highlight-0 {
   background-color:#222;
   color:#fff;
+  padding: 0.2em 0.3em;
+  white-space: nowrap;
+}
+
+.highlight-1 {
+  background-color:#73d256;
+  padding: 0.2em 0.3em;
+  white-space: nowrap;
+}
+
+.highlight-2 {
+  background-color:#8ec3f1;
+  padding: 0.2em 0.3em;
+  white-space: nowrap;
+}
+
+.highlight-3 {
+  background-color:#ffd451;
   padding: 0.2em 0.3em;
   white-space: nowrap;
 }
