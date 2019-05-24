@@ -1,0 +1,130 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <style type="text/css">
+            body {
+                height: 100%;
+                margin:0;
+                font-family: 'Open Sans', sans-serif;
+                font-size:14px;
+            }
+
+            svg {
+                background-color:#fff;
+                width:900px;
+                height:500px;
+            }
+
+
+            header {
+                padding:10px;
+            }
+
+            .brand {
+                color:#1a1a1a !important;
+                font-size:16px;
+                font-weight:bold;
+            }
+
+            .headline {
+                /*text-align:center;*/
+                /*font-size:36px;*/
+            }
+
+            g.country {
+                pointer-events: all;
+            }
+
+            rect.country-rect {
+                outline-offset: -1px;
+            }
+
+            .content {
+                padding:10px 0;
+                padding-left:calc(50vw - 450px);
+                width:900px;
+            }
+
+            section {
+                /*padding-top:30px;*/
+                clear:both;
+            }
+
+            .global-progress {
+                width:45%;
+                margin-left:5%;
+            }
+
+            h2 {
+                margin-top:0;
+            }
+
+            .title {
+                text-align:center;
+            }
+
+            .citation {
+                font-size:12px;
+                font-style:italic;
+            }
+        </style>
+
+    </head>
+
+    <body>
+        <div class="header-wrap">
+
+            <header class="header-nav">
+
+                <span class="brand"><a href="/">Tyler Wolf</a></span>
+
+            </header>
+
+        </div>
+        <div class="content">
+            <div class="title headline">
+                <h1>Bitcoin Price Deviation Between USD Exchanges as
+                Bitcoin&nbsp;Surpasses&nbsp;$10,000</h1>
+            </div>
+
+            <section style="padding-top:30px;">
+                <div>
+                    <section style="padding-top: 30px;">
+                        <h2>Price Deviation Speedbumps</h2>
+                        <p>
+                            As the price of Bitcoin continued to rise toward $10,000 over the past few days, traders watched with trepidation. Would Bitcoin's price keep rising, or would it tank as it rose to new, unprecedented value?
+                        </p>
+                        <p>
+                            It's known that Bitcoin prices can deviate significantly between exchanges. Here, we take a look at how price deviated as the price approaches a significant milestone.
+                        </p>
+                        <p>
+                            Below is a comparison of Bitcoin prices across the top 7 highest volume exchanges that trade USD/BTC. Prices range from November 25, 2017 to November 29 2017 and are recorded every 15 minutes. In gray, the standard deviation of the bitcoin price between exchanges is shown, maxing out at $143.44 around $9400 (mean: 57.59, min: 19.26).
+                        </p>
+                    </section>
+                </div>
+            </section>
+
+            <svg id="chart" />
+
+            <section>
+                <p class="citation">
+                    Data source: <a href="https://cryptowat.ch">Cryptowatch</a>.
+                </p>
+            </section>
+        </div>
+    </body>
+
+    <script src="bundle.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-37325539-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-37325539-1');
+    </script>
+
+
+</html>
