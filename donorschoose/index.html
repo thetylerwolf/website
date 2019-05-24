@@ -1,0 +1,108 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <style type="text/css">
+
+          html {
+            font-family:sans-serif;
+            font-weight:lighter;
+          }
+
+          a {
+            color:rgb(44, 156, 223);
+          }
+
+          svg {
+            width:960px;
+            height:550px;
+            padding:50px 56px 50px 10px;
+            shape-rendering:crispEdges;
+          }
+
+          svg text {
+            text-rendering: optimizeLegibility;
+            font-weight:lighter;
+          }
+
+          .pv-axis text {
+            font-size:12px;
+          }
+
+          .container {
+            position:relative;
+            max-width:900px;
+            padding:40px;
+            margin:auto;
+          }
+
+          .chart-container {
+            position:relative;
+            margin-top:10px;
+          }
+
+          #chart {
+            /*visibility: hidden;*/
+          }
+
+          #year {
+            position:absolute;
+            top:0;
+            left:0;
+            font-size:36px;
+            font-weight:lighter;
+          }
+
+          #tooltip {
+            position:absolute;
+            top:53px;
+            left:0;
+          }
+
+          .tooltip-content {
+            font-size:12px;
+            font-weight:lighter;
+          }
+
+          .tooltip-title {
+            font-size:20px;
+            font-weight:lighter;
+          }
+
+          .chart-title {
+            font-size:36px;
+            /*font-weight:lighter;*/
+            /*font-weight:bold;*/
+            margin-bottom:20px;
+          }
+
+        </style>
+    </head>
+    <body marginwidth="0" marginheight="0">
+      <div class="container">
+        <div class="chart-title">School Poverty Level vs Value of Funding Requests on DonorsChoose.org</div>
+        <p>Number of funding requests categorized by poverty level over time from 2002 - 2016. There is a clear increase in requests year over year for all poverty levels. Highest poverty schools consistently request the most funding every year. Classroom supplies and technology are the most-cited resources needed across all poverty levels. (See: <a href="https://www.donorschoose.org/help/popup_faq.html?name=lowincome" target="_blank">DonorsChoose.org poverty levels explained</a>)</p>
+        <p>Drag the mouse over each year to see detailed statistics about each poverty level's projects.</p>
+        <br>
+        <div class="chart-container">
+          <div id="year"></div>
+          <div id="tooltip"></div>
+          <svg id="chart"></svg>
+        </div>
+        <div>Data source: <a href="http://www.donorschoose.org" target="_blank">DonorsChoose.org</a></div>
+        <div><a href="http://www.tylernwolf.com">Tyler Wolf</a> 2017 - <a href="https://github.com/thetylerwolf/dataforacause" target="_blank">Source on Github</a></div>
+      </div>
+    </body>
+
+    <script src="bundle.js"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-37325539-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+</html>
+
