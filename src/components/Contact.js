@@ -71,6 +71,25 @@ export default class Contact extends Component {
 
               <br/>
 
+              <p className="bold">Companies I've worked with</p>
+
+              <div className="public-publications">
+                <img className="publication-image adobe-logo" src="adobe-logo.png" alt="Adobe Inc" />
+                <img className="publication-image etrade-logo" src="etrade.png" alt="E Trade" />
+                <img className="publication-image brookings-logo" src="brookings.svg" alt="The Brookings Institution" />
+              </div>
+
+              <p className="bold">Publications</p>
+
+              <p>My work has appeared in the following publications</p>
+
+              <div className="public-publications">
+                <img className="publication-image forbes-logo" src="forbes.svg" alt="Forbes" />
+                <img className="publication-image brookings-logo" src="brookings.svg" alt="The Brookings Institution" />
+                <img className="publication-image dataface-logo" src="dataface.jpg" alt="The Data Face" />
+                <img className="publication-image spectrum-logo" src="spectrum.png" alt="Spectrum News" />
+              </div>
+
               <p className="bold">Awards/Honors</p>
 
                 <ul>
@@ -109,17 +128,6 @@ export default class Contact extends Component {
                 <ul>
                   <li>"Designing Intuitive Tools" - Øredev Conference 2018</li>
                 </ul>
-
-                <p className="bold">Publications</p>
-
-                <p>My work has appeared in the following publications</p>
-
-                <div className="public-publications">
-                  <img className="publication-image forbes-logo" src="forbes.svg" alt="Forbes" />
-                  <img className="publication-image brookings-logo" src="brookings.svg" alt="The Brookings Institution" />
-                  <img className="publication-image dataface-logo" src="dataface.jpg" alt="The Data Face" />
-                  <img className="publication-image spectrum-logo" src="spectrum.png" alt="Spectrum News" />
-                </div>
 
             </Col>
 

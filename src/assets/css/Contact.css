@@ -60,12 +60,20 @@
   justify-content: space-around;
 }
 
+img.adobe-logo {
+  width:100px;
+}
+
+img.etrade-logo {
+  width:100px;
+}
+
 img.forbes-logo {
-  width:150px;
+  width:100px;
 }
 
 img.brookings-logo {
-  width:200px;
+  width:100px;
 }
 
 img.dataface-logo {
@@ -73,5 +81,5 @@ img.dataface-logo {
 }
 
 img.spectrum-logo {
-  width:150px;
+  width:100px;
 }
