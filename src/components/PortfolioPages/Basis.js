@@ -47,7 +47,7 @@ export default class Basis extends Component {
               <br/><br/>
               Sketch, D3
               <br/><br/>
-              Data Visualization Design, Product Design
+              User Research, Product Design, Data Visualization Design
               <br/><br/>
               May 2018 - Present
             </div>
@@ -76,6 +76,12 @@ export default class Basis extends Component {
                     it was about understanding how the Basis platform could enable
                     its users to better understand, access and manage their own data while
                     simulataneously digitizing many of their pen-and-paper processes.
+                  </p>
+                  <p>
+                    Users have consistently responded positively to the initial platform
+                    redesign and subsequent updates. We have engaged in a beneficial cycle
+                    of release, user interview, analyze, improve. Since our initial redesign,
+                    Sentinel Labs has more than doubled their paying customer base.
                   </p>
                 </Col>
               </Row>
