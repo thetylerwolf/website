@@ -60,13 +60,13 @@ export default class Tvrn extends Component {
             <Grid>
 
               <Row>
-                <Col xs={ 12 }>
+                <Col xs={ 12 } sm={ 12 } md={ 8 } xl={ 8 } lg={ 8 }>
                   <h1>Overview</h1>
                 </Col>
               </Row>
 
               <Row>
-                <Col xs={ 12 }>
+                <Col xs={ 12 } sm={ 12 } md={ 8 } xl={ 8 } lg={ 8 }>
 
                   <p>
                     TVRN is a virtual reality project I started in 2015 with
@@ -90,18 +90,25 @@ export default class Tvrn extends Component {
               </Row>
 
               <Row>
-                <br/>
-                <h3>56 Henry Exhibition</h3>
-                <Col className="image-container" xs={ 12 }>
-                  <img alt="56 Henry" src="/portfolio/tvrn/56_henry.jpg" />
+                <Col xs={ 12 } sm={ 12 } md={ 8 } xl={ 8 } lg={ 8 }>
+                  <h3>56 Henry Exhibition</h3>
                 </Col>
-
               </Row>
 
               <Row>
-                <br/>
-                <h3>Virtual Meeting Spaces</h3>
-                <Col className="image-container" xs={ 12 }>
+                <Col className="image-container" xs={ 12 } sm={ 12 } md={ 8 } xl={ 8 } lg={ 8 }>
+                  <img alt="56 Henry" src="/portfolio/tvrn/56_henry.jpg" />
+                </Col>
+              </Row>
+
+              <Row>
+                <Col xs={ 12 } sm={ 12 } md={ 8 } xl={ 8 } lg={ 8 }>
+                  <h3>Virtual Meeting Spaces</h3>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col className="image-container" xs={ 12 } sm={ 12 } md={ 8 } xl={ 8 } lg={ 8 }>
                   <img alt="VR Island Meeting" src="/portfolio/tvrn/virtual_meeting.jpg" />
                 </Col>
 

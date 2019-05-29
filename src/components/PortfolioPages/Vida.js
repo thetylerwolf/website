@@ -50,15 +50,14 @@ export default class Vida extends Component {
           <div className="description-wrap">
             <Grid>
 
-            {/*}
               <Row>
-                <Col xs={ 12 }>
+                <Col xs={ 12 } sm={ 12 } md={ 8 } xl={ 8 } lg={ 8 }>
                   <h1>Overview</h1>
                 </Col>
               </Row>
 
               <Row>
-                <Col xs={ 12 }>
+                <Col xs={ 12 } sm={ 12 } md={ 8 } xl={ 8 } lg={ 8 }>
                   <p>
                     SolidX is a bitcoin startup that makes cybersecurity products.
                     Vida is the brand of their flagship personal security product.
@@ -67,45 +66,48 @@ export default class Vida extends Component {
                   </p>
                 </Col>
               </Row>
-            */}
+
 
               <Row>
-                <br/>
-                <h3>Responsive Website</h3>
-                <Col className="image-container" xs={ 12 }>
+                <Col xs={ 12 } sm={ 12 } md={ 8 } xl={ 8 } lg={ 8 }>
+                  <h3>Responsive Website</h3>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col className="image-container" xs={ 12 } sm={ 12 } md={ 8 } xl={ 8 } lg={ 8 }>
                   <img alt="Desktop Website" src="/portfolio/vida/Desktop.jpg" />
                 </Col>
 
               </Row>
 
               <Row>
-
-                <Col className="image-container" xs={ 12 }>
-                  <img alt="Mobile Responsive" src="/portfolio/vida/Mobile.jpg" />
+                <Col xs={ 12 } sm={ 12 } md={ 8 } xl={ 8 } lg={ 8 }>
+                  <h3>Mobile Application</h3>
                 </Col>
-
               </Row>
 
               <Row>
-
-                <h3>Mobile Application</h3>
-                <Col className="image-container" xs={ 12 }>
+                <Col className="image-container" xs={ 12 } sm={ 12 } md={ 8 } xl={ 8 } lg={ 8 }>
                   <img alt="Mobile App" style={{ border: '1px solid #1a1a1a' }} src="/portfolio/vida/mobile_home.png" />
                 </Col>
-
-                <Col className="image-container" xs={ 12 }>
+              </Row>
+              <Row>
+                <Col className="image-container" xs={ 12 } sm={ 12 } md={ 8 } xl={ 8 } lg={ 8 }>
                   <img alt="Mobile Profile" style={{ border: '1px solid #1a1a1a' }} src="/portfolio/vida/mobile_profile.png" />
                 </Col>
-
               </Row>
 
               <Row>
+                <Col xs={ 12 } sm={ 12 } md={ 8 } xl={ 8 } lg={ 8 }>
+                  <h3>Web Application drag and drop UI</h3>
+                </Col>
+              </Row>
 
-                <h3>Web Application drag and drop UI</h3>
-                <Col className="image-container" xs={ 12 }>
+              <Row>
+                <Col className="image-container" xs={ 12 } sm={ 12 } md={ 8 } xl={ 8 } lg={ 8 }>
                   <img  alt="Web App Auth UI" src="/portfolio/vida/web_auth_groups.jpg" />
                 </Col>
-
               </Row>
 
             </Grid>

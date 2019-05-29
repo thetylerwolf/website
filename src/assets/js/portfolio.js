@@ -137,8 +137,6 @@ var portfolio = {
         'Enterprise Commercial Real Estate Software',
         'Data Visualization / Product Design'
       ],
-      'external': true,
-      'link': 'https://www.sentinellabs.io/',
       'id': 'sentinel-labs',
     },
     {

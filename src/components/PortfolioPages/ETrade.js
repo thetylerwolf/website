@@ -1,5 +1,11 @@
 import React, { Component } from 'react'
 
+import {
+  Grid,
+  Row,
+  Col
+} from 'react-bootstrap'
+
 const customStyles = {
   title: {
     color:'#1a1a1a'
@@ -44,28 +50,32 @@ export default class ETrade extends Component {
               May 2014 - November 2014
             </div>
           </div>
-          {/*
+
           <div className="description-wrap">
             <Grid>
 
               <Row>
-                <Col xs={ 12 }>
+                <Col xs={ 12 } sm={ 12 } md={ 8 } xl={ 8 } lg={ 8 }>
                   <h1>Overview</h1>
                 </Col>
               </Row>
 
               <Row>
-                <Col xs={ 12 }>
-                  <p>UX Design on various pieces of the E*Trade platform,
-                  including: options trading, margin trading and Pro platform.
-                  Also designed the mobile version of the menu on the E*Trade
-                  homepage.</p>
+                <Col xs={ 12 } sm={ 12 } md={ 8 } xl={ 8 } lg={ 8 }>
+                  <p>
+                    I worked as a UX Designer on various sections of the E*Trade platform,
+                    including: options trading, margin trading, mobile UI and the Pro platform.
+                  </p>
+                  <p>
+                    My portfolio work is unfortunately not publically displayable because of
+                    contractual obligations.
+                  </p>
                 </Col>
               </Row>
 
             </Grid>
           </div>
-          */}
+
         </div>
         {/* <img className="piece-header" src='/portfolio/vida/vida_cover.jpg)'/> */}
 

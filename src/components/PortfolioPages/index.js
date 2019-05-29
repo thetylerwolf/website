@@ -8,12 +8,19 @@ import VoxelDreams from './VoxelDreams'
 import ETrade from './ETrade'
 import Meditation from './Meditation'
 import Biome from './Biome'
+import Basis from './Basis'
 
 var portfolioPages = {
+  'sentinel-labs': {
+    page: <Basis/>,
+    name: 'Basis by Sentinel Labs',
+    previous: 'novus',
+    next: 'biome'
+  },
   biome: {
     page: <Biome/>,
-    name: 'Anonymouse Client',
-    previous: 'novus',
+    name: 'Anonymous Client',
+    previous: 'sentinel-labs',
     next: 'meditation'
   },
   meditation: {

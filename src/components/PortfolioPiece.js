@@ -6,12 +6,6 @@ import {
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
 
-import {
-  Grid,
-  Row,
-  Col
-} from 'react-bootstrap'
-
 export default class PortfolioPiece extends Component {
 
   // componentDidMount() {

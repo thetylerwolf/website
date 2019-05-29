@@ -43,7 +43,7 @@ export default class Meditation extends Component {
             <div className="summary-text">
               <div className="summary-title">Summary</div>
               <br/>
-              Wolflux LLC - Personal Meditation Product
+              Personal Meditation Product
               <br/><br/>
               Sketch, React Native
               <br/><br/>
@@ -55,30 +55,33 @@ export default class Meditation extends Component {
 
           <div className="description-wrap">
             <Grid>
-            {/*}
+
               <Row>
-                <Col xs={ 12 }>
+                <Col xs={ 12 } sm={ 12 } md={ 8 } xl={ 8 } lg={ 8 }>
                   <h1>Overview</h1>
                 </Col>
               </Row>
 
               <Row>
-                <Col xs={ 12 }>
+                <Col xs={ 12 } sm={ 12 } md={ 8 } xl={ 8 } lg={ 8 }>
                   <p>
                     Natural Meditation is a personal meditation timer app. There are countless meditation
                     apps across the app stores, but most are brand-centric and focused on promoting content
                     sales at the expense of measurable insights and customization. Natural Meditation
-                    is designed to fill the gap. The app is focused on providing users an easy way to set a timer
-                    and just sit while providing an easy-to-understand analysis of what works and what doesn't
+                    is designed to fill the gap.
+                  </p>
+                  <p>
+                    The app is focused on providing users an easy way to set a timer
+                    and just begin while providing an easy-to-understand analysis of what works and what doesn't
                     for users' personal progress. Meditation practice is a highly personal enterprise. Shouldn't
                     a meditation app be, too?
                   </p>
                 </Col>
               </Row>
-            */}
+
               <Row>
 
-                <Col xs={ 12 }>
+                <Col xs={ 12 } sm={ 12 } md={ 8 } xl={ 8 } lg={ 8 }>
                   <h3>Mobile App</h3>
                 </Col>
 
@@ -86,7 +89,7 @@ export default class Meditation extends Component {
 
               <Row>
 
-                <Col className="image-container" xs={ 12 }>
+                <Col className="image-container" xs={ 12 } sm={ 12 } md={ 8 } xl={ 8 } lg={ 8 }>
                   <img alt="Landing" src="/portfolio/meditation/landing.jpg" />
                 </Col>
 
@@ -94,7 +97,7 @@ export default class Meditation extends Component {
 
               <Row>
 
-                <Col className="image-container" xs={ 12 }>
+                <Col className="image-container" xs={ 12 } sm={ 12 } md={ 8 } xl={ 8 } lg={ 8 }>
                   <img alt="Home" src="/portfolio/meditation/home.jpg" />
                 </Col>
 
@@ -102,7 +105,7 @@ export default class Meditation extends Component {
 
               <Row>
 
-                <Col className="image-container" xs={ 12 }>
+                <Col className="image-container" xs={ 12 } sm={ 12 } md={ 8 } xl={ 8 } lg={ 8 }>
                   <img alt="Stats" src="/portfolio/meditation/stats.jpg" />
                 </Col>
 

@@ -54,13 +54,13 @@ export default class Biome extends Component {
             <Grid>
 
               <Row>
-                <Col xs={ 12 }>
+                <Col xs={ 12 } sm={ 12 } md={ 8 } xl={ 8 } lg={ 8 }>
                   <h1>Overview</h1>
                 </Col>
               </Row>
 
               <Row>
-                <Col xs={ 12 }>
+                <Col xs={ 12 } sm={ 12 } md={ 8 } xl={ 8 } lg={ 8 }>
                   <p>
                     The client approved showing this work in my portfolio,
                     but requested to be listed anonymously because
@@ -78,16 +78,19 @@ export default class Biome extends Component {
               </Row>
 
               <Row>
-                <br/>
-                <h3>Biome Report</h3>
-                <Col className="image-container" xs={ 12 }>
-                  <img alt="Biome Report" src="/portfolio/biome/Report.png" />
+                <Col xs={ 12 } sm={ 12 } md={ 8 } xl={ 8 } lg={ 8 }>
+                  <h3>Biome Report</h3>
                 </Col>
-
               </Row>
 
               <Row>
-                <Col xs={ 12 }>
+                <Col className="image-container" xs={ 12 } sm={ 12 } md={ 8 } xl={ 8 } lg={ 8 }>
+                  <img alt="Biome Report" src="/portfolio/biome/Report.png" />
+                </Col>
+              </Row>
+
+              <Row>
+                <Col xs={ 12 } sm={ 12 } md={ 8 } xl={ 8 } lg={ 8 }>
                   <p>
                     The report visualizes the proportion of each
                     bacteria in the gut biome sample. When the user
