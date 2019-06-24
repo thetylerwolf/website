@@ -24,7 +24,6 @@ export class Routes extends Component {
   }
 
   render() {
-    console.log('RENDER Routes')
     return (
           <main>
             <TransitionGroup>

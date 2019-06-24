@@ -20,7 +20,7 @@ export default class About extends Component {
       <div className="about-wrap">
 
         <HeaderNav
-          showBrand={ false }
+          showBrand={ true }
           location={ this.props.location }
         />
 

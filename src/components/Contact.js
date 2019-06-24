@@ -22,7 +22,7 @@ export default class Contact extends Component {
       <div className="contact-wrap">
 
         <HeaderNav
-          showBrand={ false }
+          showBrand={ true }
           location={ this.props.location }
         />
 
