@@ -32,11 +32,9 @@ var portfolio = {
         'img': 'dbrs.jpg'
       },
       'description': [
-        'Enterprise Commercial Real Estate Software',
+        'Real Estate Research App',
         'Data Visualization / Product Design'
       ],
-      'external': true,
-      'link': 'https://www.dbrs.com/',
       'id': 'dbrs',
     },
     {
@@ -49,7 +47,7 @@ var portfolio = {
         'img': 'voter-turnout.jpg'
       },
       'description': [
-        'Voter Turnout Visualization',
+        'Voter Turnout Graphics',
         'Data Visualization / Animation'
       ],
       'external': true,
@@ -66,7 +64,7 @@ var portfolio = {
         'img': 'financial-crisis.jpg'
       },
       'description': [
-        'Dr. Ben Bernanke Financial Crisis Visualizations',
+        'Financial Crisis Graphics with Dr. Ben Bernanke',
         'Data Visualization / Animation'
       ],
       'external': true,
@@ -83,7 +81,7 @@ var portfolio = {
         'img': 'odin_banner.jpg'
       },
       'description': [
-        'Data Visualization Tool',
+        'Chart Design Tool',
         'Creator / Product Design / Data Visualization'
       ],
       'external': true,
@@ -115,7 +113,7 @@ var portfolio = {
         'img': 'spectrum-diagnoses.jpg'
       },
       'description': [
-        'Autism Research Visualization',
+        'Autism Research Graphics',
         'Data Visualization / Animation'
       ],
       'external': true,
@@ -134,7 +132,7 @@ var portfolio = {
         'img': 'sentinel-labs.jpg'
       },
       'description': [
-        'Enterprise Commercial Real Estate Software',
+        'Commercial Real Estate Investment App',
         'Data Visualization / Product Design'
       ],
       'id': 'sentinel-labs',
@@ -148,7 +146,7 @@ var portfolio = {
         'img': 'Biome.jpg'
       },
       'description': [
-        'Gut Biome Visualization',
+        'Gut Biome Graphics',
         'Interactive Data Visualization'
       ],
       'id': 'biome'
@@ -179,7 +177,7 @@ var portfolio = {
         'img': 'UNEP.jpg'
       },
       'description': [
-        'Interactive Data Visualization',
+        'Interactive Data Graphics',
         'Data for a Cause'
       ],
       'external': true,
@@ -198,7 +196,7 @@ var portfolio = {
         'img': 'meditation_cover.jpg'
       },
       'description': [
-        'Meditation Timer',
+        'Meditation Timer App',
         'Market Research / Branding / Product Design / Data Visualization / Full Stack Development'
       ],
       'id': 'meditation'
@@ -215,7 +213,7 @@ var portfolio = {
         'img': 'vida_cover.jpg'
       },
       'description': [
-        'Personal Encryption App',
+        'Personal Cybersecurity App',
         'UX Design / Product Management'
       ],
       'lightText': true,
@@ -248,7 +246,7 @@ var portfolio = {
         'img': 'donorschoose.jpg'
       },
       'description': [
-        'Interactive Data Visualization',
+        'Interactive Data Graphics',
         'Data for a Cause'
       ],
       'external': true,
@@ -281,7 +279,7 @@ var portfolio = {
         'img': 'uxwords.jpg'
       },
       'description': [
-        'Interactive Data Visualization',
+        'Interactive Data Graphics',
         'Data Visualization / Animation'
       ],
       'external': true,
@@ -330,7 +328,7 @@ var portfolio = {
         'img': 'CDDashboard.jpg'
       },
       'description': [
-        'Interactive Data Visualization',
+        'Interactive Data Graphics',
         'Data Visualization / Animation'
       ],
       'external': true,
@@ -364,7 +362,7 @@ var portfolio = {
         'img': 'novus_cover.jpg'
       },
       'description': [
-        'Financial Analytics Platform',
+        'Financial Analytics App',
         'Data Visualization Design / UX Design / Front End Development'
       ],
       'lightText': true,

@@ -10,13 +10,12 @@
     top:0;
     left:0;
     right:0;
-    padding:10px 10px 0;
+    padding:20px 10px 0;
     z-index:1000;
     pointer-events:none;
 }
 
 .brand {
-    margin-top:20px;
     pointer-events:auto;
     opacity:1;
 
@@ -42,9 +41,6 @@
 .menu-text {
     letter-spacing: 3.2px;
     font-weight:700;
-}
-
-.menu-text {
     font-size:14px;
 }
 
@@ -54,18 +50,55 @@
 
 .open-menu {
     margin-left:auto;
-    padding: 20px 20px 0 0;
 }
 
 .open-menu .menu-text {
-    margin-left: 20px;
+    position:relative;
+    padding:10px;
     color:#212529;
     cursor:pointer;
     pointer-events:auto;
+    text-decoration:none;
 }
 
-.open-menu .menu-text:hover {
-    text-decoration:none;
+.open-menu .menu-text:not(.hire):after {
+    content:"";
+    position:absolute;
+    background-color:#212529;
+    height:2px;
+    width:calc(100% - 10px);
+    left:5px;
+    bottom:calc(100% + 7px);
+    /*transform:rotate(90deg);*/
+    /*transform-origin: top left;*/
+    opacity: 0;
+    transition: opacity 0.5s, bottom 0.5s;
+}
+
+.open-menu .menu-text.first:after {
+    background-color:#ffd451;
+}
+
+.open-menu .menu-text.second:after {
+    background-color:#73d256;
+}
+
+.open-menu .menu-text:not(.hire):hover:after {
+    opacity:1;
+    bottom:7px;
+    transform:rotate(0deg);
+}
+
+.menu-text.hire {
+    /*position:absolute;*/
+    background-color:#e05c5c;
+    color:#fff;
+    border-radius:1em;
+    transition: background-color 0.5s;
+}
+
+.menu-text.hire:hover {
+    background-color:#d82f2f;
 }
 
 /*********************

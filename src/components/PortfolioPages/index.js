@@ -9,12 +9,19 @@ import ETrade from './ETrade'
 import Meditation from './Meditation'
 import Biome from './Biome'
 import Basis from './Basis'
+import DBRS from './DBRS'
 
 var portfolioPages = {
+  'dbrs': {
+    page: <DBRS/>,
+    name: 'DBRS Viewpoint',
+    previous: 'novus',
+    next: 'sentinel-labs'
+  },
   'sentinel-labs': {
     page: <Basis/>,
     name: 'Basis by Sentinel Labs',
-    previous: 'novus',
+    previous: 'dbrs',
     next: 'biome'
   },
   biome: {

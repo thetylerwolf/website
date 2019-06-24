@@ -66,16 +66,16 @@ export default class Basis extends Component {
                 <Col xs={ 12 } sm={ 12 } md={ 8 } xl={ 8 } lg={ 8 }>
                   <p>
                     Sentinel Labs' primary offering is a Commercial Real Estate (CRE)
-                    workflow management platform. The platform deals with very complex
-                    hierarchy of data. Users are CRE professionals who manage their
+                    workflow management platform. The platform deals with a very large
+                    collection of data. Users are CRE professionals who manage their
                     data and work tasks through the Basis platform.
                   </p>
                   <p>
                     Working on Basis required learning how this ubiquitous, yet
-                    discreet industry handles and understands its own data. From there
+                    discreet, industry handles and understands its own data. From there
                     it was about understanding how the Basis platform could enable
-                    its users to better understand, access and manage their own data while
-                    simulataneously digitizing many of their pen-and-paper processes.
+                    its users to better understand, access and manage their investment data while
+                    simulataneously digitizing many of their historically pen-and-paper processes.
                   </p>
                   <p>
                     Users have consistently responded positively to the initial platform
@@ -102,15 +102,15 @@ export default class Basis extends Component {
                 <Col xs={ 12 } sm={ 12 } md={ 8 } xl={ 8 } lg={ 8 }>
                   <p>
                     One of Basis' core offerings is the ability to create and automate
-                    standardized workflows around deal-making and due diligence. The
-                    workflow management UI was designed to make workflow progress and
+                    standardized workflows around deal-making and investment research. The
+                    workflow management tool was designed to make workflow progress and
                     participant responsibilities easy to understand and work through.
                   </p>
                   <p>
                     The design uses clear iconography and colors to communicate task
-                    progress on task cards. Spatial alignment of task cards in swimlanes
-                    corresponding to milestones makes workflow progress clear at a glance.
-                    Users can drag and drop tasks across the UI as they're completed.
+                    progress on task cards. Organizing task cards into columns
+                    corresponding to project milestones makes workflow progress clear at a glance.
+                    Users can drag and drop tasks across the screen as they're completed.
                   </p>
 
                 </Col>
