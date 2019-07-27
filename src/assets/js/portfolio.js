@@ -21,7 +21,7 @@ var portfolio = {
       }
     },
     {
-      'title': 'DBRS Viewpoint',
+      'title': 'Morningstar/DBRS',
       'date': '12/2018',
       'types': [
         'enterprise',
@@ -32,7 +32,7 @@ var portfolio = {
         'img': 'dbrs.jpg'
       },
       'description': [
-        'Real Estate Research App',
+        'Viewpoint Real Estate Research App',
         'Data Visualization / Product Design'
       ],
       'id': 'dbrs',

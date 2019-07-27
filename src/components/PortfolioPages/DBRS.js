@@ -29,7 +29,7 @@ export default class Basis extends Component {
 
           <div className="piece-title-wrap">
 
-            <div className="piece-title" style={ customStyles.title }>DBRS Viewpoint</div>
+            <div className="piece-title" style={ customStyles.title }>Morningstar / DBRS Viewpoint</div>
             <div className="title-bar" style={ customStyles.titleBar } />
 
           </div>
@@ -43,7 +43,7 @@ export default class Basis extends Component {
             <div className="summary-text">
               <div className="summary-title">Summary</div>
               <br/>
-              DBRS Viewpoint - Commercial real estate research tool
+              Viewpoint - Commercial real estate research tool
               <br/><br/>
               Sketch, Figma
               <br/><br/>
@@ -66,13 +66,13 @@ export default class Basis extends Component {
                 <Col xs={ 12 } sm={ 12 } md={ 8 } xl={ 8 } lg={ 8 }>
                   <p>
                     Viewpoint is an industry-leading Commercial Real Estate (CRE)
-                    research platform from DBRS, one of the world's largest credit ratings agencies.
+                    research platform from Morningstar/DBRS, one of the world's largest credit ratings agencies.
                     Viewpoint gives users access to DBRS' vast library of investment ratings
                     through an intuitive, map-based interface. Viewpoint is unrivaled in its
                     peer group with regard to design and usability.
                   </p>
                   <p>
-                    I worked with DBRS to re-design their app for a long-awaited product update.
+                    I worked with the business to re-design their app for a long-awaited product update.
                     Through the update, we expanded the amount of data available to users to include
                     an entire new continent (Europe).
                   </p>
