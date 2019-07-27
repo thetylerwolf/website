@@ -126,7 +126,7 @@ export default class Contact extends Component {
 
                 <p className="faded">2018</p>
                 <ul>
-                  <li>"Designing Intuitive Tools" - Øredev Conference 2018</li>
+                  <li><a href="https://vimeo.com/336736079" target="_blank">"Designing Intuitive Tools"</a> - Øredev Conference 2018</li>
                 </ul>
 
             </Col>
