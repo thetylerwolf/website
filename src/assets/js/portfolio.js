@@ -120,23 +120,23 @@ var portfolio = {
       'link': 'https://www.spectrumnews.org/news/autism-diagnosis-often-followed-identification-conditions/',
       'id': 'spectrum-diagnoses'
     },
-    {
-      'title': 'Basis from Sentinel Labs',
-      'date': '06/2018',
-      'types': [
-        'enterprise',
-        'product design',
-        'data visualization'
-      ],
-      'cover': {
-        'img': 'sentinel-labs.jpg'
-      },
-      'description': [
-        'Commercial Real Estate Investment App',
-        'Data Visualization / Product Design'
-      ],
-      'id': 'sentinel-labs',
-    },
+    // {
+    //   'title': 'Basis from Sentinel Labs',
+    //   'date': '06/2018',
+    //   'types': [
+    //     'enterprise',
+    //     'product design',
+    //     'data visualization'
+    //   ],
+    //   'cover': {
+    //     'img': 'sentinel-labs.jpg'
+    //   },
+    //   'description': [
+    //     'Commercial Real Estate Investment App',
+    //     'Data Visualization / Product Design'
+    //   ],
+    //   'id': 'sentinel-labs',
+    // },
     {
       'title': 'Anonymous Client',
       'types': [
