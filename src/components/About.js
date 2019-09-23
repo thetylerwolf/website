@@ -79,7 +79,7 @@ export default class About extends Component {
                 It took me some time to learn the ins-and-outs of freelancing and how I want the world to see my
                 work, but now I'm here. I work on <span className="highlight-3">interactive and static/print data visualizations</span>, as well as
                 creative projects with <span className="highlight-3">2D and 3D graphics</span> for branding/marketing purposes. I
-                also <span className="highlight-3">speak publically</span> about data visualization and product design and
+                also <span className="highlight-3">speak publicly</span> about data visualization and product design and
                 have <span className="highlight-3">received an award and grant funding</span> for my work (see more below.)
               </p>
               <p>

@@ -107,7 +107,7 @@ export default class Contact extends Component {
                 <p className="bold">Speaking</p>
 
                 <p>
-                  I love speaking publically. I've spoken to groups large and small about topics in data visualization
+                  I love speaking publicly. I've spoken to groups large and small about topics in data visualization
                   and product design. Topics I've spoken about include: user-centered design, design process,
                   optimizing process and communication and technical talks about specific techniques. If you'd
                   like to hire me to speak with your organization, reach me at the email above.
