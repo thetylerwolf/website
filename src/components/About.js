@@ -102,7 +102,7 @@ export default class About extends Component {
 
               <p>
                 In 2018, I received a grant from Adobe for my work on <a href="https://odinchart.com" target="_blank">Odin Chart</a>, a
-                follow-up to Sketch Data Studio, a popular data visualization design tool that I created several years ago. I am guiding
+                follow-up to Sketch Data Studio, a popular data visualization design tool that I created several years ago. I am leading
                 development of Odin Chart as we prepare for its major web release.
               </p>
 

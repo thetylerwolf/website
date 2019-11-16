@@ -83,6 +83,10 @@
     background-color:#73d256;
 }
 
+.open-menu .menu-text.third:after {
+    background-color:#e05c5c;
+}
+
 .open-menu .menu-text:not(.hire):hover:after {
     opacity:1;
     bottom:7px;
