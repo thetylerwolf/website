@@ -34,7 +34,7 @@ export default class Contact extends Component {
             <Col lg={ 2 } md={ 2 } sm={ 12 }>
               <div className="contact-logo">
                 {/* <Link to="/"><img alt="Tyler Wolf" src="logo.png" /></Link> */}
-                <div className="contact-text">Hire Me</div>
+                <div className="contact-text">Contact</div>
               </div>
             </Col>
 
@@ -93,6 +93,9 @@ export default class Contact extends Component {
               <p className="bold">Awards/Honors</p>
 
                 <ul>
+                  <li>
+                    Competition Judge - World Bank/Mapbox Visualizing Risk&nbsp;Challenge
+                  </li>
                   <li>
                     <a target="_blank" href="https://challengesgov.se/winner-mobility-observer/">Winner - A Challenge from Sweden - Sustainable Mobility Data Visualization</a>
                   </li>

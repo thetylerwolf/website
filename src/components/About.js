@@ -44,7 +44,7 @@ export default class About extends Component {
 
             <Col lg={ 8 } md={ 8 } sm={ 12 }>
               <p>
-                I'm Tyler Wolf. I am a <span className="highlight-2">freelance data visualization designer/creative developer</span> based
+                I'm Tyler Wolf. I am a <span className="highlight-2">data visualization designer/creative developer</span> based
                 in <span className="highlight-2">Stockholm, Sweden</span>. I have been working in technology of some
                 kind for about a decade.
               </p>
