@@ -67,7 +67,7 @@ export default class ETrade extends Component {
                     including: options trading, margin trading, mobile UI and the Pro platform.
                   </p>
                   <p>
-                    My portfolio work is unfortunately not publically displayable because of
+                    My portfolio work is unfortunately not publicly displayable because of
                     contractual obligations.
                   </p>
                 </Col>

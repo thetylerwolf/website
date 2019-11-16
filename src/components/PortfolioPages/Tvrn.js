@@ -50,9 +50,7 @@ export default class Tvrn extends Component {
               <br/><br/>
               UX Design / Full-stack Development / Branding
               <br/><br/>
-              2015 - Ongoing
-              <br/><br/>
-              <Link to="http://www.tvrn.me">Visit Website</Link>
+              2015 - 2019
             </div>
           </div>
 
