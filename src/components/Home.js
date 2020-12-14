@@ -1,39 +1,35 @@
-import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
+import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
-import ScrollWatcher from '../assets/js/ScrollWatcher'
-import HeaderNav from './HeaderNav'
-import PortfolioPiece from './PortfolioPiece'
+import ScrollWatcher from "../assets/js/ScrollWatcher";
+import HeaderNav from "./HeaderNav";
+import PortfolioPiece from "./PortfolioPiece";
 
-import portfolio from '../assets/js/portfolio.js'
+import portfolio from "../assets/js/portfolio.js";
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 
-import {
-  Grid,
-  Row,
-  Col
-} from 'react-bootstrap'
+import { Grid, Row, Col } from "react-bootstrap";
 
-let scrollWatcher = new ScrollWatcher()
+let scrollWatcher = new ScrollWatcher();
 
-let portfolioPieces = portfolio.entries.map(( entry, i ) => {
+let portfolioPieces = portfolio.entries.map((entry, i) => {
   return (
-    <Col lg={4} md={6} sm={12} className="piece-wrap" key={ i }>
-      <PortfolioPiece entry={ entry } />
+    <Col lg={4} md={6} sm={12} className="piece-wrap" key={i}>
+      <PortfolioPiece entry={entry} />
     </Col>
-  )
-})
+  );
+});
 
 export default class Home extends Component {
   constructor() {
-    super()
+    super();
 
     this.state = {
       showBrand: false,
       show: false,
-    }
+    };
 
     // this.sb = new SparkleBall()
   }
@@ -41,11 +37,12 @@ export default class Home extends Component {
   componentDidMount() {
     // this.sb.init( 'home-canvas-wrap' )
 
-    scrollWatcher.init()
+    scrollWatcher
+      .init()
       .onScrollStart((e) => this.onScrollStart(e))
-      .onScrollEnd((e) => this.onScrollEnd(e))
+      .onScrollEnd((e) => this.onScrollEnd(e));
 
-    this.setState({ show: true })
+    this.setState({ show: true });
 
     // let nameCanvas = this.refs.nameCanvas
     // let ctx = nameCanvas.getContext('2d')
@@ -59,11 +56,9 @@ export default class Home extends Component {
     // console.log(path)
     // draw(ctx, path)
     // ctx.stroke()
-
   }
 
-  onScrollStart(e) {
-  }
+  onScrollStart(e) {}
 
   onScrollEnd(e) {
     // if(window.scrollY > window.innerHeight) {
@@ -76,73 +71,71 @@ export default class Home extends Component {
 
     // }
 
-    let enterHeader = window.scrollY > window.innerHeight * 0.5 ? false : true
+    let enterHeader = window.scrollY > window.innerHeight * 0.5 ? false : true;
 
-    this.setState({ showBrand: !enterHeader })
+    this.setState({ showBrand: !enterHeader });
   }
 
-
   componentWillUnmount() {
-    scrollWatcher.remove()
-    this.setState({ show: false })
+    scrollWatcher.remove();
+    this.setState({ show: false });
     // this.sb.remove()
   }
 
-  componentDidUpdate() {
-
-  }
+  componentDidUpdate() {}
 
   render() {
-
     return (
-        <div className="home">
+      <div className="home">
+        <HeaderNav
+          showBrand={this.state.showBrand}
+          location={this.props.location}
+        />
 
-          <HeaderNav
-            showBrand={ this.state.showBrand }
-            location={ this.props.location }
-          />
-
-          <div className="intro-section">
-
-            <div className="intro-copy-wrap">
-
-              <div className="name-wrap">
-                {/* <canvas ref="nameCanvas"></canvas> */}
-                {/* <img src="logo.png" alt="Tyler Wolf" /> */}
-                <p>I'm <span className="name-text">Tyler Wolf</span></p>
-                <p>I design and build <span className="highlight-1">custom data visualizations</span> for businesses</p>
-                {/* <p>In industry terms, I make <span className="highlight-2">data visualizations</span> and <span className="highlight-2">design digital products</span></p> */}
-                <p>In industry terms, I specialize in <span className="highlight-2">2D/3D interactive data graphics</span></p>
-                {/*
+        <div className="intro-section">
+          <div className="intro-copy-wrap">
+            <div className="name-wrap">
+              {/* <canvas ref="nameCanvas"></canvas> */}
+              {/* <img src="logo.png" alt="Tyler Wolf" /> */}
+              <p>
+                I'm <span className="name-text">Tyler Wolf</span>
+              </p>
+              <p>
+                I design and build{" "}
+                <span className="highlight-1">custom data visualizations</span>{" "}
+                at{" "}
+                <a href="https://www.king.com/" target="_blank">
+                  King Games
+                </a>
+              </p>
+              {/* <p>In industry terms, I make <span className="highlight-2">data visualizations</span> and <span className="highlight-2">design digital products</span></p> */}
+              <p>
+                {/* In industry terms,  */}I specialize in{" "}
+                <span className="highlight-3">interactive data graphics</span>
+              </p>
+              {/*
                   <p>Get in touch to <span className="highlight-2">hire me</span> <Link className="dark-link" to="/contact">here</Link></p>
                   <p>You can learn more <span className="highlight-2">about me</span> <Link className="dark-link" to="/about">here</Link></p>
                 */}
-              </div>
-              <br/>
-              {/*
+            </div>
+            <br />
+            {/*
               <div className="services-copy">
                 Award-Winning, Contract
                 <br/>
                 Data Viz / UX Designer
               </div>
             */}
-
-            </div>
-
           </div>
-
-          <div className="home-portfolio-wrap">
-            <div className="portfolio-title">Portfolio</div>
-            <Grid>
-              <Row>
-                { portfolioPieces }
-              </Row>
-            </Grid>
-          </div>
-
         </div>
-    )
 
+        <div className="home-portfolio-wrap">
+          <div className="portfolio-title">Portfolio</div>
+          <Grid>
+            <Row>{portfolioPieces}</Row>
+          </Grid>
+        </div>
+      </div>
+    );
   }
-
 }

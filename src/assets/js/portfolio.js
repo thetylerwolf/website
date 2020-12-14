@@ -1,124 +1,119 @@
 var portfolio = {
-  'entries': [
+  entries: [
     {
-      'title': 'Winner - A Challenge from Sweden - Mobility Observer',
-      'date': '03/2019',
-      'types': [
-        'data visualization'
-      ],
-      'cover': {
-        'img': 'mobility-observer.png'
+      title: "25 Days of D3 - A free course",
+      date: "12/2019",
+      types: ["data visualization"],
+      cover: {
+        img: "25-days.jpg",
       },
-      'description': [
-        'Data Visualization'
-      ],
-      'external': true,
-      lightText: true,
-      'link': 'https://challengesgov.se/winner-mobility-observer/',
-      'id': 'mobility-observer',
+      description: ["Data Visualization"],
+      external: true,
+      link: "https://observablehq.com/@thetylerwolf/25-days-of-d3",
+      id: "25-days",
       style: {
-        fontSize: 64
-      }
+        fontSize: 64,
+      },
     },
     {
-      'title': 'Morningstar/DBRS',
-      'date': '12/2018',
-      'types': [
-        'enterprise',
-        'product design',
-        'data visualization'
-      ],
-      'cover': {
-        'img': 'dbrs.jpg'
+      title: "Winner - A Challenge from Sweden - Mobility Observer",
+      date: "03/2019",
+      types: ["data visualization"],
+      cover: {
+        img: "mobility-observer.png",
       },
-      'description': [
-        'Viewpoint Real Estate Research App',
-        'Data Visualization / Product Design'
-      ],
-      'id': 'dbrs',
+      description: ["Data Visualization"],
+      external: true,
+      lightText: true,
+      link: "https://challengesgov.se/winner-mobility-observer/",
+      id: "mobility-observer",
+      style: {
+        fontSize: 64,
+      },
     },
     {
-      'title': 'The Brookings Institution',
-      'date': '10/2018',
-      'types': [
-        'data visualization'
-      ],
-      'cover': {
-        'img': 'voter-turnout.jpg'
+      title: "Morningstar/DBRS",
+      date: "12/2018",
+      types: ["enterprise", "product design", "data visualization"],
+      cover: {
+        img: "dbrs.jpg",
       },
-      'description': [
-        'Voter Turnout Graphics',
-        'Data Visualization / Animation'
+      description: [
+        "Viewpoint Real Estate Research App",
+        "Data Visualization / Product Design",
       ],
-      'external': true,
-      'link': 'https://www.brookings.edu/blog/up-front/2018/10/25/a-story-from-this-american-indian-reservation-has-important-lessons-for-americas-voter-turnout-problem/',
-      'id': 'voter-turnout'
+      id: "dbrs",
     },
     {
-      'title': 'The Brookings Institution',
-      'date': '10/2018',
-      'types': [
-        'data visualization'
-      ],
-      'cover': {
-        'img': 'financial-crisis.jpg'
+      title: "The Brookings Institution",
+      date: "10/2018",
+      types: ["data visualization"],
+      cover: {
+        img: "voter-turnout.jpg",
       },
-      'description': [
-        'Financial Crisis Graphics with Dr. Ben Bernanke',
-        'Data Visualization / Animation'
-      ],
-      'external': true,
-      'link': 'https://www.brookings.edu/blog/ben-bernanke/2018/09/13/financial-panic-and-credit-disruptions-in-the-2007-09-crisis/',
-      'id': 'financial-crisis',
+      description: ["Voter Turnout Graphics", "Data Visualization / Animation"],
+      external: true,
+      link:
+        "https://www.brookings.edu/blog/up-front/2018/10/25/a-story-from-this-american-indian-reservation-has-important-lessons-for-americas-voter-turnout-problem/",
+      id: "voter-turnout",
     },
     {
-      'title': 'Odin Chart',
-      'date': '08/2018',
-      'types': [
-        'data visualization'
-      ],
-      'cover': {
-        'img': 'odin_banner.jpg'
+      title: "The Brookings Institution",
+      date: "10/2018",
+      types: ["data visualization"],
+      cover: {
+        img: "financial-crisis.jpg",
       },
-      'description': [
-        'Chart Design Tool',
-        'Creator / Product Design / Data Visualization'
+      description: [
+        "Financial Crisis Graphics with Dr. Ben Bernanke",
+        "Data Visualization / Animation",
       ],
-      'external': true,
-      'link': 'https://odinchart.com',
-      'id': 'odin',
+      external: true,
+      link:
+        "https://www.brookings.edu/blog/ben-bernanke/2018/09/13/financial-panic-and-credit-disruptions-in-the-2007-09-crisis/",
+      id: "financial-crisis",
     },
     {
-      'title': '100 Years of VR',
-      'types': [
-        '3D'
-      ],
-      'cover': {
-        'img': '100yvr.jpg'
+      title: "Odin Chart",
+      date: "08/2018",
+      types: ["data visualization"],
+      cover: {
+        img: "odin_banner.jpg",
       },
-      'description': [
-        'Personal Experiments in 3D and VR'
+      description: [
+        "Chart Design Tool",
+        "Creator / Product Design / Data Visualization",
       ],
-      'external': true,
-      'link': 'https://100yearsofvr.com/',
-      'id': '100yvr',
+      external: true,
+      link: "https://odinchart.com",
+      id: "odin",
     },
     {
-      'title': 'Spectrum News',
-      'date': '03/2019',
-      'types': [
-        'data visualization'
-      ],
-      'cover': {
-        'img': 'spectrum-diagnoses.jpg'
+      title: "100 Years of VR",
+      types: ["3D"],
+      cover: {
+        img: "100yvr.jpg",
       },
-      'description': [
-        'Autism Research Graphics',
-        'Data Visualization / Animation'
+      description: ["Personal Experiments in 3D and VR"],
+      external: true,
+      link: "https://100yearsofvr.com/",
+      id: "100yvr",
+    },
+    {
+      title: "Spectrum News",
+      date: "03/2019",
+      types: ["data visualization"],
+      cover: {
+        img: "spectrum-diagnoses.jpg",
+      },
+      description: [
+        "Autism Research Graphics",
+        "Data Visualization / Animation",
       ],
-      'external': true,
-      'link': 'https://www.spectrumnews.org/news/autism-diagnosis-often-followed-identification-conditions/',
-      'id': 'spectrum-diagnoses'
+      external: true,
+      link:
+        "https://www.spectrumnews.org/news/autism-diagnosis-often-followed-identification-conditions/",
+      id: "spectrum-diagnoses",
     },
     // {
     //   'title': 'Basis from Sentinel Labs',
@@ -138,120 +133,87 @@ var portfolio = {
     //   'id': 'sentinel-labs',
     // },
     {
-      'title': 'Anonymous Client',
-      'types': [
-        'data visualization'
-      ],
-      'cover': {
-        'img': 'Biome.jpg'
+      title: "Anonymous Client",
+      types: ["data visualization"],
+      cover: {
+        img: "Biome.jpg",
       },
-      'description': [
-        'Gut Biome Graphics',
-        'Interactive Data Visualization'
-      ],
-      'id': 'biome'
+      description: ["Gut Biome Graphics", "Interactive Data Visualization"],
+      id: "biome",
     },
     {
-      'title': 'Bitcoin Price Arbitrage',
-      'date': '11/2017',
-      'types': [
-        'data visualization'
-      ],
-      'cover': {
-        'img': 'BTC.jpg'
+      title: "Bitcoin Price Arbitrage",
+      date: "11/2017",
+      types: ["data visualization"],
+      cover: {
+        img: "BTC.jpg",
       },
-      'description': [
-        'Data Visualization',
-        'Personal Project'
-      ],
-      'external': true,
-      'link': '/btc/index.html',
-      'id': 'btc'
+      description: ["Data Visualization", "Personal Project"],
+      external: true,
+      link: "/btc/index.html",
+      id: "btc",
     },
     {
-      'title': 'UN Environment',
-      'types': [
-        'data visualization'
-      ],
-      'cover': {
-        'img': 'UNEP.jpg'
+      title: "UN Environment",
+      types: ["data visualization"],
+      cover: {
+        img: "UNEP.jpg",
       },
-      'description': [
-        'Interactive Data Graphics',
-        'Data for a Cause'
-      ],
-      'external': true,
-      'link': '/UNEP/index.html',
-      'id': 'UNEP'
+      description: ["Interactive Data Graphics", "Data for a Cause"],
+      external: true,
+      link: "/UNEP/index.html",
+      id: "UNEP",
     },
     {
-      'title': 'Natural Meditation',
-      'date': '11/2017',
-      'types': [
-        'design',
-        'ux',
-        'frontend'
-      ],
-      'cover': {
-        'img': 'meditation_cover.jpg'
+      title: "Natural Meditation",
+      date: "11/2017",
+      types: ["design", "ux", "frontend"],
+      cover: {
+        img: "meditation_cover.jpg",
       },
-      'description': [
-        'Meditation Timer App',
-        'Market Research / Branding / Product Design / Data Visualization / Full Stack Development'
+      description: [
+        "Meditation Timer App",
+        "Market Research / Branding / Product Design / Data Visualization / Full Stack Development",
       ],
-      'id': 'meditation'
+      id: "meditation",
     },
     {
-      'title': 'SolidX / Vida',
-      'date': '10/2017',
-      'types': [
-        'design',
-        'ux',
-        'frontend'
-      ],
-      'cover': {
-        'img': 'vida_cover.jpg'
+      title: "SolidX / Vida",
+      date: "10/2017",
+      types: ["design", "ux", "frontend"],
+      cover: {
+        img: "vida_cover.jpg",
       },
-      'description': [
-        'Personal Cybersecurity App',
-        'UX Design / Product Management'
+      description: [
+        "Personal Cybersecurity App",
+        "UX Design / Product Management",
       ],
-      'lightText': true,
-      'id': 'vida'
+      lightText: true,
+      id: "vida",
     },
     {
-      'title': 'TVRN',
-      'types': [
-        'design',
-        'code',
-        'vr'
-      ],
-      'cover': {
-        'img': 'tvrn_cover.jpg'
+      title: "TVRN",
+      types: ["design", "code", "vr"],
+      cover: {
+        img: "tvrn_cover.jpg",
       },
-      'description': [
-        'Virtual Reality Art Exploration App',
-        'UX Design / Virtual Reality Development / Branding'
+      description: [
+        "Virtual Reality Art Exploration App",
+        "UX Design / Virtual Reality Development / Branding",
       ],
-      'id': 'tvrn',
-      'lightText': true
+      id: "tvrn",
+      lightText: true,
     },
     {
-      'title': 'Donors Choose',
-      'types': [
-        'design',
-        'graphics'
-      ],
-      'cover': {
-        'img': 'donorschoose.jpg'
+      title: "Donors Choose",
+      types: ["design", "graphics"],
+      cover: {
+        img: "donorschoose.jpg",
       },
-      'description': [
-        'Interactive Data Graphics',
-        'Data for a Cause'
-      ],
-      'external': true,
-      'link': '/donorschoose/index.html',
-      'id': 'visualizations'
+      description: ["Interactive Data Graphics", "Data for a Cause"],
+      external: true,
+      link: "/donorschoose/index.html",
+      id: "visualizations",
     },
     // {
     //   'title': 'Voxel Dreams',
@@ -270,37 +232,28 @@ var portfolio = {
     //   'id': 'voxeldreams'
     // },
     {
-      'title': 'Top UX Words of 2016',
-      'types': [
-        'design',
-        'graphics'
-      ],
-      'cover': {
-        'img': 'uxwords.jpg'
+      title: "Top UX Words of 2016",
+      types: ["design", "graphics"],
+      cover: {
+        img: "uxwords.jpg",
       },
-      'description': [
-        'Interactive Data Graphics',
-        'Data Visualization / Animation'
+      description: [
+        "Interactive Data Graphics",
+        "Data Visualization / Animation",
       ],
-      'external': true,
-      'link': '/uxwords/index.html',
-      'id': 'visualizations'
+      external: true,
+      link: "/uxwords/index.html",
+      id: "visualizations",
     },
     {
-      'title': 'E*Trade Financial',
-      'types': [
-        'design',
-        'ux'
-      ],
-      'cover': {
-        'img': 'etrade_cover.jpg'
+      title: "E*Trade Financial",
+      types: ["design", "ux"],
+      cover: {
+        img: "etrade_cover.jpg",
       },
-      'description': [
-        'Online Brokerage Firm',
-        'UX Design / Product Management'
-      ],
-      'id': 'etrade',
-      'fit': true
+      description: ["Online Brokerage Firm", "UX Design / Product Management"],
+      id: "etrade",
+      fit: true,
     },
     // {
     //   'title': 'Swarm 2048',
@@ -319,56 +272,46 @@ var portfolio = {
     //   'id': 'swarm2048'
     // },
     {
-      'title': 'Interactive Dashboard',
-      'types': [
-        'design',
-        'graphics'
-      ],
-      'cover': {
-        'img': 'CDDashboard.jpg'
+      title: "Interactive Dashboard",
+      types: ["design", "graphics"],
+      cover: {
+        img: "CDDashboard.jpg",
       },
-      'description': [
-        'Interactive Data Graphics',
-        'Data Visualization / Animation'
+      description: [
+        "Interactive Data Graphics",
+        "Data Visualization / Animation",
       ],
-      'external': true,
-      'link': '/corrdisp/index.html',
-      'id': 'visualizations'
+      external: true,
+      link: "/corrdisp/index.html",
+      id: "visualizations",
     },
     {
-      'title': 'NVD3',
-      'types': [
-        'software',
-        'dataviz'
-      ],
-      'lightText': true,
-      'cover': {
-        'img': 'nvd3_cover.jpg'
+      title: "NVD3",
+      types: ["software", "dataviz"],
+      lightText: true,
+      cover: {
+        img: "nvd3_cover.jpg",
       },
-      'description': [
-        'Reusable charting library built on d3.js',
-        'Data Visualization Design / Front End Development'
+      description: [
+        "Reusable charting library built on d3.js",
+        "Data Visualization Design / Front End Development",
       ],
-      'id': 'nvd3'
+      id: "nvd3",
     },
     {
-      'title': 'Novus Partners',
-      'types': [
-        'ux',
-        'frontend',
-        'dataviz'
-      ],
-      'cover': {
-        'img': 'novus_cover.jpg'
+      title: "Novus Partners",
+      types: ["ux", "frontend", "dataviz"],
+      cover: {
+        img: "novus_cover.jpg",
       },
-      'description': [
-        'Financial Analytics App',
-        'Data Visualization Design / UX Design / Front End Development'
+      description: [
+        "Financial Analytics App",
+        "Data Visualization Design / UX Design / Front End Development",
       ],
-      'lightText': true,
-      'id': 'novus'
-    }
-  ]
-}
+      lightText: true,
+      id: "novus",
+    },
+  ],
+};
 
-export default portfolio
+export default portfolio;
