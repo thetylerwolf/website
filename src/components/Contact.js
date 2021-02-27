@@ -126,8 +126,30 @@ export default class Contact extends Component {
                     Visualization
                   </a>
                 </li>
-                <li>Grant funding recipient - SSES Validator</li>
+                <li>
+                  Grant funding recipient - Stockholm School of Entrepreneurial
+                  Studies
+                </li>
                 <li>Grant funding recipient - Adobe Fund for Design</li>
+              </ul>
+
+              <p className="bold">Positions</p>
+
+              <ul>
+                <li>
+                  Industry Leader - Data Presentation Module - Hyper Island
+                  (2021 - Present)
+                </li>
+
+                <li>
+                  Education Committee member - Data Visualization Society (2019
+                  - 2020)
+                </li>
+
+                <li>
+                  Organizer - Data Visualization Stockholm Meetup (2019 -
+                  Present)
+                </li>
               </ul>
 
               <p className="bold">Speaking</p>
@@ -138,9 +160,9 @@ export default class Contact extends Component {
                 <p>Topics I've spoken about include:</p>
                 <ul>
                   <li>Data visualization design courses and workshops</li>
-                  <li>User-centered design</li>
+                  {/* <li>User-centered design</li> */}
                   <li>Design process</li>
-                  <li>Optimizing process and communication</li>
+                  {/* <li>Optimizing process and communication</li> */}
                   <li>Technical talks about specific techniques</li>
                 </ul>
                 If you'd like to hire me to speak with your organization, reach
@@ -150,22 +172,18 @@ export default class Contact extends Component {
               <p className="faded">2020</p>
               <ul>
                 <li>
-                  Panel Speaker for "Freelancing in data visualization" - Data
+                  Panel Speaker for "Freelancing in Data Visualization" - Data
                   Visualization Society
                 </li>
+                <li>"Working with Open Data" - Stockholm Open Data Day 2020</li>
               </ul>
 
               <p className="faded">2019</p>
-              {/*
-                <ul>
-                  <li> Upcoming 0 "AI Techniques for Supercharged Data Visualization" - Øredev Conference 2018</li>
-                </ul>
-              */}
 
               <ul>
                 <li>
                   "A More Efficient Dataviz Design Process" - Data Visualization
-                  Design Stockholm
+                  Stockholm
                 </li>
               </ul>
 
@@ -178,6 +196,9 @@ export default class Contact extends Component {
                   - Øredev Conference 2018
                 </li>
               </ul>
+
+              <br />
+              <br />
             </Col>
           </Row>
         </Grid>

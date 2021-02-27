@@ -22,7 +22,7 @@ var portfolio = {
       cover: {
         img: "mobility-observer.png",
       },
-      description: ["Data Visualization"],
+      description: ["Interactive Data Visualization"],
       external: true,
       lightText: true,
       link: "https://challengesgov.se/winner-mobility-observer/",
@@ -32,7 +32,7 @@ var portfolio = {
       },
     },
     {
-      title: "Morningstar/DBRS",
+      title: "Morningstar",
       date: "12/2018",
       types: ["enterprise", "product design", "data visualization"],
       cover: {
@@ -40,7 +40,7 @@ var portfolio = {
       },
       description: [
         "Viewpoint Real Estate Research App",
-        "Data Visualization / Product Design",
+        "Interactive Data Visualization",
       ],
       id: "dbrs",
     },
@@ -133,7 +133,7 @@ var portfolio = {
     //   'id': 'sentinel-labs',
     // },
     {
-      title: "Anonymous Client",
+      title: "Sun Genomics",
       types: ["data visualization"],
       cover: {
         img: "Biome.jpg",
@@ -159,7 +159,7 @@ var portfolio = {
       cover: {
         img: "UNEP.jpg",
       },
-      description: ["Interactive Data Graphics", "Data for a Cause"],
+      description: ["Interactive Data Visualization", "Data for a Cause"],
       external: true,
       link: "/UNEP/index.html",
       id: "UNEP",
@@ -199,7 +199,7 @@ var portfolio = {
       },
       description: [
         "Virtual Reality Art Exploration App",
-        "UX Design / Virtual Reality Development / Branding",
+        "UX Design / Virtual Reality Development",
       ],
       id: "tvrn",
       lightText: true,
@@ -210,7 +210,7 @@ var portfolio = {
       cover: {
         img: "donorschoose.jpg",
       },
-      description: ["Interactive Data Graphics", "Data for a Cause"],
+      description: ["Interactive Data Visualization", "Data for a Cause"],
       external: true,
       link: "/donorschoose/index.html",
       id: "visualizations",
@@ -238,7 +238,7 @@ var portfolio = {
         img: "uxwords.jpg",
       },
       description: [
-        "Interactive Data Graphics",
+        "Interactive Data Visualization",
         "Data Visualization / Animation",
       ],
       external: true,

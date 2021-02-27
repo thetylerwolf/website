@@ -81,40 +81,43 @@ export default class About extends Component {
                 , etc.
               </p>
               <p>
-                Finally, I decided that I couldn't work in an office job anymore
-                if I wanted to do what I love. I needed to go out on my own and
-                find the work that I was really excited to do. I took a big
-                risk, quit my job and{" "}
+                Finally, I decided that if I wanted to do what I love, I needed
+                to go out on my own and find the work that really interested me.
+                I took a big risk, quit my job and{" "}
                 <span className="highlight-3">went freelance</span> in May 2017.
               </p>
               <p>
-                I now work{" "}
+                After a few years of freelance work, I found where my interests
+                converged: Understanding and explaining complex systems with
+                data visualization. Specifically, I am interested in how
+                feedback loops emerge among participants in large systems and
+                evolve over time. I explain these complex systems with{" "}
+                <span className="highlight-3">
+                  interactive and static/print data visualizations
+                </span>
+                , as well as creative projects with{" "}
+                <span className="highlight-3">2D and 3D graphics</span>. I also{" "}
+                <span className="highlight-2">speak publicly</span> and{" "}
+                <span className="highlight-2">run workshops</span> about data
+                visualization and product design and have{" "}
+                <span className="highlight-3">
+                  received an award and grant funding
+                </span>{" "}
+                for my work.
+              </p>
+              <p>
+                As of November 2019, I work{" "}
                 <span className="highlight-1">
                   full-time at{" "}
                   <a href="https://king.com" target="_blank">
                     King Games
                   </a>
                 </span>{" "}
-                as a data visualization specialist.
+                as a data visualization specialist where I simplify massive,
+                complex datasets into tools to aid decision-making. It's quite
+                interesting!
               </p>
-              <p>
-                It took me some time to learn the ins-and-outs of freelancing
-                and how I want the world to see my work, but now I'm here. I
-                work on{" "}
-                <span className="highlight-3">
-                  interactive and static/print data visualizations
-                </span>
-                , as well as creative projects with{" "}
-                <span className="highlight-3">2D and 3D graphics</span> for
-                branding/marketing purposes. I also{" "}
-                <span className="highlight-3">speak publicly</span> and{" "}
-                <span className="highlight-2">run workshops</span> about data
-                visualization and product design and have{" "}
-                <span className="highlight-3">
-                  received an award and grant funding
-                </span>{" "}
-                for my work (see more below.)
-              </p>
+
               <p>
                 If you would like to{" "}
                 <Link to="contact">hire me for a project</Link>, I am not
@@ -140,19 +143,6 @@ export default class About extends Component {
 
               <br />
               <br />
-
-              <p className="bold">Odin Chart</p>
-
-              <p>
-                In 2018, I received a grant from Adobe for my work on{" "}
-                <a href="https://odinchart.com" target="_blank">
-                  Odin Chart
-                </a>
-                , a follow-up to Sketch Data Studio, a popular data
-                visualization design tool that I created several years ago. I am
-                leading development of Odin Chart as we prepare for its major
-                web release.
-              </p>
             </Col>
           </Row>
         </Grid>
