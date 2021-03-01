@@ -10,12 +10,19 @@ import Meditation from "./Meditation";
 import Biome from "./Biome";
 import Basis from "./Basis";
 import DBRS from "./DBRS";
+import DynamicLandscape from "./DynamicLandscape";
 
 var portfolioPages = {
   dbrs: {
     page: <DBRS />,
     name: "DBRS Viewpoint",
     previous: "novus",
+    next: "sentinel-labs",
+  },
+  "dynamic-landscape": {
+    page: <DynamicLandscape />,
+    name: "Dynamic Landscape",
+    previous: "dbrs",
     next: "sentinel-labs",
   },
   "sentinel-labs": {

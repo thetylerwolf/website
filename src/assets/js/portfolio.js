@@ -16,6 +16,21 @@ var portfolio = {
       },
     },
     {
+      title: "T-SNE UN Sustainable Development Goals",
+      date: "06/2019",
+      types: ["data visualization", "machine learning"],
+      cover: {
+        img: "dynamic-landscape.png",
+      },
+      description: ["Interactive Data Visualization"],
+      external: false,
+      link: "https://thetylerwolf.github.io/dynamiclandscape/",
+      id: "dynamic-landscape",
+      style: {
+        fontSize: 64,
+      },
+    },
+    {
       title: "Winner - A Challenge from Sweden - Mobility Observer",
       date: "03/2019",
       types: ["data visualization"],
@@ -89,10 +104,10 @@ var portfolio = {
       id: "odin",
     },
     {
-      title: "100 Years of VR",
+      title: "100 Years of VR - Experiments in WebGL",
       types: ["3D"],
       cover: {
-        img: "100yvr.jpg",
+        img: "100yvr.png",
       },
       description: ["Personal Experiments in 3D and VR"],
       external: true,
