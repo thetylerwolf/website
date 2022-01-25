@@ -12,7 +12,7 @@ import HeaderNav from "./HeaderNav";
 
 export default class Contact extends Component {
   render() {
-    const mailToLink = `mailto:tyler@beetroot.digital?subject=Let's work together`;
+    const mailToLink = `mailto:hello@tylernwolf.com?subject=Let's work together`;
 
     return (
       <div className="contact-wrap">
