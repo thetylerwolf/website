@@ -45,6 +45,9 @@ export default class DynamicLandscape extends Component {
               <br />
               <br />
               June 2019
+              <br/>
+              <br/>
+              Live link: <a href="https://thetylerwolf.github.io/dynamiclandscape" target="_blank">https://thetylerwolf.github.io/dynamiclandscape</a>
             </div>
           </div>
 
