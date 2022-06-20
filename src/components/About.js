@@ -37,13 +37,13 @@ export default class About extends Component {
               <p>
                 I'm Tyler Wolf. I am a{" "}
                 <span className="highlight-2">
-                  data visualization designer/creative developer
+                  full-stack developer/data visualization expert
                 </span>{" "}
                 based in <span className="highlight-2">Stockholm, Sweden</span>.
                 I have been working in technology of some kind for about a
                 decade.
               </p>
-              <p>
+              {/* <p>
                 I have a degree in Electrical Engineering (EE) from the
                 University of Southern California. I chose to study EE because I
                 had always dreamed of building{" "}
@@ -104,7 +104,7 @@ export default class About extends Component {
                   received an award and grant funding
                 </span>{" "}
                 for my work.
-              </p>
+              </p> */}
               <p>
                 As of November 2019, I work{" "}
                 <span className="highlight-1">
@@ -113,7 +113,7 @@ export default class About extends Component {
                     King Games
                   </a>
                 </span>{" "}
-                as a data visualization specialist where I simplify massive,
+                as a data visualization engineer where I simplify massive,
                 complex datasets into tools to aid decision-making. It's quite
                 interesting!
               </p>

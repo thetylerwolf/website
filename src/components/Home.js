@@ -101,18 +101,20 @@ export default class Home extends Component {
                 I'm <span className="name-text">Tyler Wolf</span>
               </p>
               <p>
-                I design and build{" "}
-                <span className="highlight-1">custom data visualizations</span>{" "}
+                I am a full-stack developer that builds{" "}
+                <span className="highlight-1">
+                  data exploration and visualization systems
+                </span>{" "}
                 at{" "}
                 <a href="https://www.king.com/" target="_blank">
                   King Games
                 </a>
               </p>
               {/* <p>In industry terms, I make <span className="highlight-2">data visualizations</span> and <span className="highlight-2">design digital products</span></p> */}
-              <p>
-                {/* In industry terms,  */}I specialize in{" "}
-                <span className="highlight-3">interactive data graphics</span>
-              </p>
+              {/* <p> */}
+              {/* In industry terms, I specialize in{" "} */}
+              {/* <span className="highlight-3">interactive data graphics</span> */}
+              {/* </p> */}
               {/*
                   <p>Get in touch to <span className="highlight-2">hire me</span> <Link className="dark-link" to="/contact">here</Link></p>
                   <p>You can learn more <span className="highlight-2">about me</span> <Link className="dark-link" to="/about">here</Link></p>
