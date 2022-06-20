@@ -12,7 +12,7 @@ import HeaderNav from "./HeaderNav";
 
 export default class About extends Component {
   render() {
-    const mailToLink = `mailto:tyler@beetroot.digital?subject=Let's work together`;
+    const mailToLink = `mailto:hello@tylernwolf.com?subject=Let's work together`;
 
     return (
       <div className="about-wrap">
@@ -123,7 +123,7 @@ export default class About extends Component {
                 <Link to="contact">hire me for a project</Link>, I am not
                 actively taking on new projects, but I would love to hear what
                 you're working on. Reach out and contact me directly at{" "}
-                <a href={mailToLink}>tyler@beetroot.digital</a>.
+                <a href={mailToLink}>hello@tylernwolf.com</a>.
               </p>
 
               <div className="icon-container">
