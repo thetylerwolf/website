@@ -38,10 +38,8 @@ export default class About extends Component {
                 I'm Tyler Wolf. I am a{" "}
                 <span className="highlight-2">
                   full-stack developer/data visualization expert
-                </span>{" "}
-                based in <span className="highlight-2">Stockholm, Sweden</span>.
-                I have been working in technology of some kind for about a
-                decade.
+                </span>
+                . I have been working in technology of some kind for 11 years.
               </p>
               {/* <p>
                 I have a degree in Electrical Engineering (EE) from the
