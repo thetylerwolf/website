@@ -39,7 +39,7 @@ export default class About extends Component {
                 <span className="highlight-2">
                   full-stack developer/data visualization expert
                 </span>
-                . I have been working in technology of some kind for 11 years.
+                . I have been working in software development for 11 years.
               </p>
               {/* <p>
                 I have a degree in Electrical Engineering (EE) from the
