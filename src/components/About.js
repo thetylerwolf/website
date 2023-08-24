@@ -103,24 +103,12 @@ export default class About extends Component {
                 </span>{" "}
                 for my work.
               </p> */}
-              <p>
-                As of November 2019, I work{" "}
-                <span className="highlight-1">
-                  full-time at{" "}
-                  <a href="https://king.com" target="_blank">
-                    King Games
-                  </a>
-                </span>{" "}
-                as a data visualization engineer where I simplify massive,
-                complex datasets into tools to aid decision-making. It's quite
-                interesting!
-              </p>
 
               <p>
                 If you would like to{" "}
-                <Link to="contact">hire me for a project</Link>, I am not
-                actively taking on new projects, but I would love to hear what
-                you're working on. Reach out and contact me directly at{" "}
+                <Link to="contact">hire me for a project</Link>, I am actively
+                taking on new projects and would love to hear from you! Reach
+                out and contact me directly at{" "}
                 <a href={mailToLink}>hello@tylernwolf.com</a>.
               </p>
 
