@@ -36,8 +36,8 @@ export default class Contact extends Component {
             <Col className="col-center" lg={8} md={8} sm={12}>
               <p>
                 {/* If you would like to hire me for a project, I would love to hear what you're working on.  */}
-                I'm not actively taking on freelance projects at the moment, but
-                if you'd like to reach out, contact me directly.
+                I am actively taking on contract/freelance projects now! contact
+                me directly.
               </p>
 
               <Button className="btn" href={mailToLink}>
