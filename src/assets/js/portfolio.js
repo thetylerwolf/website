@@ -68,8 +68,7 @@ var portfolio = {
       },
       description: ["Voter Turnout Graphics", "Data Visualization / Animation"],
       external: true,
-      link:
-        "https://www.brookings.edu/blog/up-front/2018/10/25/a-story-from-this-american-indian-reservation-has-important-lessons-for-americas-voter-turnout-problem/",
+      link: "https://www.brookings.edu/blog/up-front/2018/10/25/a-story-from-this-american-indian-reservation-has-important-lessons-for-americas-voter-turnout-problem/",
       id: "voter-turnout",
     },
     {
@@ -84,8 +83,7 @@ var portfolio = {
         "Data Visualization / Animation",
       ],
       external: true,
-      link:
-        "https://www.brookings.edu/blog/ben-bernanke/2018/09/13/financial-panic-and-credit-disruptions-in-the-2007-09-crisis/",
+      link: "https://www.brookings.edu/blog/ben-bernanke/2018/09/13/financial-panic-and-credit-disruptions-in-the-2007-09-crisis/",
       id: "financial-crisis",
     },
     {
@@ -126,27 +124,22 @@ var portfolio = {
         "Data Visualization / Animation",
       ],
       external: true,
-      link:
-        "https://www.spectrumnews.org/news/autism-diagnosis-often-followed-identification-conditions/",
+      link: "https://www.spectrumnews.org/news/autism-diagnosis-often-followed-identification-conditions/",
       id: "spectrum-diagnoses",
     },
-    // {
-    //   'title': 'Basis from Sentinel Labs',
-    //   'date': '06/2018',
-    //   'types': [
-    //     'enterprise',
-    //     'product design',
-    //     'data visualization'
-    //   ],
-    //   'cover': {
-    //     'img': 'sentinel-labs.jpg'
-    //   },
-    //   'description': [
-    //     'Commercial Real Estate Investment App',
-    //     'Data Visualization / Product Design'
-    //   ],
-    //   'id': 'sentinel-labs',
-    // },
+    {
+      title: "Basis from Sentinel Labs",
+      date: "06/2018",
+      types: ["enterprise", "product design", "data visualization"],
+      cover: {
+        img: "sentinel-labs.jpg",
+      },
+      description: [
+        "Commercial Real Estate Investment App",
+        "Data Visualization / Product Design",
+      ],
+      id: "sentinel-labs",
+    },
     {
       title: "Sun Genomics",
       types: ["data visualization"],

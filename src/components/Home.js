@@ -98,7 +98,9 @@ export default class Home extends Component {
                 I'm <span className="name-text">Tyler Wolf</span>
               </p>
               <p>
-                Freelance Full-Stack Developer and Data Visualization Expert
+                Freelance{" "}
+                <span className="highlight-2">Full-Stack Developer</span> and{" "}
+                <span className="highlight-1">Data Visualization Expert</span>
               </p>
               <p>
                 I am currently available and taking on new freelance projects.
