@@ -7,9 +7,6 @@ import PortfolioPiece from "./PortfolioPiece";
 
 import portfolio from "../assets/js/portfolio.js";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
-
 import { Grid, Row, Col } from "react-bootstrap";
 
 let scrollWatcher = new ScrollWatcher();
@@ -100,9 +97,14 @@ export default class Home extends Component {
               <p>
                 I'm <span className="name-text">Tyler Wolf</span>
               </p>
-              <p>This is my data visualization portfolio website.</p>
               <p>
-                You can find my software consulting website{" "}
+                Freelance Full-Stack Developer and Data Visualization Expert
+              </p>
+              <p>
+                I am currently available and taking on new freelance projects.
+              </p>
+              <p>
+                This is my portfolio website. Learn more about me{" "}
                 <a href="https://wolfdev.se">here</a>.
               </p>
               {/* <p>In industry terms, I make <span className="highlight-2">data visualizations</span> and <span className="highlight-2">design digital products</span></p> */}

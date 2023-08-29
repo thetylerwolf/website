@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Redirect, Route, Switch } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 import { withRouter } from "react-router";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
 
@@ -7,7 +7,6 @@ import Home from "./Home";
 import About from "./About";
 import Contact from "./Contact";
 import ViewPortfolioPiece from "./ViewPortfolioPiece";
-import Legacy from "./Legacy";
 
 export class Routes extends Component {
   scrollToTop() {
