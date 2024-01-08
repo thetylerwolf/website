@@ -40,7 +40,7 @@ var portfolio = {
       description: ["Interactive Data Visualization"],
       external: true,
       lightText: true,
-      link: "https://challengesgov.se/winner-mobility-observer/",
+      link: "https://adamekberg.github.io/govchallenge/",
       id: "mobility-observer",
       style: {
         fontSize: 64,
