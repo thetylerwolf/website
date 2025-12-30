@@ -1,45 +1,32 @@
 import { Link } from "react-router-dom";
 import Layout from "@/components/layout/Layout";
+import Markdown from "@/components/Markdown";
+import homeContent from "@/content/home.md?raw";
+import { experiencePreview } from "@/content/experience";
 
 const Index = () => {
+  // Parse the markdown to extract sections
+  const sections = parseHomeContent(homeContent);
+
   return (
     <Layout>
       <article className="container">
         {/* Section 1: Introduction */}
         <section className="mb-section">
           <h1 className="font-serif text-3xl md:text-4xl font-normal mb-4 tracking-normal">
-            Your Name
+            {sections.name}
           </h1>
           <p className="font-sans text-muted-foreground text-body mb-6">
-            Senior Engineer
+            {sections.role}
           </p>
-          <p className="prose text-body">
-            I build backend systems, infrastructure, and technical architecture
-            for organizations navigating complexity. Currently available for
-            select consulting engagements.
-          </p>
+          <p className="prose text-body">{sections.intro}</p>
         </section>
 
         {/* Section 2: Expanded Profile */}
         <section className="mb-section prose">
-          <p>
-            Over fifteen years, I've worked across early-stage startups, growth
-            companies, and established enterprises—building systems that scale,
-            leading technical teams, and translating ambiguous business
-            requirements into reliable software.
-          </p>
-          <p>
-            My work tends toward backend systems, data infrastructure, and
-            platform architecture. I'm most useful in situations that require
-            deep technical judgment, ownership of ambiguous problems, and the
-            ability to work effectively across engineering, product, and
-            executive stakeholders.
-          </p>
-          <p>
-            I value calm, deliberate work. I prefer depth to breadth, and I'm
-            skeptical of technical decisions driven by novelty rather than
-            necessity.
-          </p>
+          {sections.profile.map((paragraph, index) => (
+            <p key={index}>{paragraph}</p>
+          ))}
         </section>
 
         {/* Section 3: How I Work */}
@@ -48,27 +35,9 @@ const Index = () => {
             What I'm typically brought in to do
           </h2>
           <ul className="prose space-y-3 list-none pl-0">
-            <li>
-              Own and architect backend systems with significant complexity or
-              scale requirements
-            </li>
-            <li>
-              Lead technical strategy for teams navigating growth transitions
-            </li>
-            <li>
-              Untangle legacy systems and establish paths toward sustainable
-              architecture
-            </li>
-            <li>
-              Bridge gaps between technical teams and business stakeholders
-            </li>
-            <li>
-              Provide technical due diligence for acquisitions or investments
-            </li>
-            <li>
-              Mentor senior engineers stepping into architectural or leadership
-              roles
-            </li>
+            {sections.workItems.map((item, index) => (
+              <li key={index}>{item}</li>
+            ))}
           </ul>
         </section>
 
@@ -78,24 +47,15 @@ const Index = () => {
             Selected Experience
           </h2>
           <div className="space-y-8">
-            <ExperiencePreview
-              title="Principal Engineer"
-              organization="Current Engagement"
-              period="2023 – Present"
-              description="Leading backend architecture for a fintech platform processing significant transaction volume. Responsible for system design, team mentorship, and technical roadmap."
-            />
-            <ExperiencePreview
-              title="Staff Engineer"
-              organization="Previous Company"
-              period="2019 – 2023"
-              description="Led infrastructure modernization, migrating critical systems while maintaining reliability. Established platform engineering practices adopted company-wide."
-            />
-            <ExperiencePreview
-              title="Technical Lead"
-              organization="Growth-Stage Startup"
-              period="2016 – 2019"
-              description="Built and led the core platform team through Series A to C. Scaled backend systems from early product to millions of active users."
-            />
+            {experiencePreview.map((exp, index) => (
+              <ExperiencePreview
+                key={index}
+                title={exp.title}
+                organization={exp.organization}
+                period={exp.period}
+                description={exp.description}
+              />
+            ))}
           </div>
           <div className="mt-10">
             <Link
@@ -140,5 +100,53 @@ const ExperiencePreview = ({
     </div>
   );
 };
+
+// Parse markdown content into structured sections
+function parseHomeContent(markdown: string) {
+  const lines = markdown.split("\n");
+  
+  let name = "";
+  let role = "";
+  let intro = "";
+  const profile: string[] = [];
+  const workItems: string[] = [];
+  
+  let currentSection = "";
+  let profileParagraph = "";
+  
+  for (const line of lines) {
+    if (line.startsWith("# ")) {
+      name = line.replace("# ", "").trim();
+    } else if (line.startsWith("## Profile")) {
+      currentSection = "profile";
+    } else if (line.startsWith("## What")) {
+      currentSection = "work";
+    } else if (currentSection === "" && !line.startsWith("#") && line.trim() && !name) {
+      // Skip
+    } else if (currentSection === "" && !line.startsWith("#") && line.trim() && name && !role) {
+      role = line.trim();
+    } else if (currentSection === "" && !line.startsWith("#") && line.trim() && name && role) {
+      intro = line.trim();
+      currentSection = "afterIntro";
+    } else if (currentSection === "profile") {
+      if (line.trim() === "") {
+        if (profileParagraph) {
+          profile.push(profileParagraph.trim());
+          profileParagraph = "";
+        }
+      } else if (!line.startsWith("#")) {
+        profileParagraph += (profileParagraph ? " " : "") + line.trim();
+      }
+    } else if (currentSection === "work" && line.startsWith("- ")) {
+      workItems.push(line.replace("- ", "").trim());
+    }
+  }
+  
+  if (profileParagraph) {
+    profile.push(profileParagraph.trim());
+  }
+  
+  return { name, role, intro, profile, workItems };
+}
 
 export default Index;

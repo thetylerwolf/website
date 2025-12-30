@@ -1,6 +1,16 @@
 import Layout from "@/components/layout/Layout";
+import Markdown from "@/components/Markdown";
+import contactContent from "@/content/contact.md?raw";
+import { contactInfo } from "@/content/contact";
 
 const Contact = () => {
+  // Extract just the prose paragraphs (skip the h1)
+  const proseContent = contactContent
+    .split("\n")
+    .filter(line => !line.startsWith("#"))
+    .join("\n")
+    .trim();
+
   return (
     <Layout>
       <article className="container">
@@ -11,15 +21,7 @@ const Contact = () => {
         </header>
 
         <section className="prose mb-section">
-          <p>
-            I'm currently available for select consulting engagements,
-            particularly those involving backend architecture, infrastructure
-            strategy, or technical leadership during transitions.
-          </p>
-          <p>
-            For inquiries about consulting work, or to discuss potential
-            collaboration, the best way to reach me is via email.
-          </p>
+          <Markdown content={proseContent} />
         </section>
 
         <section className="mb-section">
@@ -27,42 +29,35 @@ const Contact = () => {
             <div>
               <p className="text-small text-muted-foreground mb-1">Email</p>
               <a
-                href="mailto:hello@yourname.com"
+                href={`mailto:${contactInfo.email}`}
                 className="text-body hover:text-primary transition-colors"
               >
-                hello@yourname.com
+                {contactInfo.email}
               </a>
             </div>
             <div>
               <p className="text-small text-muted-foreground mb-1">LinkedIn</p>
               <a
-                href="https://linkedin.com/in/yourname"
+                href={contactInfo.linkedin.url}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-body hover:text-primary transition-colors"
               >
-                linkedin.com/in/yourname
+                {contactInfo.linkedin.display}
               </a>
             </div>
             <div>
               <p className="text-small text-muted-foreground mb-1">GitHub</p>
               <a
-                href="https://github.com/yourname"
+                href={contactInfo.github.url}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-body hover:text-primary transition-colors"
               >
-                github.com/yourname
+                {contactInfo.github.display}
               </a>
             </div>
           </div>
-        </section>
-
-        <section className="prose">
-          <p className="text-muted-foreground text-small">
-            I typically respond within one to two business days. For urgent
-            matters, please indicate as such in the subject line.
-          </p>
         </section>
       </article>
     </Layout>
