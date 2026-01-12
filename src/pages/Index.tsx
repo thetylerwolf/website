@@ -30,7 +30,7 @@ const Index = () => {
         </section>
 
         {/* Section 3: How I Work */}
-        <section className="mb-section">
+        <section className="mb-section pt-section-sm border-t border-cream">
           <h2 className="font-sans text-lg font-medium mb-6 text-muted-foreground tracking-normal">
             What I'm typically brought in to do
           </h2>
@@ -42,7 +42,7 @@ const Index = () => {
         </section>
 
         {/* Section 4: Selected Experience Preview */}
-        <section className="mb-section">
+        <section className="mb-section pt-section-sm border-t border-cream">
           <h2 className="font-sans text-lg font-medium mb-8 text-muted-foreground tracking-normal">
             Selected Experience
           </h2>

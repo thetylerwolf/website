@@ -41,6 +41,9 @@
     --input: 40 10% 88%;
     --ring: 220 50% 25%;
 
+    /* Warm cream accent for subtle texture */
+    --cream: 43 28% 87%;
+
     --radius: 0.25rem;
 
     /* Sidebar (minimal use) */
@@ -82,6 +85,9 @@
     --border: 220 12% 18%;
     --input: 220 12% 18%;
     --ring: 210 40% 70%;
+
+    /* Warm cream - darker for dark mode */
+    --cream: 40 15% 22%;
 
     --sidebar-background: 220 15% 8%;
     --sidebar-foreground: 40 10% 92%;
