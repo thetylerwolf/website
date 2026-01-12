@@ -13,13 +13,40 @@ const Index = () => {
       <article className="container">
         {/* Section 1: Introduction */}
         <section className="mb-section">
-          <h1 className="font-serif text-3xl md:text-4xl font-normal mb-4 tracking-normal">
-            {sections.name}
-          </h1>
-          <p className="font-sans text-muted-foreground text-body mb-6">
-            {sections.role}
-          </p>
-          <p className="prose text-body">{sections.intro}</p>
+          <div className="flex flex-col md:flex-row md:items-start gap-8 md:gap-12">
+            {/* Photo placeholder */}
+            <div className="shrink-0">
+              <div className="w-28 h-36 md:w-32 md:h-40 bg-cream rounded-sm overflow-hidden">
+                <div className="w-full h-full flex items-center justify-center text-muted-foreground/40">
+                  <svg 
+                    xmlns="http://www.w3.org/2000/svg" 
+                    width="32" 
+                    height="32" 
+                    viewBox="0 0 24 24" 
+                    fill="none" 
+                    stroke="currentColor" 
+                    strokeWidth="1" 
+                    strokeLinecap="round" 
+                    strokeLinejoin="round"
+                  >
+                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+                    <circle cx="12" cy="7" r="4"/>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            
+            {/* Text content */}
+            <div className="flex-1">
+              <h1 className="font-serif text-3xl md:text-4xl font-normal mb-4 tracking-normal">
+                {sections.name}
+              </h1>
+              <p className="font-sans text-muted-foreground text-body mb-6">
+                {sections.role}
+              </p>
+              <p className="prose text-body">{sections.intro}</p>
+            </div>
+          </div>
         </section>
 
         {/* Section 2: Expanded Profile */}
