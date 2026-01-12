@@ -10,7 +10,7 @@ const Header = () => {
   ];
 
   return (
-    <header className="pt-12 pb-8 md:pt-16 md:pb-12 border-b border-cream">
+    <header className="pt-12 pb-8 md:pt-16 md:pb-12">
       <nav className="container">
         <ul className="flex items-center gap-8 font-sans text-small">
           {navItems.map((item) => (
