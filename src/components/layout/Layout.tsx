@@ -1,16 +1,23 @@
 import { ReactNode } from "react";
 import Header from "./Header";
 import Footer from "./Footer";
+import Aside from "./Aside";
 
 interface LayoutProps {
   children: ReactNode;
+  showAside?: boolean;
 }
 
-const Layout = ({ children }: LayoutProps) => {
+const Layout = ({ children, showAside = true }: LayoutProps) => {
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
-      <main className="flex-1 fade-in">{children}</main>
+      <div className="flex-1 flex justify-center">
+        <div className="flex w-full max-w-5xl px-6">
+          <main className="flex-1 fade-in max-w-[720px]">{children}</main>
+          {showAside && <Aside />}
+        </div>
+      </div>
       <Footer />
     </div>
   );
