@@ -1,11 +1,11 @@
 export const contactInfo = {
-  email: "hello@yourname.com",
+  email: "tyler@wovensignal.xyz",
   linkedin: {
-    url: "https://linkedin.com/in/yourname",
-    display: "linkedin.com/in/yourname"
+    url: "https://linkedin.com/in/tylernwolf",
+    display: "linkedin.com/in/tylernwolf"
   },
   github: {
-    url: "https://github.com/yourname",
-    display: "github.com/yourname"
+    url: "https://github.com/thetylerwolf",
+    display: "github.com/thetylerwolf"
   }
 };

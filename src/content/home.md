@@ -1,22 +1,22 @@
-# Your Name
+# Tyler Wolf
 
-Senior Engineer
+Senior Backend / Platform Engineer
 
-I build backend systems, infrastructure, and technical architecture for organizations navigating complexity. Currently available for select consulting engagements.
+I work on backend systems and infrastructure where reliability, long-term operation, and technical direction matter.
+
+Focused on systems designed to operate reliably over time.
 
 ## Profile
 
-Over fifteen years, I've worked across early-stage startups, growth companies, and established enterprises—building systems that scale, leading technical teams, and translating ambiguous business requirements into reliable software.
+Over the past 15 years, I’ve worked with complex software systems across early-stage startups, growing companies, and established enterprises. My work focuses on backend systems and infrastructure where long-term reliability, correctness, and maintainability are central concerns.
 
-My work tends toward backend systems, data infrastructure, and platform architecture. I'm most useful in situations that require deep technical judgment, ownership of ambiguous problems, and the ability to work effectively across engineering, product, and executive stakeholders.
+I work comfortably with a wide range of stakeholders, from engineering teams to C-level leadership, and with inputs that range from detailed specifications to loosely defined product visions. In practice, this often means taking ambiguity seriously and carrying it through to concrete, dependable systems.
 
-I value calm, deliberate work. I prefer depth to breadth, and I'm skeptical of technical decisions driven by novelty rather than necessity.
+The work I do is foundational by nature. I value calm, deliberate progress, depth over breadth, and technical decisions driven by necessity rather than novelty. Much of my focus is on building systems that remain stable and comprehensible well beyond the initial implementation.
 
 ## What I'm typically brought in to do
 
-- Own and architect backend systems with significant complexity or scale requirements
-- Lead technical strategy for teams navigating growth transitions
-- Untangle legacy systems and establish paths toward sustainable architecture
-- Bridge gaps between technical teams and business stakeholders
-- Provide technical due diligence for acquisitions or investments
-- Mentor senior engineers stepping into architectural or leadership roles
+- Take ownership of backend systems with meaningful complexity or scale, from early design through long-term operation
+- Stabilize and evolve existing systems, improving reliability, scalability, and operational clarity
+- Untangle legacy architectures and technical debt, establishing clear paths toward more sustainable systems
+- Provide technical leadership across teams, owning architectural direction and guiding long-term technical and operational decisions

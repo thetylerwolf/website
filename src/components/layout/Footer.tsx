@@ -5,13 +5,13 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 font-sans text-small text-muted-foreground">
           <div className="flex items-center gap-6">
             <a
-              href="mailto:hello@yourname.com"
+              href="mailto:tyler@wovensignal.xyz"
               className="hover:text-foreground transition-colors"
             >
-              hello@yourname.com
+              tyler@wovensignal.xyz
             </a>
             <a
-              href="https://linkedin.com/in/yourname"
+              href="https://linkedin.com/in/tylernwolf"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-foreground transition-colors"
@@ -19,7 +19,7 @@ const Footer = () => {
               LinkedIn
             </a>
             <a
-              href="https://github.com/yourname"
+              href="https://github.com/thetylerwolf"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-foreground transition-colors"

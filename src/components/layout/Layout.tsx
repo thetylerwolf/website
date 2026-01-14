@@ -11,7 +11,11 @@ interface LayoutProps {
 const Layout = ({ children, showAside = true }: LayoutProps) => {
   return (
     <div className="min-h-screen flex flex-col">
-      <Header />
+      <div className="flex-1 flex justify-center">
+        <div className="flex w-full max-w-5xl px-6">
+          <Header />
+        </div>
+      </div>
       <div className="flex-1 flex justify-center">
         <div className="flex w-full max-w-5xl px-6">
           <main className="flex-1 fade-in max-w-[720px]">{children}</main>
