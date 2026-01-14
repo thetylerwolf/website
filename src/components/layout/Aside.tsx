@@ -1,7 +1,7 @@
 const Aside = () => {
   const items = [
     { label: "Location", value: "Stockholm · CET" },
-    { label: "Status", value: "Limited availability" },
+    { label: "Status", value: "Available for select engagements" },
     { label: "Current", value: "Private crypto infrastructure engagement" },
     { label: "Experience", value: "15 years in production" },
   ];

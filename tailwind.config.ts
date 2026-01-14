@@ -64,6 +64,7 @@ export default {
           foreground: "hsl(var(--card-foreground))",
         },
         cream: "hsl(var(--cream))",
+        gold: "hsl(var(--gold))",
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",

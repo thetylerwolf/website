@@ -18,7 +18,7 @@ const Layout = ({ children, showAside = true }: LayoutProps) => {
       </div>
       <div className="flex-1 flex justify-center">
         <div className="flex w-full max-w-5xl px-6">
-          <main className="flex-1 fade-in max-w-[720px]">{children}</main>
+          <main className="flex-1 max-w-[720px]">{children}</main>
           {showAside && <Aside />}
         </div>
       </div>

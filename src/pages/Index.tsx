@@ -45,6 +45,7 @@ const Index = () => {
                 {sections.role}
               </p>
               <p className="prose text-body">{sections.intro}</p>
+              <p className="mt-4 prose text-muted-foreground text-body font-sans">{sections.introSecondary}</p>
             </div>
           </div>
         </section>
@@ -137,6 +138,7 @@ function parseHomeContent(markdown: string) {
   let intro = "";
   const profile: string[] = [];
   const workItems: string[] = [];
+  let introSecondary = "";
   
   let currentSection = "";
   let profileParagraph = "";
@@ -152,8 +154,10 @@ function parseHomeContent(markdown: string) {
       // Skip
     } else if (currentSection === "" && !line.startsWith("#") && line.trim() && name && !role) {
       role = line.trim();
-    } else if (currentSection === "" && !line.startsWith("#") && line.trim() && name && role) {
+    } else if (currentSection === "" && !line.startsWith("#") && line.trim() && name && role && !intro) {
       intro = line.trim();
+    } else if (currentSection === "" && !line.startsWith("#") && line.trim() && name && role && intro) {
+      introSecondary = line.trim();
       currentSection = "afterIntro";
     } else if (currentSection === "profile") {
       if (line.trim() === "") {
@@ -173,7 +177,7 @@ function parseHomeContent(markdown: string) {
     profile.push(profileParagraph.trim());
   }
   
-  return { name, role, intro, profile, workItems };
+  return { name, role, intro, introSecondary, profile, workItems };
 }
 
 export default Index;

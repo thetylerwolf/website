@@ -9,28 +9,24 @@ export interface ExperienceItem {
 export interface ExperiencePreviewItem {
   title: string;
   organization: string;
-  period: string;
   description: string;
 }
 
 export const experiencePreview: ExperiencePreviewItem[] = [
   {
-    title: "Principal Engineer",
-    organization: "Current Engagement",
-    period: "2023 – Present",
-    description: "Leading backend architecture for a fintech platform processing significant transaction volume. Responsible for system design, team mentorship, and technical roadmap."
+    title: "Crypto Protocol Infrastructure",
+    organization: "Private Client",
+    description: "Designed and operated a large-scale backend and infrastructure platform for a crypto protocol that indexes and serves blockchain data to applications and developers. The system supports one of the largest participants in the network and operates in an environment where correctness, uptime, and long-term reliability are critical."
   },
   {
-    title: "Staff Engineer",
-    organization: "Previous Company",
-    period: "2019 – 2023",
-    description: "Led infrastructure modernization, migrating critical systems while maintaining reliability. Established platform engineering practices adopted company-wide."
+    title: "Cost Monitoring Platform",
+    organization: "Increment",
+    description: "Served as the primary engineer on a backend-heavy SaaS platform for monitoring BigQuery and Snowflake costs. Worked closely with founders and early customers to design and operate a reliable, multi-tenant system on Google Cloud as the product evolved."
   },
   {
-    title: "Technical Lead",
-    organization: "Growth-Stage Startup",
-    period: "2016 – 2019",
-    description: "Built and led the core platform team through Series A to C. Scaled backend systems from early product to millions of active users."
+    title: "Internal Platforms",
+    organization: "King Games (Candy Crush)",
+    description: "Owned the technical direction and delivery of internal platforms supporting business processes and reporting. Worked closely with senior leadership and multiple teams to translate organizational needs into durable systems used daily across the company."
   }
 ];
 
