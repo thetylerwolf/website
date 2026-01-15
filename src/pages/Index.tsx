@@ -80,7 +80,6 @@ const Index = () => {
                 key={index}
                 title={exp.title}
                 organization={exp.organization}
-                period={exp.period}
                 description={exp.description}
               />
             ))}
@@ -88,6 +87,7 @@ const Index = () => {
           <div className="mt-10">
             <Link
               to="/experience"
+              onClick={() => { window.scrollTo({ top: 0, behavior: "auto" }); }}
               className="font-sans text-small text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-2"
             >
               View full experience
@@ -103,23 +103,18 @@ const Index = () => {
 interface ExperiencePreviewProps {
   title: string;
   organization: string;
-  period: string;
   description: string;
 }
 
 const ExperiencePreview = ({
   title,
   organization,
-  period,
   description,
 }: ExperiencePreviewProps) => {
   return (
     <div className="group">
       <div className="flex flex-col md:flex-row md:items-baseline md:justify-between gap-1 mb-2">
         <h3 className="font-serif text-xl font-normal">{title}</h3>
-        <span className="font-sans text-small text-muted-foreground">
-          {period}
-        </span>
       </div>
       <p className="font-sans text-small text-muted-foreground mb-2">
         {organization}

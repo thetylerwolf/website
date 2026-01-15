@@ -15,10 +15,6 @@ const Experience = () => {
           <h1 className="font-serif text-3xl md:text-4xl font-normal mb-4 tracking-normal">
             Experience
           </h1>
-          <p className="prose text-body text-muted-foreground">
-            A selective overview of roles and engagements, emphasizing scope,
-            judgment, and outcomes.
-          </p>
         </header>
 
         {/* Current Role */}
@@ -31,10 +27,10 @@ const Experience = () => {
           ))}
         </section>
 
-        {/* Select Consulting */}
+        {/* Consulting */}
         <section className="mb-section">
           <h2 className="font-sans text-lg font-medium mb-8 text-muted-foreground tracking-normal">
-            Select Consulting Engagements
+            Consulting Engagements
           </h2>
           <div className="space-y-12">
             {consultingEngagements.map((engagement, index) => (

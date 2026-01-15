@@ -32,93 +32,134 @@ export const experiencePreview: ExperiencePreviewItem[] = [
 
 export const currentRole: ExperienceItem[] = [
   {
-    title: "Principal Engineer",
-    organization: "Current Engagement",
-    period: "2023 – Present",
-    context: "Engaged as principal engineer for a fintech platform operating at significant scale, processing transaction volumes that require careful attention to reliability, latency, and regulatory compliance.",
-    responsibilities: [
-      "Designed and led implementation of a new settlement architecture, reducing processing time by 60% while improving auditability",
-      "Established backend platform standards adopted across five engineering teams",
-      "Serve as technical bridge between engineering leadership and executive stakeholders on infrastructure investments",
-      "Mentor senior engineers transitioning into staff and principal roles"
+    "title": "Principal Software Consultant",
+    "organization": "Self-Employed",
+    "period": "Feb 2023 – Present",
+    "context": "Independent consulting practice focused on backend- and infrastructure-heavy systems, often operating at the intersection of hands-on engineering and technical leadership.",
+    "responsibilities": [
+      "Engage with companies as a senior individual contributor and technical lead on complex, high-impact initiatives",
+      "Take responsibility for architectural direction and key technical decisions across backend systems and infrastructure",
+      "Work directly with founders and senior stakeholders to translate product vision and organizational goals into concrete technical plans",
+      "Provide technical leadership within client teams, guiding system design, priorities, and operational practices",
+      "Own delivery outcomes, including system reliability, long-term maintainability, and operational readiness"
     ]
   }
+  
+  
 ];
 
 export const consultingEngagements: ExperienceItem[] = [
   {
-    title: "Technical Advisor",
-    organization: "Private Equity Portfolio Company",
-    period: "2022 – 2023",
-    context: "Provided technical due diligence and post-acquisition architecture guidance for a B2B SaaS acquisition.",
-    responsibilities: [
-      "Led technical diligence identifying critical infrastructure risks prior to close",
-      "Developed 18-month technical roadmap for platform modernization",
-      "Guided engineering leadership through organizational restructuring"
+    "title": "Graph Protocol Infrastructure",
+    "organization": "Private Client",
+    "period": "Aug 2024 – Present",
+    "context": "Large-scale distributed backend and infrastructure platform for a crypto protocol that indexes and serves blockchain data to applications and developers. I designed and executed operational and data-selection strategies based on signals of financial value, balancing operational costs against expected return.",
+    "responsibilities": [
+      "Designed, deployed, and operated a bare-metal Kubernetes-based infrastructure stack from the ground up",
+      "Built and managed an 11-node cluster supporting multiple blockchain networks",
+      "Developed Python-based automation and operational tooling for indexer management and data extraction",
+      "Applied AI-assisted analysis to operational automation and strategy planning, supporting decision-making around system operation and resource allocation",
+      "Researched and implemented operational and allocation strategies in close collaboration with the founder",
+      "Operated systems where correctness, uptime, security, and long-term reliability were business-critical"
     ]
   },
   {
-    title: "Interim CTO",
-    organization: "Series A Startup",
-    period: "2021 – 2022",
-    context: "Stepped in as interim technical leadership during a transition period, stabilizing operations and hiring permanent leadership.",
-    responsibilities: [
-      "Stabilized production systems experiencing frequent outages",
-      "Rebuilt engineering team processes and hiring pipeline",
-      "Recruited and onboarded permanent CTO"
+    "title": "Cost Monitoring Platform",
+    "organization": "Increment",
+    "period": "Sept 2023 – Aug 2024",
+    "context": "Backend-heavy SaaS platform for monitoring and analyzing BigQuery and Snowflake costs for data engineering teams.",
+    "responsibilities": [
+      "Acted as primary engineer and technical owner for the platform",
+      "Designed and deployed backend services and infrastructure on Google Cloud Platform",
+      "Migrated the application from AWS to GCP using Terraform",
+      "Implemented authentication, multi-tenancy, notifications, and data isolation",
+      "Worked closely with founders and early customers to translate usage patterns into system design decisions"
     ]
   }
+,{
+  "title": "Staff Software Engineer",
+  "organization": "Shopify",
+  "period": "Oct 2022 – Feb 2023",
+  "context": "Utopia, a browser-based visual design tool that generates production React code.",
+  "responsibilities": [
+    "Worked on performance-sensitive frontend architecture for managing large UI trees in real time",
+    "Implemented an extensible theming system supporting light and dark modes",
+    "Improved application stability and internal tooling",
+    "Worked closely with designers and engineers, providing feedback on designs and implementations"
+  ]
+}
+,{
+  "title": "Instructor",
+  "organization": "Hyper Island",
+  "period": "Dec 2023 – Feb 2024",
+  "context": "React module for a two-year frontend development program.",
+  "responsibilities": [
+    "Led and delivered the React curriculum for approximately 30 students",
+    "Taught practical application development and evaluated final student projects"
+  ]
+}      
 ];
 
 export const previousExperience: ExperienceItem[] = [
   {
-    title: "Staff Engineer",
-    organization: "Previous Company",
-    period: "2019 – 2023",
-    context: "Led infrastructure and platform engineering at a mid-stage company through significant growth, from Series B through acquisition.",
-    responsibilities: [
-      "Architected and led migration from monolithic application to service-oriented architecture",
-      "Built and led platform engineering team of eight engineers",
-      "Established on-call practices, observability standards, and incident response procedures",
-      "Served on technical leadership council shaping company-wide engineering strategy"
+    "title": "Principal Software Engineer — Business Process Tools & Reporting",
+    "organization": "King Games (Candy Crush)",
+    "period": "Nov 2019 – Oct 2022",
+    "context": "Internal platforms supporting business processes and reporting for a large-scale consumer game company.",
+    "responsibilities": [
+      "Owned the technical direction and delivery of internal platforms used across multiple teams",
+      "Worked closely with senior leadership to define requirements and priorities",
+      "Built and operated backend services on Kubernetes and Google Cloud",
+      "Collaborated with engineers, data teams, and business stakeholders",
+      "Delivered highly trusted tools used daily by senior leadership and operational teams"
     ]
-  },
-  {
-    title: "Technical Lead",
-    organization: "Growth-Stage Startup",
-    period: "2016 – 2019",
-    context: "Joined as early backend engineer, eventually leading the core platform team through rapid growth.",
-    responsibilities: [
-      "Designed data pipeline processing billions of events daily",
-      "Led hiring and development of backend engineering team from 3 to 15 engineers",
-      "Partnered with product leadership on technical feasibility and prioritization"
+  },{
+    "title": "Technical Co-Founder / CTO",
+    "organization": "RockDoc AB",
+    "period": "Aug 2021 – Aug 2023",
+    "context": "Early-stage SaaS company building software for managing physical infrastructure construction projects.",
+    "responsibilities": [
+      "Co-founded the company and led all technical development",
+      "Designed and built the initial MVP, taking the product from concept to production",
+      "Acted as technical owner post-launch, translating customer needs into architecture and execution",
+      "Managed and coordinated external engineers and contractors",
+      "Led a production migration from a NoSQL database to PostgreSQL to resolve performance and scalability issues"
     ]
-  },
-  {
-    title: "Senior Software Engineer",
-    organization: "Enterprise Software Company",
-    period: "2012 – 2016",
-    context: "Backend engineer working on distributed systems and data infrastructure.",
-    responsibilities: [
-      "Developed core components of distributed storage system",
-      "Contributed to open-source tooling adopted by external users",
-      "Mentored junior engineers and led technical interviews"
+  },{
+    "title": "Lead Product Developer",
+    "organization": "SolidX Partners Inc.",
+    "period": "Nov 2015 – May 2017",
+    "context": "Blockchain identity product.",
+    "responsibilities": [
+      "Drove product development across design and frontend engineering",
+      "Led agile development processes and coordination between leadership and engineering"
     ]
-  },
-  {
-    title: "Software Engineer",
-    organization: "Early Career Positions",
-    period: "2008 – 2012",
-    context: "Foundational experience across backend development, systems programming, and startup environments.",
-    responsibilities: [
-      "Built foundational skills in systems design and software engineering",
-      "Contributed to multiple products from early development through launch"
-    ]
-  }
+},{
+  "title": "User Experience Architect",
+  "organization": "E*Trade",
+  "period": "May 2015 – Oct 2015",
+  "context": "Consumer and professional trading platforms.",
+  "responsibilities": [
+    "Improved user experience across trading products",
+    "Coordinated requirements with cross-functional stakeholders"
+  ]
+}
+,{
+  "title": "Software Engineer",
+  "organization": "Novus Partners, Inc.",
+  "period": "Jun 2012 – May 2015",
+  "context": "Analytics and data visualization platform.",
+  "responsibilities": [
+    "Developed major portions of the frontend UI",
+    "Contributed to migration from jQuery to AngularJS",
+    "Maintained and contributed to the open-source data visualization library nvd3.js"
+  ]
+}
+  
 ];
 
 export const education = {
-  degree: "B.S. Computer Science",
-  institution: "University Name",
-  year: "2008"
+  degree: "B.S. Electrical Engineering",
+  institution: "University of Southern California",
+  year: "2009"
 };
