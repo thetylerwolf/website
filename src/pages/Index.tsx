@@ -18,20 +18,7 @@ const Index = () => {
             <div className="shrink-0">
               <div className="w-28 h-36 md:w-32 md:h-40 bg-cream rounded-sm overflow-hidden">
                 <div className="w-full h-full flex items-center justify-center text-muted-foreground/40">
-                  <svg 
-                    xmlns="http://www.w3.org/2000/svg" 
-                    width="32" 
-                    height="32" 
-                    viewBox="0 0 24 24" 
-                    fill="none" 
-                    stroke="currentColor" 
-                    strokeWidth="1" 
-                    strokeLinecap="round" 
-                    strokeLinejoin="round"
-                  >
-                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
-                    <circle cx="12" cy="7" r="4"/>
-                  </svg>
+                  <img src="/tyler.jpg" alt="Tyler Wolf" className="w-full h-full object-cover" />
                 </div>
               </div>
             </div>
