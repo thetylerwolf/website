@@ -26,7 +26,7 @@ export default {
         'content': '48rem',
       },
       spacing: {
-        'section': '5rem',
+        'section': '4rem',
         'section-sm': '3rem',
       },
       colors: {

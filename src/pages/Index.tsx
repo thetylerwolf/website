@@ -13,10 +13,10 @@ const Index = () => {
       <article className="container">
         {/* Section 1: Introduction */}
         <section className="mb-section">
-          <div className="flex flex-col md:flex-row md:items-start gap-8 md:gap-12">
+          <div className="flex flex-col sm:flex-row sm:items-start gap-8 md:gap-12">
             {/* Photo placeholder */}
             <div className="shrink-0">
-              <div className="w-28 h-36 md:w-32 md:h-40 bg-cream rounded-sm overflow-hidden">
+              <div className="w-36 h-48 md:w-36 md:h-48 bg-cream rounded-sm overflow-hidden sm:-mt-2 sm:-ml-2">
                 <div className="w-full h-full flex items-center justify-center text-muted-foreground/40">
                   <img src="/tyler.jpg" alt="Tyler Wolf" className="w-full h-full object-cover" />
                 </div>
