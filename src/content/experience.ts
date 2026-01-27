@@ -56,7 +56,7 @@ export const consultingEngagements: ExperienceItem[] = [
     "context": "Large-scale distributed backend and infrastructure platform for a crypto protocol that indexes and serves blockchain data to applications and developers. I designed and executed operational and data-selection strategies based on signals of financial value, balancing operational costs against expected return.",
     "responsibilities": [
       "Designed, deployed, and operated a bare-metal Kubernetes-based infrastructure stack from the ground up",
-      "Built and managed an 11-node cluster supporting multiple blockchain networks",
+      "Built and managed an 11-node cluster, ran and maintained nodes for 5 blockchain networks",
       "Developed Python-based automation and operational tooling for indexer management and data extraction",
       "Applied AI-assisted analysis to operational automation and strategy planning, supporting decision-making around system operation and resource allocation",
       "Researched and implemented operational and allocation strategies in close collaboration with the founder",

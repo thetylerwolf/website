@@ -8,7 +8,7 @@ Focused on systems designed to operate reliably over time.
 
 ## Profile
 
-Over the past 15 years, I’ve worked with complex software systems across early-stage startups, growing companies, and established enterprises. My work focuses on backend systems and infrastructure where long-term reliability, correctness, and maintainability are central concerns.
+Over the past 15 years, I’ve worked with complex software systems across early-stage startups, growing companies, and established enterprises. My work focuses on backend systems and infrastructure where long-term reliability, correctness, and maintainability are central concerns. I’ve also worked extensively with decentralized infrastructure, including running and operating blockchain nodes and protocol-level systems, applying the same production and reliability standards as in more traditional backend and cloud environments.
 
 I work comfortably with a wide range of stakeholders, from engineering teams to C-level leadership, and with inputs that range from detailed specifications to loosely defined product visions. In practice, this often means taking ambiguity seriously and carrying it through to concrete, dependable systems.
 
@@ -18,5 +18,6 @@ The work I do is foundational by nature. I value calm, deliberate progress, dept
 
 - Take ownership of backend systems with meaningful complexity or scale, from early design through long-term operation
 - Stabilize and evolve existing systems, improving reliability, scalability, and operational clarity
+- Design and operate production infrastructure across cloud-native and decentralized environments, including protocol and blockchain node infrastructure when needed
 - Untangle legacy architectures and technical debt, establishing clear paths toward more sustainable systems
 - Provide technical leadership across teams, owning architectural direction and guiding long-term technical and operational decisions
