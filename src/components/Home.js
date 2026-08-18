@@ -106,8 +106,8 @@ export default class Home extends Component {
                 I am currently available and taking on new freelance projects.
               </p>
               <p>
-                This is my portfolio website. Learn more about me{" "}
-                <a href="https://wolfdev.se">here</a>.
+                This is my ancient portfolio website. Learn more about what I'm up to{" "}
+                <a href="https://tylernwolf.com">here</a>.
               </p>
               {/* <p>In industry terms, I make <span className="highlight-2">data visualizations</span> and <span className="highlight-2">design digital products</span></p> */}
               {/* <p> */}
