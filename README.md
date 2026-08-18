@@ -1,1 +1,0 @@
-2026 update to my personal website

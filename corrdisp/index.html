@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+  <head>
+    <style>
+
+      .container {
+        font-family:sans-serif;
+        width:1000px !important;
+        margin:auto;
+      }
+
+      svg {
+        position:relative;
+        margin-top:25px;
+        margin-bottom:50px;
+        width:1000px;
+        height:540px;
+        background-color:#fff;
+      }
+
+      svg text {
+        font-family:sans-serif;
+        font-size:11px;
+      }
+
+      .x-axis path,
+      .x-axis line,
+      .z-line line,
+      .y-axis path {
+        fill: none;
+        stroke: #000;
+        shape-rendering: crispEdges;
+      }
+
+      .scatter-wrap .x-axis .tick,
+      .scatter-wrap .y-axis .tick {
+        opacity:0 !important;
+      }
+
+      .scatter-points .point {
+        transition: stroke-width 0.2s;
+      }
+
+      .line-wrap text {
+        font-size:12px;
+      }
+
+      .text-wrap text {
+        font-size:16px;
+      }
+
+    </style>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Data visualization | Product Design | Creative | Tyler Wolf</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="/uxwords/bootstrap.min.css">
+    <script>
+      !(function (t, e) {
+        var o, n, p, r;
+        e.__SV ||
+          ((window.posthog = e),
+          (e._i = []),
+          (e.init = function (i, s, a) {
+            function g(t, e) {
+              var o = e.split(".");
+              2 == o.length && ((t = t[o[0]]), (e = o[1])),
+                (t[e] = function () {
+                  t.push([e].concat(Array.prototype.slice.call(arguments, 0)));
+                });
+            }
+            ((p = t.createElement("script")).type = "text/javascript"),
+              (p.async = !0),
+              (p.src = s.api_host + "/static/array.js"),
+              (r = t.getElementsByTagName("script")[0]).parentNode.insertBefore(
+                p,
+                r
+              );
+            var u = e;
+            for (
+              void 0 !== a ? (u = e[a] = []) : (a = "posthog"),
+                u.people = u.people || [],
+                u.toString = function (t) {
+                  var e = "posthog";
+                  return (
+                    "posthog" !== a && (e += "." + a), t || (e += " (stub)"), e
+                  );
+                },
+                u.people.toString = function () {
+                  return u.toString(1) + ".people (stub)";
+                },
+                o =
+                  "capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags getFeatureFlag getFeatureFlagPayload reloadFeatureFlags group updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures getActiveMatchingSurveys getSurveys".split(
+                    " "
+                  ),
+                n = 0;
+              n < o.length;
+              n++
+            )
+              g(u, o[n]);
+            e._i.push([i, s, a]);
+          }),
+          (e.__SV = 1));
+      })(document, window.posthog || []);
+      posthog.init("phc_RnZOM7lI5EHs6jULYKZtNI7QfOx4AlWRQMXyTAZyEJJ", {
+        api_host: "https://eu.posthog.com",
+      });
+    </script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <section>Tyler Wolf - Status: Taking new freelance projects</section>
+          <section><a href="/">< Back to Portfolio</a></section>
+          <section class="explanation">
+            <h3>Alpha vs. Correlation/Dispersion</h3>
+            <p>The top three charts on the left display Alpha over time for a Fund, Fund Index A (IDX A) and Fund Index B (IDX B), respectively. At the bottom is the correlation and dispersion plotted over the same time period. On the right, a scatter plot shows the average Alpha for the three candidates in given market conditions (high/low correlation in combination with high/low dispersion). In the bottom right are the details of the currently focused&nbsp;data point.</p>
+            <br>
+            <br>
+            <p>To focus on a data point, either in the bar charts or the scatter plot, mouse over the data point - the other charts will highlight the corresponding point and the detail section will update with the corresponding&nbsp;numbers. Note: Numbers were modified for anonymity, but the trends remain the same.</p>
+          </section>
+        </div>
+        <div class="col-xs-12">
+          <svg id="chart-container">
+            <a xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.tylernwolf.com/" target="_blank"><text x="0" y="537" fill="#aaa">Interactive graphic by Tyler Wolf</text></a>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script src="/corrdisp/d3.v3.js"></script>
+  <script src="/corrdisp/finviz_controllers.js"></script>
+  <script>
+    var chartData;
+    d3.json('/corrdisp/finviz_data.json', function(data) {
+      chartData = data;
+      buildChart(data);
+    });
+  </script>
+</html>
