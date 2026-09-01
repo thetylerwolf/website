@@ -37,9 +37,9 @@ export default class About extends Component {
               <p>
                 I'm Tyler Wolf. I am a{" "}
                 <span className="highlight-2">
-                  full-stack developer/data visualization expert
+                  platform engineer/techincal lead
                 </span>
-                . I have been working in software development for 11 years.
+                . I have been working in software development for 14 years.
               </p>
               {/* <p>
                 I have a degree in Electrical Engineering (EE) from the

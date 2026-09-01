@@ -99,14 +99,14 @@ export default class Home extends Component {
               </p>
               <p>
                 Freelance{" "}
-                <span className="highlight-2">Full-Stack Developer</span> and{" "}
-                <span className="highlight-1">Data Visualization Expert</span>
+                <span className="highlight-2">Platform Engineer</span> and{" "}
+                <span className="highlight-1">Technical Lead</span>
               </p>
               <p>
-                I am currently available and taking on new freelance projects.
+                I currently work on a contract basis.
               </p>
               <p>
-                This is my ancient portfolio website. Learn more about what I'm up to{" "}
+                This is my ancient portfolio website from my days as a data visualization expert. Learn more about what I'm up to{" "}
                 <a href="https://tylernwolf.com">here</a>.
               </p>
               {/* <p>In industry terms, I make <span className="highlight-2">data visualizations</span> and <span className="highlight-2">design digital products</span></p> */}
